@@ -1,0 +1,95 @@
+Hello, Brioche here, creator of this part pack.
+
+I am working incredibly hard to make this pack accurate, but due to SFS being two-dimensional, there are several liberties taken either to allow the parts to retain functionality, or because they were not possible in the part toolkit.
+I have created this text file to document these inaccuracies and explain them, but of course, these are only the inaccuracies I know of because I made those liberties. If you see an inaccuracy not documented, that is a genuine mistake.
+If you spot any of those, please contact me on the Spaceflight Simulator official discord or comment on the release YouTube video. I would love to hear and fix them!
+Simplifications of details for texturing will not be included, neither will tiny greebling details, as those 
+------------------------------
+
+Apollo Spacecraft
+
+------------------------------
+
+Command/Service Module:
+1. Center Launch Escape System motor nozzle
+Not added due to
+2. Rotation of the spacecraft itself
+My Saturn booster is modeled between Position II and III, with Fin B pointed towards the camera. IRL, the hatch of the CM would be on Position I, 225° clockwise (looking down from the top of the rocket) from where I have modeled it.
+This change was mostly for aesthetics, just to provide a head-on spacecraft, although RCS was also a factor.
+
+3. Lack of docking probe jettison
+In real life, after lunar liftoff, docking, and crew transfer of the LM's ascent stage, the CM would not just undock from the stage to discard it. 
+Rather it would jettison the entire docking assembly, leaving it docked to the discarded stage. You can see this absence of the docking assembly in photos of splashdown and recovery.
+In my pack, there is no such option, just undocking. I tried several solutions, but each was either too easy to activate by accident, impeded on usability for custom missions, or were just not intuitive. 
+
+4. Lack of drogue chutes:
+I wasn't able to find a way to add them accurately and in a way that was intuitive.
+
+5. Lack of RCS thrusters on forward heat shield
+This was a modeling and texturing difficulty. Will likely be fixed soon.
+
+6. Heat shield color
+This is one of the several details that is surprisingly super difficult to find resources on. Sources I found described grey/light grey, this is my best approximation of that description
+
+7. SPS Rotation
+This rotation is purely for aesthetics, to provide an interesting position. Due to this being an unnecessary change, this is something I may go back on and fix in the future.
+
+------------------------------
+
+Lunar Module:
+1. Lunar Module pyromark/thermal blanket patterns
+The LM's thermal protection patterns varied widely throughout the missions. <https://bugsandrockets.wordpress.com/2016/02/13/the-changing-face-of-the-lunar-module> does a great job listing these differences.
+This part pack represents no particular mission, but the Descent Stage uses the pattern seen on Apollo 11 due to how iconic it is.
+The Ascent Stage, however, resembles the stages used on Apollos 12-17, as Apollo 11 (and 10) uses a significantly different ascent stage pattern.
+In order to represent more missions, the Ascent Stage's thermal patterns were left ambiguous and as a mix of different missions.
+
+2. Lack of "front porch" and middle landing leg 
+Addition of these details would be possible, but using the 2d animation system to create the animation would be incredibly difficult. These will likely never be added. Maybe if I get really really bored, though.
+
+3. Spacecraft rotation
+Inside the rocket, the hatch of the LM would face outward from Position III, 180° off of the CM's hatch, and 45° again clockwise of where I modeled it.
+This is due to the both impracticality of operating, and the much much harder modeling of the LM from that angle, 45° rotated in a 2D space. 
+
+------------------------------
+
+Saturn V
+
+------------------------------
+
+S-IVB:
+1. Placement of ullage motors/absence of Auxiliary Propulsion System
+On the real series 500 stages, the ullage motors would lie on Positions II and IV. I have them rotated 45° off to make them work in a 2d environment.
+As for the APS, I could have it integrated with the S-IVB thrust structure, but that's not something I would like to do.
+That being said, if you see this, let me know what you think.
+
+2. Engine mount rotation
+I could not find good references of the Pos II/III rotations. Will fix if I do.
+
+3. Engine mount color
+This is another part I had difficulty finding resources on. While Series 200 (Saturn IB) had an orange engine base, I could not find conclusive resources for the Series 500 S-IVB stages. This is artistic license.
+
+4. J-2 rotation
+I don't want to create multiple parts for the same engine.
+
+------------------------------
+
+S-II:
+1. Engine mount greebling
+Difficulty finding good resources of my orientation. If I do, will definitely fix.
+
+2. J-2 rotation
+I don't want to create multiple parts for the same engine.
+
+------------------------------
+
+S-IC:
+1. F-1 rotation
+I don't want to create multiple parts for the same engine.
+
+2. F-1 insulation
+Creative liberty to enable usage in custom builds. I'll add if I ever figure out toggling.
+
+3. Lack of retrorockets on thrust structure
+Difficulties with fragmentation behavior.
+
+------------------------------
