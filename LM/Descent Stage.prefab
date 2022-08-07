@@ -2390,8 +2390,6 @@ MonoBehaviour:
         toggleValue: 0
         textValue: 
       tags:
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
-        priority: -65
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -65
       cost: 0
@@ -2617,7 +2615,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
-  polygon: {fileID: 727516197519837222}
+  polygon: {fileID: 1243839116662986416}
   collider_Polygon: {fileID: 0}
   collider_Box: {fileID: 0}
 --- !u!114 &6510604737524473163

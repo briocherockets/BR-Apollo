@@ -740,7 +740,7 @@ MonoBehaviour:
   cannotDetachIfSurfaceCovered: 0
   surfaceForCover: {fileID: 0}
   showDescription: 0
-  showForceMultiplier: 0
+  showForceMultiplier: 1
   useForceMultiplierEvenIfNotShown: 1
   forceMultiplier:
     variableName: force_percent
@@ -1058,8 +1058,6 @@ MonoBehaviour:
         toggleValue: 0
         textValue: 
       tags:
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
-        priority: -30
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -30
       cost: 0

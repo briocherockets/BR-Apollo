@@ -3453,8 +3453,8 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: S-IVB Thrust Structure
   description:
-    plainText: 0
-    TranslatableName: Fuel_Tank_Description
+    plainText: 1
+    TranslatableName: S-IVB skirt and engine mount
   mass:
     variables: {fileID: 6025496177165280511}
     input: mass
@@ -3483,8 +3483,6 @@ MonoBehaviour:
         textValue: 
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
-        priority: -15
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
         priority: -15
       cost: 0
     tags:

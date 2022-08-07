@@ -904,7 +904,8 @@ MonoBehaviour:
     TranslatableName: S-II Aft Interstage
   description:
     plainText: 1
-    TranslatableName: Testing
+    TranslatableName: 10m interstage, stage once to jettison bottom connection, stage
+      again to jettison interstage ring
   mass:
     variables: {fileID: 128775577033961292}
     input: mass
@@ -938,8 +939,6 @@ MonoBehaviour:
         textValue: 
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
-        priority: -35
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
         priority: -35
       cost: 0
     tags:

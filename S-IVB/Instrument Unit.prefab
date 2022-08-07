@@ -220,8 +220,6 @@ MonoBehaviour:
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: 0
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
-        priority: 0
       cost: 0
     tags:
     - tag: {fileID: 11400000, guid: 38526b409b9f8934e822b9e42d6f655c, type: 2}

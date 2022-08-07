@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 2827981956282713772}
   - component: {fileID: 6662873849607035660}
   - component: {fileID: 2514686376707739769}
-  - component: {fileID: 5440077125879308874}
   - component: {fileID: 3712218369872220897}
   - component: {fileID: 4895254705268939762}
   - component: {fileID: 8079078276751822043}
@@ -233,45 +232,6 @@ MonoBehaviour:
   polygon: {fileID: 8380788964949457195}
   collider_Polygon: {fileID: 0}
   collider_Box: {fileID: 0}
---- !u!114 &5440077125879308874
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336892208367519622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641659d31fdc50c4aa71e2efbc218dd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - position:
-      variables: {fileID: 1755123747858733051}
-      x:
-        variables: {fileID: 1755123747858733051}
-        input: 0
-      y:
-        variables: {fileID: 1755123747858733051}
-        input: 0
-    normal: {x: 0, y: -1}
-    type: 0
-    output:
-      variables: {fileID: 1755123747858733051}
-      input: width
-  - position:
-      variables: {fileID: 1755123747858733051}
-      x:
-        variables: {fileID: 1755123747858733051}
-        input: 0
-      y:
-        variables: {fileID: 1755123747858733051}
-        input: height
-    normal: {x: 0, y: 1}
-    type: 0
-    output:
-      variables: {fileID: 1755123747858733051}
-      input: width
 --- !u!114 &3712218369872220897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -489,21 +449,21 @@ MonoBehaviour:
         variables: {fileID: 1755123747858733051}
         x:
           variables: {fileID: 1755123747858733051}
-          input: 0.85
+          input: 0.825
         y:
           variables: {fileID: 1755123747858733051}
-          input: -0.8875
+          input: -0.8375
       width:
         variables: {fileID: 1755123747858733051}
         x:
           variables: {fileID: 1755123747858733051}
-          input: -0.3375
+          input: -0.2875
         y:
           variables: {fileID: 1755123747858733051}
-          input: 0
+          input: -0.1
   edit: 1
   view: 1
-  gridSize: 1
+  gridSize: 0.0125
 --- !u!1 &1432163620217601156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,8 +1710,6 @@ MonoBehaviour:
   - variants:
     - changes: []
       tags:
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
-        priority: -12
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: -12
       cost: 0

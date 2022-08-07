@@ -46,6 +46,7 @@ Transform:
   - {fileID: 4385836003255142759}
   - {fileID: 6417680046128180072}
   - {fileID: 3191177334599818339}
+  - {fileID: 1220619195677376945}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -91,8 +92,6 @@ MonoBehaviour:
         textValue: 
       tags:
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
-        priority: -5
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
         priority: -5
       cost: 0
     tags: []
@@ -673,6 +672,66 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 890075953337142916}
   m_Mesh: {fileID: 0}
+--- !u!1 &1052339567580737939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1220619195677376945}
+  - component: {fileID: 7624316399102573151}
+  m_Layer: 0
+  m_Name: Hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1220619195677376945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052339567580737939}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.49331576, y: 0.1642719, z: -1.8675113}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8637720446152722119}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7624316399102573151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1052339567580737939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  clickArea: 1
+  baseDepth: 4
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: -0.9000001, y: -0.3}
+  - {x: -0.5, y: 0.29999992}
+  - {x: -0.100000076, y: -0.3}
+  edit: 1
+  view: 0
+  gridSize: 0.1
 --- !u!1 &1369860225296799338
 GameObject:
   m_ObjectHideFlags: 0

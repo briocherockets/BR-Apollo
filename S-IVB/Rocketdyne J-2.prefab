@@ -5448,8 +5448,8 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: Rocketdyne J-2
   description:
-    plainText: 0
-    TranslatableName: Frontier_Engine_Description
+    plainText: 1
+    TranslatableName: Hydrolox upper stage engine developed by Rocketdyne
   mass:
     variables: {fileID: 6287457034714228805}
     input: mass
@@ -5468,8 +5468,6 @@ MonoBehaviour:
     - changes: []
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
-        priority: -20
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
         priority: -20
       cost: 0
     tags: []

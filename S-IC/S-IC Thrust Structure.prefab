@@ -1074,7 +1074,6 @@ GameObject:
   - component: {fileID: 8274899044320085427}
   - component: {fileID: 222413089253414800}
   - component: {fileID: 8829369627986259098}
-  - component: {fileID: 4054977237758154911}
   - component: {fileID: 9199393822953023010}
   - component: {fileID: 1091047723623142660}
   m_Layer: 8
@@ -1240,23 +1239,6 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 1
   separatorRing: 0
---- !u!114 &4054977237758154911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5295183428267602815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactTolerance: 1
-  ownEngineNozzle: {fileID: 0}
-  polygon: {fileID: 222413089253414800}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!33 &9199393822953023010
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1322,7 +1304,6 @@ GameObject:
   - component: {fileID: 6025496177165280511}
   - component: {fileID: 6025496177165280510}
   - component: {fileID: 6025496177165280500}
-  - component: {fileID: 6025496177165280497}
   - component: {fileID: 4355835229077590899}
   - component: {fileID: 6510604737524473163}
   - component: {fileID: 9185718412258651831}
@@ -1377,8 +1358,8 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: S-IC Thrust Structure
   description:
-    plainText: 0
-    TranslatableName: Fuel_Tank_Description
+    plainText: 1
+    TranslatableName: Engine mount with integrated fairings and fins
   mass:
     variables: {fileID: 6025496177165280511}
     input: mass
@@ -1412,8 +1393,6 @@ MonoBehaviour:
         textValue: 
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
-        priority: -50
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
         priority: -50
       cost: 0
     tags: []
@@ -1573,45 +1552,6 @@ MonoBehaviour:
     y:
       variables: {fileID: 6025496177165280511}
       input: height
---- !u!114 &6025496177165280497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6025496177165280394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641659d31fdc50c4aa71e2efbc218dd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - position:
-      variables: {fileID: 6025496177165280511}
-      x:
-        variables: {fileID: 6025496177165280511}
-        input: 0
-      y:
-        variables: {fileID: 6025496177165280511}
-        input: height
-    normal: {x: 0, y: 1}
-    type: 0
-    output:
-      variables: {fileID: 6025496177165280511}
-      input: width
-  - position:
-      variables: {fileID: 6025496177165280511}
-      x:
-        variables: {fileID: 6025496177165280511}
-        input: 0
-      y:
-        variables: {fileID: 6025496177165280511}
-        input: 0
-    normal: {x: 0, y: -1}
-    type: 0
-    output:
-      variables: {fileID: 6025496177165280511}
-      input: width * 1.5
 --- !u!114 &4355835229077590899
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1889,7 +1829,6 @@ GameObject:
   - component: {fileID: 1765880973440988312}
   - component: {fileID: 8249165978462260013}
   - component: {fileID: 5383042982569746984}
-  - component: {fileID: 6269956619134961661}
   - component: {fileID: 4157675686191912702}
   - component: {fileID: 6022281091080658142}
   m_Layer: 8
@@ -2072,23 +2011,6 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
---- !u!114 &6269956619134961661
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7045704132107697511}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactTolerance: 1
-  ownEngineNozzle: {fileID: 0}
-  polygon: {fileID: 8249165978462260013}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!33 &4157675686191912702
 MeshFilter:
   m_ObjectHideFlags: 0

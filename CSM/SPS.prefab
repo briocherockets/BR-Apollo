@@ -2753,8 +2753,6 @@ MonoBehaviour:
   - variants:
     - changes: []
       tags:
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
-        priority: -45
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -45
       cost: 1

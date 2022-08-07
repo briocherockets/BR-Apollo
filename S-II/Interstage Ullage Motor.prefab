@@ -695,8 +695,8 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: Interstage Ullage Motor
   description:
-    plainText: 0
-    TranslatableName: Booster_Description
+    plainText: 1
+    TranslatableName: Solid boosters used to settle fuel in tanks for engine lighting
   mass:
     variables: {fileID: 6025496177165280511}
     input: mass

@@ -890,11 +890,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 0
-    TranslatableName: Fuel_Tank_Name
+    plainText: 1
+    TranslatableName: S-II Fuel Tank
   description:
-    plainText: 0
-    TranslatableName: Fuel_Tank_Description
+    plainText: 1
+    TranslatableName: Insulated shared bulkhead Hydrolox tank
   mass:
     variables: {fileID: 6025496177165280511}
     input: mass
@@ -923,8 +923,6 @@ MonoBehaviour:
         textValue: 
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
-        priority: -30
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
         priority: -30
       cost: 0
     tags:

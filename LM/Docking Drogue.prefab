@@ -85,8 +85,6 @@ MonoBehaviour:
         toggleValue: 0
         textValue: 
       tags:
-      - tag: {fileID: 11400000, guid: 8175473da6090744787f3c87987bc577, type: 2}
-        priority: -50
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -50
       cost: 0
@@ -933,19 +931,19 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 4
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
   isComposedDepth: 0
   polygonVertices:
   - {x: -0.4, y: 0}
-  - {x: -0.4, y: -0.90000015}
-  - {x: 0.4, y: -0.9000001}
+  - {x: -0.4, y: -0.125}
+  - {x: 0.4, y: -0.125}
   - {x: 0.39999992, y: 0}
   edit: 1
-  view: 0
-  gridSize: 0.1
+  view: 1
+  gridSize: 0.025
 --- !u!1 &6943268956924156781
 GameObject:
   m_ObjectHideFlags: 0
