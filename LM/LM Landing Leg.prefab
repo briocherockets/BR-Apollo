@@ -27,9 +27,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 233628847311176143}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.15, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.15000159, y: -0.0005107969, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5963166100125120163}
@@ -51,6 +51,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: -50
   composedBaseDepth:
@@ -58,7 +59,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -247,9 +251,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 787124394298131817}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.583707, y: 2.226759, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.5837076, y: 2.2267597, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3897505738393350780}
@@ -270,6 +274,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: -1
   composedBaseDepth:
@@ -326,6 +331,8 @@ MonoBehaviour:
   - {x: -2.137499, y: -2.3999991}
   - {x: -2.137499, y: -5.037497}
   texture: {fileID: 11400000, guid: 4db434d3b311d4e45b79b3989afc533c, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!33 &7985330726152558799
 MeshFilter:
@@ -404,9 +411,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 802037657194624060}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.00168, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.0016799713, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 483101251242054631}
@@ -427,6 +434,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 1
   composedBaseDepth:
@@ -434,7 +442,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -648,9 +659,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1427896029858534403}
-  m_LocalRotation: {x: 0, y: 0, z: -0.8207306, w: 0.57131535}
-  m_LocalPosition: {x: 0.028, y: -1.579, z: 0}
-  m_LocalScale: {x: 1.016058, y: 0.98496264, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8207307, w: 0.57131535}
+  m_LocalPosition: {x: 0.027999954, y: -1.5790002, z: 0}
+  m_LocalScale: {x: 1.0160582, y: 0.98496294, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3897505738393350780}
@@ -671,6 +682,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -678,7 +690,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -897,6 +912,7 @@ GameObject:
   - component: {fileID: 6825023653115384441}
   - component: {fileID: 2130676876391571870}
   - component: {fileID: 2445370958945316862}
+  - component: {fileID: 6883186896486252794}
   m_Layer: 0
   m_Name: LM Landing Leg
   m_TagString: Untagged
@@ -917,9 +933,9 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8758518612397192421}
-  - {fileID: 3897505738393350780}
   - {fileID: 1253388520592660411}
-  - {fileID: 483101251242054631}
+  - {fileID: 5796138901746035100}
+  - {fileID: 1089065329069837378}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -941,7 +957,8 @@ MonoBehaviour:
   description:
     plainText: 1
     TranslatableName: Deployable landing gear for the LM Descent Stage. Features
-      contact probes beneath the footpads.
+      contact probes beneath the footpads. Toggle "leg" to disable the leg, as it
+      was for the launch of Apollo 5
   mass:
     variables: {fileID: 6825023653115384441}
     input: 0.5
@@ -999,7 +1016,7 @@ MonoBehaviour:
     variableName: state_target
     referenceToVariables: {fileID: 6825023653115384441}
     localValue: 0
-  animationTime: 2
+  animationTime: 3.5
   unscaledTime: 0
   animationElements:
   - type: 0
@@ -1479,6 +1496,12 @@ MonoBehaviour:
     - name: state_target
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: leg
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+    - name: leg_target
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
   boolVariables:
     saves: []
   stringVariables:
@@ -1516,6 +1539,22 @@ MonoBehaviour:
   polygon: {fileID: 8547181835504876240}
   collider_Polygon: {fileID: 0}
   collider_Box: {fileID: 0}
+--- !u!114 &6883186896486252794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768225193353293473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb106702cd72414a8e4951698be39cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label:
+    plainText: 1
+    TranslatableName: Leg
+  state: {fileID: 1472572638133004719}
 --- !u!1 &1921346024609138199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1544,14 +1583,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1921346024609138199}
-  m_LocalRotation: {x: 0, y: 0, z: 0.49969104, w: 0.8662037}
-  m_LocalPosition: {x: 1.966007, y: 1.24726, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.49969104, w: 0.8662037}
+  m_LocalPosition: {x: -0.73399305, y: -1.2327399, z: 0}
   m_LocalScale: {x: 1.0088999, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 7012949136886782237}
-  m_Father: {fileID: 2674462795480584825}
-  m_RootOrder: 3
+  m_Father: {fileID: 5796138901746035100}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 180, y: 0, z: 74.962}
 --- !u!114 &1430109472502507502
 MonoBehaviour:
@@ -1568,6 +1607,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -1575,7 +1615,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -1759,6 +1802,209 @@ MonoBehaviour:
   animationTime: 3
   unscaledTime: 0
   animationElements: []
+--- !u!1 &2485384516644366311
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5796138901746035100}
+  - component: {fileID: 1472572638133004719}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5796138901746035100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2485384516644366311}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.7, y: 2.48, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3897505738393350780}
+  - {fileID: 483101251242054631}
+  m_Father: {fileID: 2674462795480584825}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1472572638133004719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2485384516644366311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552528028df376f4ea4a34bddcebb6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time:
+    variableName: leg
+    referenceToVariables: {fileID: 6825023653115384441}
+    localValue: 0
+  targetTime:
+    variableName: leg_target
+    referenceToVariables: {fileID: 6825023653115384441}
+    localValue: 0
+  animationTime: 1
+  unscaledTime: 0
+  animationElements:
+  - type: 1
+    offset: 0
+    transform: {fileID: 5796138901746035100}
+    spriteRenderer: {fileID: 0}
+    image: {fileID: 0}
+    X:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.05
+        inSlope: 0.95
+        outSlope: 0.95
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0.95
+        outSlope: 0.95
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Y:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    audioSource: {fileID: 0}
+--- !u!1 &3273281840555581439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1089065329069837378}
+  - component: {fileID: 4992242752670589164}
+  m_Layer: 0
+  m_Name: GameObject (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1089065329069837378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3273281840555581439}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2674462795480584825}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4992242752670589164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3273281840555581439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 1
+  dragSurfaces: 1
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 0
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 2.0000002, y: 1.2500002}
+  - {x: 2.0000002, y: 2.7249997}
+  - {x: 2.0999992, y: 2.7500007}
+  - {x: 2.6999996, y: 2.525}
+  - {x: 2.6999996, y: 2.425}
+  edit: 1
+  view: 0
+  gridSize: 0.025
 --- !u!1 &4931063196242279837
 GameObject:
   m_ObjectHideFlags: 0
@@ -1787,7 +2033,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4931063196242279837}
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 0.0067068934, y: 1.22476, z: 0}
+  m_LocalPosition: {x: 0, y: 1.22476, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1809,6 +2055,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -1816,7 +2063,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -1988,16 +2238,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5039733356627212539}
-  m_LocalRotation: {x: 0, y: 0, z: 0.21634747, w: 0.97631645}
-  m_LocalPosition: {x: 2.5837069, y: 2.426759, z: 0}
-  m_LocalScale: {x: 1.0088999, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.21634747, w: 0.97631645}
+  m_LocalPosition: {x: -0.11629319, y: -0.053240776, z: 0}
+  m_LocalScale: {x: 1.0088997, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5104077605951776884}
   - {fileID: 8197755560513221670}
   - {fileID: 3218856989050708208}
-  m_Father: {fileID: 2674462795480584825}
-  m_RootOrder: 1
+  m_Father: {fileID: 5796138901746035100}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -15}
 --- !u!114 &8547181835504876240
 MonoBehaviour:
@@ -2014,6 +2264,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -2021,7 +2272,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -2269,9 +2523,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6266981561590675747}
-  m_LocalRotation: {x: 0, y: 0, z: 0.35149366, w: 0.93619025}
-  m_LocalPosition: {x: -0, y: 0.26061, z: 0}
-  m_LocalScale: {x: 1, y: 0.99386, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.35149372, w: 0.9361903}
+  m_LocalPosition: {x: -0.0008819103, y: 0.26061344, z: 0}
+  m_LocalScale: {x: 0.9966493, y: 0.99721503, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 343557339477133245}
@@ -2292,6 +2546,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: -50
   composedBaseDepth:
@@ -2299,7 +2554,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -2521,9 +2779,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6771934979235986344}
-  m_LocalRotation: {x: 0, y: 0, z: 0.976296, w: 0.2164397}
-  m_LocalPosition: {x: 0, y: -2.55, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.976296, w: 0.2164397}
+  m_LocalPosition: {x: 0, y: -2.5499997, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 343557339477133245}
@@ -2545,6 +2803,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -2552,7 +2811,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}
@@ -2746,7 +3008,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2674462795480584825}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3422299165663927762
 MonoBehaviour:
@@ -2763,6 +3025,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -2770,7 +3033,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6825023653115384441}

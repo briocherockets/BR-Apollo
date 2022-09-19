@@ -51,6 +51,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 4
   composedBaseDepth:
@@ -86,6 +87,8 @@ MonoBehaviour:
   - {x: -0.030000059, y: 0.39}
   - {x: -0.030000059, y: -0.39000002}
   texture: {fileID: 11400000, guid: be4ef46d9db476e429b5bfcfb433ce7c, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!114 &3336406527513798423
 MonoBehaviour:
@@ -169,6 +172,7 @@ GameObject:
   - component: {fileID: 5294422178192930930}
   - component: {fileID: 5144503109960961104}
   - component: {fileID: 5144503109960961103}
+  - component: {fileID: 5875293423696966980}
   m_Layer: 8
   m_Name: SM RCS
   m_TagString: Untagged
@@ -220,7 +224,7 @@ MonoBehaviour:
   description:
     plainText: 1
     TranslatableName: Make fine maneuvers in orbit with the all-new Apollo Reaction
-      Control System quads. Now with stylish angled thrusters.
+      Control System quads. Now with stylish angled thrusters
   mass:
     variables: {fileID: 5144503109960961107}
     input: 0.05
@@ -241,13 +245,7 @@ MonoBehaviour:
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -35
       cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 38526b409b9f8934e822b9e42d6f655c, type: 2}
-      priority: 0
-    - tag: {fileID: 11400000, guid: e8d981e999d15854f9b5dccfecf06732, type: 2}
-      priority: -10
-    - tag: {fileID: 11400000, guid: 37f8444f4a2f9374fbda3c1d0252eae8, type: 2}
-      priority: 0
+    tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
@@ -395,6 +393,36 @@ MonoBehaviour:
   edit: 0
   view: 0
   gridSize: 0.1
+--- !u!114 &5875293423696966980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5144503109960961111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ec10b9375b46f049ae5f1dea9294f6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  points:
+  - position:
+      variables: {fileID: 5144503109960961107}
+      x:
+        variables: {fileID: 5144503109960961107}
+        input: 2
+      y:
+        variables: {fileID: 5144503109960961107}
+        input: 0
+  - position:
+      variables: {fileID: 5144503109960961107}
+      x:
+        variables: {fileID: 5144503109960961107}
+        input: -2
+      y:
+        variables: {fileID: 5144503109960961107}
+        input: 0
+  snapPoints: []
 --- !u!1 &7733822782735001032
 GameObject:
   m_ObjectHideFlags: 0
@@ -409,7 +437,7 @@ GameObject:
   - component: {fileID: 4016053253258189542}
   - component: {fileID: 8052202839405633104}
   - component: {fileID: 215651869266024014}
-  m_Layer: 8
+  m_Layer: 12
   m_Name: Texture
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -446,6 +474,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 4
   composedBaseDepth:
@@ -481,6 +510,8 @@ MonoBehaviour:
   - {x: -0.030000059, y: 0.39}
   - {x: -0.030000059, y: -0.39000002}
   texture: {fileID: 11400000, guid: c429e23000396f24db55f385c3ab6eac, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!114 &4016053253258189542
 MonoBehaviour:
@@ -600,6 +631,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 4
   composedBaseDepth:
@@ -635,6 +667,8 @@ MonoBehaviour:
   - {x: -0.030000059, y: 0.39}
   - {x: -0.030000059, y: -0.39000002}
   texture: {fileID: 11400000, guid: be4ef46d9db476e429b5bfcfb433ce7c, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!114 &4907297624666027200
 MonoBehaviour:

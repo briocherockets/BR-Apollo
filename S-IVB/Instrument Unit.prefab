@@ -50,6 +50,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -86,6 +87,8 @@ MonoBehaviour:
   - {x: 0.3, y: 0.39999992}
   - {x: 0.3, y: -0.3}
   texture: {fileID: 11400000, guid: 51534363d0210bb4f8631f3b2a5c9f80, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!33 &5641198009103836196
 MeshFilter:
@@ -152,6 +155,8 @@ GameObject:
   - component: {fileID: 6393375925381602301}
   - component: {fileID: 4203879964923853698}
   - component: {fileID: 2846556338933111657}
+  - component: {fileID: 9018841435407098688}
+  - component: {fileID: 1063516260589652799}
   m_Layer: 8
   m_Name: Instrument Unit
   m_TagString: Untagged
@@ -200,7 +205,7 @@ MonoBehaviour:
     TranslatableName: "The brain of the Saturn V booster. 4 memory modules provided
       16,384 words, or about 32 kilobytes of data. That\u2019s enough to carry instructions
       to go to the moon, or one of the low resolution pictures of my dog that I included
-      in the source code of this part pack."
+      in the source code of this part pack"
   mass:
     variables: {fileID: 5371138025553930724}
     input: width * 1.5
@@ -220,10 +225,10 @@ MonoBehaviour:
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: 0
+      - tag: {fileID: 11400000, guid: ddcaceaa812c6884c9131ff372f57547, type: 2}
+        priority: -10
       cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 38526b409b9f8934e822b9e42d6f655c, type: 2}
-      priority: 0
+    tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
@@ -277,7 +282,13 @@ MonoBehaviour:
   boolVariables:
     saves: []
   stringVariables:
-    saves: []
+    saves:
+    - name: color_tex
+      save: 1
+      data: 0001000000ffffffff01000000000000000601000000015f0b
+    - name: shape_tex
+      save: 1
+      data: 0001000000ffffffff01000000000000000601000000015f0b
 --- !u!114 &6393375925381602301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,6 +317,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b57e6111e433f4cbee514dd9a8ad8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enabled:
+    variableName: 
+    referenceToVariables: {fileID: 5371138025553930724}
+    localValue: 1
   torque:
     variables: {fileID: 5371138025553930724}
     input: 5
@@ -354,6 +369,48 @@ MonoBehaviour:
     y:
       variables: {fileID: 5371138025553930724}
       input: 1
+--- !u!114 &9018841435407098688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625609527589573302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a992037912a16d46a9e6c80c7e82ee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skinTag: iu
+  meshModules:
+  - {fileID: 5057470960895597891}
+  colorTextureName:
+    variableName: color_tex
+    referenceToVariables: {fileID: 5371138025553930724}
+    localValue: 
+  shapeTextureName:
+    variableName: shape_tex
+    referenceToVariables: {fileID: 5371138025553930724}
+    localValue: 
+  disableColorSelect: 0
+  disableShapeSelect: 1
+--- !u!114 &1063516260589652799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3625609527589573302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactTolerance: 1
+  ownEngineNozzle: {fileID: 0}
+  polygon: {fileID: 918226262573819034}
+  collider_Polygon: {fileID: 0}
+  collider_Box: {fileID: 0}
 --- !u!1 &4352330334578232119
 GameObject:
   m_ObjectHideFlags: 0
@@ -365,6 +422,8 @@ GameObject:
   - component: {fileID: 4519422572693203895}
   - component: {fileID: 918226262573819034}
   - component: {fileID: 6803562724346601327}
+  - component: {fileID: 2559625554791067214}
+  - component: {fileID: 7694657802764181517}
   m_Layer: 0
   m_Name: Hitbox
   m_TagString: Untagged
@@ -402,6 +461,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -412,7 +472,7 @@ MonoBehaviour:
   - {x: -3.2499998, y: 1}
   - {x: -3.2499995, y: 2.0000002}
   - {x: -2.7500007, y: 1.9999996}
-  - {x: -2.35, y: 1.0500004}
+  - {x: -2.7499998, y: 1.0500004}
   - {x: -1.5250003, y: 1.0500004}
   - {x: -1.525, y: 1.9999996}
   - {x: -0.70000064, y: 2}
@@ -421,7 +481,7 @@ MonoBehaviour:
   - {x: 0.7000005, y: 2}
   - {x: 1.5250005, y: 2}
   - {x: 1.5249997, y: 1.0500008}
-  - {x: 2.3500001, y: 1.0500004}
+  - {x: 2.7499998, y: 1.0500004}
   - {x: 2.75, y: 1.9999996}
   - {x: 3.2500005, y: 1.9999996}
   - {x: 3.2499998, y: 1.0000001}
@@ -445,6 +505,56 @@ MonoBehaviour:
   polygon: {fileID: 918226262573819034}
   collider_Polygon: {fileID: 0}
   collider_Box: {fileID: 0}
+--- !u!33 &2559625554791067214
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4352330334578232119}
+  m_Mesh: {fileID: 0}
+--- !u!23 &7694657802764181517
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4352330334578232119}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &6899054655848418849
 GameObject:
   m_ObjectHideFlags: 0
@@ -495,6 +605,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -531,6 +642,8 @@ MonoBehaviour:
   - {x: 0.3, y: 0.39999992}
   - {x: 0.3, y: -0.3}
   texture: {fileID: 11400000, guid: 51534363d0210bb4f8631f3b2a5c9f80, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!33 &714922141850542040
 MeshFilter:
@@ -632,6 +745,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -668,6 +782,8 @@ MonoBehaviour:
   - {x: 0.3, y: 0.39999992}
   - {x: 0.3, y: -0.3}
   texture: {fileID: 11400000, guid: 51534363d0210bb4f8631f3b2a5c9f80, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 0}
 --- !u!33 &5147345535649693776
 MeshFilter:
@@ -767,6 +883,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -774,8 +891,8 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   polygonVertices:
+  - {x: 0.35, y: 1.825}
   - {x: -0.6999999, y: 1.8250002}
-  - {x: 0.69999987, y: 1.825}
   edit: 1
   view: 0
   gridSize: 0.025
@@ -862,6 +979,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -869,7 +987,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   width_a:
     variables: {fileID: 5371138025553930724}

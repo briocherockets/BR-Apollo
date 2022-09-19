@@ -717,9 +717,7 @@ MonoBehaviour:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: -40
       cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 37f8444f4a2f9374fbda3c1d0252eae8, type: 2}
-      priority: -6
+    tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:

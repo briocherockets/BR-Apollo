@@ -191,7 +191,7 @@ MonoBehaviour:
   description:
     plainText: 1
     TranslatableName: "Protects the Command Module from the immense heat of atmospheric
-      entry. Wouldn\u2019t want to forget this one."
+      entry. Wouldn\u2019t want to forget this one"
   mass:
     variables: {fileID: 5371138025553930724}
     input: width * 0.25
@@ -530,6 +530,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -537,7 +538,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 5371138025553930724}

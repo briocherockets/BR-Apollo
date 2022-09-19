@@ -115,6 +115,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 0
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -122,7 +123,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 128775577033961292}
@@ -228,6 +232,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -235,7 +240,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 128775577033961292}
@@ -431,6 +439,8 @@ MonoBehaviour:
   - {x: 1.1999999, y: 1}
   - {x: 1.1999999, y: 0}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5058506565565174403}
 --- !u!33 &3567106884456692615
 MeshFilter:
@@ -551,6 +561,8 @@ MonoBehaviour:
   - {x: -0.59999996, y: 1}
   - {x: -0.59999996, y: 0}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5058506565565174403}
 --- !u!33 &28846114193284890
 MeshFilter:
@@ -720,6 +732,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: -1
   composedBaseDepth:
@@ -727,7 +740,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: -1
+  advancedCut: 0
   cut: 1
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 128775577033961292}
@@ -941,9 +957,7 @@ MonoBehaviour:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: -35
       cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 53ae74c0e2f68e043a6f8c41cedf05a1, type: 2}
-      priority: 0
+    tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
@@ -1345,6 +1359,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -1441,6 +1456,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: -1
   composedBaseDepth:
@@ -1448,7 +1464,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: -1
+  advancedCut: 0
   cut: -1
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 128775577033961292}
@@ -1627,6 +1646,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -1634,7 +1654,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 1
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 128775577033961292}
@@ -1874,6 +1897,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -1881,7 +1905,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 128775577033961292}
@@ -2075,6 +2102,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -2082,7 +2110,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: -1
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 128775577033961292}
@@ -2259,6 +2290,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 0
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -2266,7 +2298,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 128775577033961292}
@@ -2407,6 +2442,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: -1
   composedBaseDepth:
@@ -2414,7 +2450,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: -1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 128775577033961292}
@@ -2625,6 +2664,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -2657,7 +2697,7 @@ MonoBehaviour:
       input: 
     y:
       variables: {fileID: 128775577033961292}
-      input: -10
+      input: 0
   cannotDetachIfSurfaceCovered: 0
   surfaceForCover: {fileID: 0}
   showDescription: 1

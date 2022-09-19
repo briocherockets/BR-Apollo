@@ -35,4 +35,5 @@ MonoBehaviour:
     flipToLight_Y: 0
     metalTexture: 0
     icon: {fileID: 0}
-  tags: []
+  tags:
+  - smdec

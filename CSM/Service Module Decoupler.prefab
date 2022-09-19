@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2575574208024914603}
   - component: {fileID: 3676232590733000875}
-  - component: {fileID: 256084502288242519}
   m_Layer: 8
   m_Name: Effect (Old)
   m_TagString: Untagged
@@ -26,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820536723412001720}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53,22 +52,6 @@ MonoBehaviour:
     y:
       variables: {fileID: 5292730459476133137}
       input: 0.5 + height
---- !u!114 &256084502288242519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820536723412001720}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5b657bc8fdf10f4596bd20d4d1cc68b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  effectPrefab: {fileID: 8164537786681107610, guid: 4f4a4ce0c4932bf4081a2346684c5d2e,
-    type: 3}
-  attach: 1
-  lifetime: 10
 --- !u!1 &2736813919582249255
 GameObject:
   m_ObjectHideFlags: 0
@@ -137,10 +120,10 @@ MonoBehaviour:
     adaptRange:
       min:
         variables: {fileID: 5292730459476133137}
-        input: width - 5
+        input: width - 2.5
       max:
         variables: {fileID: 5292730459476133137}
-        input: width + 5
+        input: width + 2.5
     type: 0
     priority: 0300000000000000
     inputArea:
@@ -197,14 +180,18 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
-  baseDepth: 0
+  baseDepth: 0.1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 5292730459476133137}
@@ -266,7 +253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   part: {fileID: 3207330539235223471}
-  buildColor: {r: 1, g: 1, b: 1, a: 0.654902}
+  buildColor: {r: 1, g: 1, b: 1, a: 1}
   height:
     variableName: height
     referenceToVariables: {fileID: 5292730459476133137}
@@ -325,7 +312,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 5292730459476133137}
-      input: 20
+      input: 2
   cannotDetachIfSurfaceCovered: 0
   surfaceForCover: {fileID: 0}
   showDescription: 0
@@ -374,7 +361,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 256084502288242519}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: 
         m_MethodName: Spawn
         m_Mode: 2
@@ -510,7 +497,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3451319678812578187}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -581,7 +568,6 @@ GameObject:
   - component: {fileID: 3122706151559397025}
   - component: {fileID: 6438551099328440471}
   - component: {fileID: 4342670009397725314}
-  - component: {fileID: 5459720625219833279}
   - component: {fileID: 7973010554225682168}
   - component: {fileID: 843555206895938667}
   - component: {fileID: 3451425453839913266}
@@ -624,6 +610,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -631,7 +618,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 5292730459476133137}
@@ -680,23 +670,6 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 1
---- !u!114 &5459720625219833279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4811495369914619727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactTolerance: 1
-  ownEngineNozzle: {fileID: 0}
-  polygon: {fileID: 6438551099328440471}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!114 &7973010554225682168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,11 +709,11 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 5292730459476133137}
-      input: 20
+      input: 2
   cannotDetachIfSurfaceCovered: 0
   surfaceForCover: {fileID: 0}
-  showDescription: 0
-  showForceMultiplier: 1
+  showDescription: 1
+  showForceMultiplier: 0
   useForceMultiplierEvenIfNotShown: 1
   forceMultiplier:
     variableName: force_percent
@@ -777,7 +750,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 5292730459476133137}
-      input: 0.6
+      input: 0.5
 --- !u!23 &8872359772476623525
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -854,7 +827,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6080935562804632069}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -924,7 +897,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7802717269251900464}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.975, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -981,8 +954,8 @@ GameObject:
   - component: {fileID: 4458619553451696607}
   - component: {fileID: 5292730459476133137}
   - component: {fileID: 2602893354048092428}
-  - component: {fileID: 4042723686430455737}
-  - component: {fileID: 2456191795966860226}
+  - component: {fileID: 6354014052101833748}
+  - component: {fileID: 7718084807787291123}
   m_Layer: 8
   m_Name: Service Module Decoupler
   m_TagString: Untagged
@@ -1029,8 +1002,9 @@ MonoBehaviour:
     TranslatableName: Service Module Decoupler
   description:
     plainText: 1
-    TranslatableName: 'Connects the Command Module and Service Module, protects the
-      Heat Shield. '
+    TranslatableName: Connects the Command Module and Service Module, protects the
+      Heat Shield. Comes with alternate skins for unmanned launches, Block I, and
+      Block II spacecraft
   mass:
     variables: {fileID: 5292730459476133137}
     input: width * 0.2
@@ -1046,17 +1020,7 @@ MonoBehaviour:
   variablesModule: {fileID: 5292730459476133137}
   variants:
   - variants:
-    - changes:
-      - name: width
-        type: 0
-        numberValue: 4
-        toggleValue: 0
-        textValue: 
-      - name: height_max
-        type: 0
-        numberValue: 1
-        toggleValue: 0
-        textValue: 
+    - changes: []
       tags:
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -30
@@ -1129,10 +1093,10 @@ MonoBehaviour:
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000010400b
     - name: height
       save: 1
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006666666666666de3f0b
     - name: height_max
       save: 1
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006666666666666de3f0b
     - name: force_percent
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
@@ -1142,7 +1106,10 @@ MonoBehaviour:
     saves:
     - name: color_tex
       save: 1
-      data: 0001000000ffffffff010000000000000006010000000f536572766963655f5365705f5465780b
+      data: 0001000000ffffffff01000000000000000601000000015f0b
+    - name: shape_tex
+      save: 1
+      data: 0001000000ffffffff01000000000000000601000000015f0b
 --- !u!114 &2602893354048092428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1172,33 +1139,7 @@ MonoBehaviour:
     y:
       variables: {fileID: 5292730459476133137}
       input: 0
---- !u!114 &4042723686430455737
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8063651465425758740}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641659d31fdc50c4aa71e2efbc218dd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - position:
-      variables: {fileID: 5292730459476133137}
-      x:
-        variables: {fileID: 5292730459476133137}
-        input: 0
-      y:
-        variables: {fileID: 5292730459476133137}
-        input: 0
-    normal: {x: 0, y: 0}
-    type: 0
-    output:
-      variables: {fileID: 5292730459476133137}
-      input: width
---- !u!114 &2456191795966860226
+--- !u!114 &6354014052101833748
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1210,20 +1151,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a992037912a16d46a9e6c80c7e82ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinTag: tank
+  skinTag: smdec
   meshModules:
-  - {fileID: 4342670009397725314}
   - {fileID: 8194549203428108867}
+  - {fileID: 4342670009397725314}
   colorTextureName:
     variableName: color_tex
     referenceToVariables: {fileID: 5292730459476133137}
     localValue: 
   shapeTextureName:
-    variableName: 
+    variableName: shape_tex
     referenceToVariables: {fileID: 5292730459476133137}
     localValue: 
-  disableColorSelect: 1
+  disableColorSelect: 0
   disableShapeSelect: 1
+--- !u!114 &7718084807787291123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8063651465425758740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactTolerance: 1
+  ownEngineNozzle: {fileID: 0}
+  polygon: {fileID: 6438551099328440471}
+  collider_Polygon: {fileID: 0}
+  collider_Box: {fileID: 0}
 --- !u!1 &8445965984292822656
 GameObject:
   m_ObjectHideFlags: 0
@@ -1250,7 +1208,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8445965984292822656}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalPosition: {x: 0, y: 0.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1272,6 +1230,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0.1
   composedBaseDepth:
@@ -1279,7 +1238,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   width_a:
     variables: {fileID: 5292730459476133137}

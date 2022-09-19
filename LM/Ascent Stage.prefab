@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7821246580157215347
 MonoBehaviour:
@@ -48,10 +48,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -87,6 +88,8 @@ MonoBehaviour:
   - {x: -0.8499994, y: 0.63749987}
   - {x: -0.8499994, y: 0.29999992}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 3614283912533512173}
 --- !u!33 &5340009322669073653
 MeshFilter:
@@ -185,7 +188,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &3659158941969917512
 MonoBehaviour:
@@ -202,6 +205,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -237,6 +241,8 @@ MonoBehaviour:
   - {x: -0.21249944, y: 2.6375015}
   - {x: -0.21249944, y: 2.4624999}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 9100035870116524816}
 --- !u!33 &3868018212027099914
 MeshFilter:
@@ -330,12 +336,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330812519370098097}
   m_LocalRotation: {x: -0, y: -0, z: 0.2588191, w: 0.9659258}
-  m_LocalPosition: {x: 0, y: 0.05000019, z: 0}
+  m_LocalPosition: {x: 0.0553, y: 0.0508, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 30}
 --- !u!114 &2751066249095719508
 MonoBehaviour:
@@ -349,11 +355,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
-  baseDepth: 3
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
+  baseDepth: 1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -393,6 +400,8 @@ MonoBehaviour:
   - {x: 0.0625, y: 6.662499}
   - {x: 0.0625, y: 6.3374953}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 7233981348817097123}
 --- !u!33 &409123624486882607
 MeshFilter:
@@ -491,7 +500,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3383854909828382682
 MonoBehaviour:
@@ -508,6 +517,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -545,6 +555,8 @@ MonoBehaviour:
   - {x: 1.3499995, y: 1.4749991}
   - {x: 1.3499995, y: 1.1749997}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 6002302826966171809}
 --- !u!33 &1485791487962012890
 MeshFilter:
@@ -660,6 +672,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2.2
   composedBaseDepth:
@@ -722,6 +735,8 @@ MonoBehaviour:
   - {x: 1.1499996, y: 2.5000012}
   - {x: 1.1499996, y: 0.3}
   texture: {fileID: 11400000, guid: 4b6a16ae61c2dc841bec5b40345ab356, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 6378656104421342963}
 --- !u!33 &4376223643596996837
 MeshFilter:
@@ -820,7 +835,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2855343983914780147
 MonoBehaviour:
@@ -834,10 +849,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -872,6 +888,8 @@ MonoBehaviour:
   - {x: 1.375, y: 1.4749991}
   - {x: 1.375, y: 1.2249998}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 191703222109132184}
 --- !u!33 &8711998887699827622
 MeshFilter:
@@ -970,7 +988,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3304321099712324439
 MonoBehaviour:
@@ -987,6 +1005,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -1022,6 +1041,8 @@ MonoBehaviour:
   - {x: -0.07499947, y: 2.6375008}
   - {x: -0.07499947, y: 2.3750005}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8256939385379490853}
 --- !u!33 &5172978175825804107
 MeshFilter:
@@ -1115,12 +1136,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1492281532026623112}
   m_LocalRotation: {x: -0.258819, y: 0.9659259, z: -0, w: 0}
-  m_LocalPosition: {x: -0.8, y: 1.4000001, z: 0}
+  m_LocalPosition: {x: -0.74470025, y: 1.4007993, z: 0}
   m_LocalScale: {x: 1, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: -30}
 --- !u!114 &2784288322239652338
 MonoBehaviour:
@@ -1134,11 +1155,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
-  baseDepth: 3.1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
+  baseDepth: 1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -1180,6 +1202,8 @@ MonoBehaviour:
   - {x: 0.22500002, y: 3.3000002}
   - {x: 0.22500002, y: 2.875}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5822461278998314323}
 --- !u!33 &4046628045408417602
 MeshFilter:
@@ -1278,7 +1302,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &2340476485346323083
 MonoBehaviour:
@@ -1295,6 +1319,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 3
   composedBaseDepth:
@@ -1333,6 +1358,8 @@ MonoBehaviour:
   - {x: -0.03749947, y: 2.9125016}
   - {x: -0.03749947, y: 2.4250007}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 3452044537149084820}
 --- !u!33 &2488771614605848304
 MeshFilter:
@@ -1431,7 +1458,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &3195811207074137429
 MonoBehaviour:
@@ -1448,6 +1475,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2.9
   composedBaseDepth:
@@ -1492,6 +1520,8 @@ MonoBehaviour:
   - {x: 0.22500002, y: 3.3000002}
   - {x: 0.22500002, y: 2.875}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 3362754012152416757}
 --- !u!33 &224626326719529519
 MeshFilter:
@@ -1604,10 +1634,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1642,6 +1673,8 @@ MonoBehaviour:
   - {x: 1.8999996, y: 1.2999997}
   - {x: 1.8999996, y: 0.9000002}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8682055738442142022}
 --- !u!33 &4892857632761252948
 MeshFilter:
@@ -1740,7 +1773,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &959302426674786101
 MonoBehaviour:
@@ -1757,6 +1790,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -1792,6 +1826,8 @@ MonoBehaviour:
   - {x: -0.07499947, y: 2.6375008}
   - {x: -0.07499947, y: 2.3750005}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 291439600056759972}
 --- !u!33 &7988846642968672280
 MeshFilter:
@@ -1904,10 +1940,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1942,6 +1979,8 @@ MonoBehaviour:
   - {x: 1.3499995, y: 1.2500002}
   - {x: 1.3499995, y: 1.1499984}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5789497087577830474}
 --- !u!33 &8267284018487745295
 MeshFilter:
@@ -2020,8 +2059,6 @@ GameObject:
   - component: {fileID: 6170204167762867996}
   - component: {fileID: 7114181287167758513}
   - component: {fileID: 8903763154695034387}
-  - component: {fileID: 609038168589499739}
-  - component: {fileID: 3650741760706145665}
   m_Layer: 8
   m_Name: Hitbox
   m_TagString: Untagged
@@ -2056,10 +2093,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 0.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2073,8 +2111,6 @@ MonoBehaviour:
   - {x: -1.3499998, y: 1.3000001}
   - {x: -1.175, y: 2.2999997}
   - {x: -0.6, y: 2.6499994}
-  - {x: -0.59999996, y: 2.0999987}
-  - {x: 0.59999996, y: 2.099999}
   - {x: 0.6, y: 2.6499999}
   - {x: 1.1750001, y: 2.3}
   - {x: 1.4000001, y: 1.3}
@@ -2115,6 +2151,8 @@ MonoBehaviour:
   - {x: 1.9000001, y: 2.6499999}
   - {x: 1.9000001, y: 0.29999986}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8903763154695034387}
 --- !u!33 &6170204167762867996
 MeshFilter:
@@ -2179,37 +2217,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
---- !u!114 &609038168589499739
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2426618496816116854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 369cca2bdbcf9f7469c6756a853359ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactTolerance: 1
-  ownEngineNozzle: {fileID: 0}
---- !u!114 &3650741760706145665
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2426618496816116854}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  impactTolerance: 1
-  ownEngineNozzle: {fileID: 0}
-  polygon: {fileID: 8783834354774415296}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!1 &2557853007785537844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2244,7 +2251,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4698695824533432054
 MonoBehaviour:
@@ -2258,10 +2265,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2296,6 +2304,8 @@ MonoBehaviour:
   - {x: 1.375, y: 1.4749991}
   - {x: 1.375, y: 1.2249998}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 7302972230355119713}
 --- !u!33 &5353052409626270183
 MeshFilter:
@@ -2408,10 +2418,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2446,6 +2457,8 @@ MonoBehaviour:
   - {x: 1.3499997, y: 1.549999}
   - {x: 1.3499997, y: 1.4499999}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 7142440299615498856}
 --- !u!33 &1081383868443878882
 MeshFilter:
@@ -2558,10 +2571,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2596,6 +2610,8 @@ MonoBehaviour:
   - {x: 1.4499996, y: 1.3999981}
   - {x: 1.4499996, y: 1.3249992}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 2279613177368286065}
 --- !u!33 &7165820739950361979
 MeshFilter:
@@ -2694,7 +2710,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4189332876613611610
 MonoBehaviour:
@@ -2721,10 +2737,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: -1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2765,6 +2782,8 @@ MonoBehaviour:
   - {x: 1.0500001, y: 2.6999996}
   - {x: 1.0500001, y: 2.4249995}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 4189332876613611610}
 --- !u!33 &3766246873269426052
 MeshFilter:
@@ -2850,7 +2869,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3032460275096010139
 MonoBehaviour:
@@ -2864,10 +2883,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2907,6 +2927,8 @@ MonoBehaviour:
   - {x: 1.5999999, y: 1.4499997}
   - {x: 1.5999999, y: 0.7000004}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8520212024280738218}
 --- !u!33 &7907650292908592706
 MeshFilter:
@@ -3022,6 +3044,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 1.6
   composedBaseDepth:
@@ -3061,6 +3084,8 @@ MonoBehaviour:
   - {x: 1.9000002, y: 0.64999986}
   - {x: 1.9000002, y: 0.29999986}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8779404587842964266}
 --- !u!33 &2446739904495332286
 MeshFilter:
@@ -3159,7 +3184,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &8225263762792822042
 MonoBehaviour:
@@ -3176,6 +3201,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 3
   composedBaseDepth:
@@ -3219,6 +3245,8 @@ MonoBehaviour:
   - {x: 0.22500002, y: 3.3000002}
   - {x: 0.22500002, y: 2.875}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 2339726514626138826}
 --- !u!33 &2474809998958443424
 MeshFilter:
@@ -3317,7 +3345,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1817442525107965874
 MonoBehaviour:
@@ -3331,10 +3359,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3369,6 +3398,8 @@ MonoBehaviour:
   - {x: -0.9499994, y: 0.7125}
   - {x: -0.9499994, y: 0.425}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 3337092251567954590}
 --- !u!33 &8201786484882279053
 MeshFilter:
@@ -3467,7 +3498,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6870755355944307747
 MonoBehaviour:
@@ -3481,10 +3512,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3521,6 +3553,8 @@ MonoBehaviour:
   - {x: -0.9499994, y: 1.2250007}
   - {x: -0.9499994, y: 0.7124998}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8227360847580619649}
 --- !u!33 &5757436818586863299
 MeshFilter:
@@ -3585,6 +3619,188 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0.53333336, g: 0.53333336, b: 0.53333336, a: 1}
+--- !u!1 &4376780743811043261
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9007596834869213801}
+  - component: {fileID: 122318605728426739}
+  - component: {fileID: 8787852402190749260}
+  - component: {fileID: 5833350644154636511}
+  - component: {fileID: 9206202793295259635}
+  - component: {fileID: 674327531654788165}
+  - component: {fileID: 6750119541934503052}
+  m_Layer: 8
+  m_Name: Hitbox (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9007596834869213801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6025496177165280393}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &122318605728426739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 1
+  dragSurfaces: 1
+  colliderArea: 1
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 4
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: -1.375, y: 0.42500004}
+  - {x: -1.5, y: 0.69999987}
+  - {x: -1.4999998, y: 0.74999994}
+  - {x: -1.3499999, y: 1.05}
+  - {x: -1.3499998, y: 1.3000001}
+  - {x: -1.175, y: 2.2999997}
+  - {x: -0.6, y: 2.6499994}
+  - {x: -0.5999999, y: 2.2249987}
+  - {x: 0.5999999, y: 2.2249994}
+  - {x: 0.6, y: 2.6499999}
+  - {x: 1.1750001, y: 2.3}
+  - {x: 1.4000001, y: 1.3}
+  - {x: 1.6500001, y: 1.3000001}
+  - {x: 1.9000001, y: 1.05}
+  - {x: 1.8999997, y: 0.65}
+  - {x: 1.5, y: 0.29999986}
+  - {x: 1.175, y: 0.30000013}
+  - {x: 0.6, y: 0.4}
+  - {x: 0.4, y: 0.39999998}
+  - {x: 0.4, y: 1}
+  - {x: -0.4, y: 1.0000001}
+  - {x: -0.4, y: 0.45}
+  - {x: -0.75000006, y: 0.45}
+  - {x: -0.8500001, y: 0.3}
+  - {x: -1.175, y: 0.30000004}
+  edit: 1
+  view: 0
+  gridSize: 0.025
+--- !u!33 &8787852402190749260
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_Mesh: {fileID: 0}
+--- !u!23 &5833350644154636511
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &9206202793295259635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+--- !u!114 &674327531654788165
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 369cca2bdbcf9f7469c6756a853359ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactTolerance: 1
+  ownEngineNozzle: {fileID: 0}
+--- !u!114 &6750119541934503052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4376780743811043261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e286d6d53d7956c42a93c464053e29e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  impactTolerance: 1
+  ownEngineNozzle: {fileID: 0}
+  polygon: {fileID: 122318605728426739}
+  collider_Polygon: {fileID: 0}
+  collider_Box: {fileID: 0}
 --- !u!1 &4523500273625342172
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,7 +3835,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4355986954738765980
 MonoBehaviour:
@@ -3636,6 +3852,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -3672,6 +3889,8 @@ MonoBehaviour:
   - {x: -0.28750008, y: 2.6375015}
   - {x: -0.28750008, y: 2.1999989}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 6330755418057434532}
 --- !u!33 &3527217893171831566
 MeshFilter:
@@ -3770,7 +3989,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4200775688352992544
 MonoBehaviour:
@@ -3787,6 +4006,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -3823,6 +4043,8 @@ MonoBehaviour:
   - {x: -0.28750008, y: 2.6375015}
   - {x: -0.28750008, y: 2.1999989}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 1653381355781462459}
 --- !u!33 &815330722112878399
 MeshFilter:
@@ -3935,10 +4157,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3973,6 +4196,8 @@ MonoBehaviour:
   - {x: 1.4499996, y: 1.3999981}
   - {x: 1.4499996, y: 1.3249992}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5215490459679425246}
 --- !u!33 &4675050509593685431
 MeshFilter:
@@ -4072,7 +4297,6 @@ Transform:
   - {fileID: 7354985840979587224}
   - {fileID: 900161851369394887}
   - {fileID: 2479523897865323294}
-  - {fileID: 5733622696391585909}
   - {fileID: 6369387908768187230}
   - {fileID: 8619703211221118854}
   - {fileID: 216969553953749961}
@@ -4102,6 +4326,8 @@ Transform:
   - {fileID: 9169782052199152571}
   - {fileID: 4865827254092830082}
   - {fileID: 7373241561571507557}
+  - {fileID: 6047876865557522494}
+  - {fileID: 2821183322369314454}
   m_Father: {fileID: 6025496177165280393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4139,7 +4365,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7844657172179272278
 MonoBehaviour:
@@ -4156,6 +4382,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 3.1
   composedBaseDepth:
@@ -4198,6 +4425,8 @@ MonoBehaviour:
   - {x: -0.03749947, y: 2.9125016}
   - {x: -0.03749947, y: 2.4250007}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 75145561362108016}
 --- !u!33 &6556763518367289685
 MeshFilter:
@@ -4296,7 +4525,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3461556432604728772
 MonoBehaviour:
@@ -4313,6 +4542,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 3
   composedBaseDepth:
@@ -4351,6 +4581,8 @@ MonoBehaviour:
   - {x: -0.03749947, y: 2.9125016}
   - {x: -0.03749947, y: 2.4250007}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 6903946592429520461}
 --- !u!33 &2409129975687703222
 MeshFilter:
@@ -4463,10 +4695,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -4501,6 +4734,8 @@ MonoBehaviour:
   - {x: 1.3499997, y: 1.549999}
   - {x: 1.3499997, y: 1.4499999}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 2764306485635009023}
 --- !u!33 &8095254081185347224
 MeshFilter:
@@ -4599,7 +4834,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8575786041546198699
 MonoBehaviour:
@@ -4616,6 +4851,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -4654,6 +4890,8 @@ MonoBehaviour:
   - {x: 0.3000002, y: 2.9750018}
   - {x: 0.3000002, y: 2.8625007}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 7080169058743536069}
 --- !u!33 &774257742408374458
 MeshFilter:
@@ -4752,7 +4990,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1627500235687200692
 MonoBehaviour:
@@ -4766,10 +5004,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.7
   composedBaseDepth:
     variables: {fileID: 0}
@@ -4804,6 +5043,8 @@ MonoBehaviour:
   - {x: -0.9499994, y: 1.2250007}
   - {x: -0.9499994, y: 0.7125}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 4017875040074794467}
 --- !u!33 &6036785475016423436
 MeshFilter:
@@ -4922,6 +5163,7 @@ Transform:
   - {fileID: 7841441818715889217}
   - {fileID: 6046914940385044532}
   - {fileID: 4374041566804683603}
+  - {fileID: 9007596834869213801}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4943,7 +5185,8 @@ MonoBehaviour:
   description:
     plainText: 1
     TranslatableName: Capacity for one crew of two, one hammer, and one feather.
-      Features integrated RCS quads and fuel.
+      Features integrated RCS quads and fuel. Toggle Pyromarked panels to represent
+      each mission.
   mass:
     variables: {fileID: 6025496177165280511}
     input: mass
@@ -4974,9 +5217,7 @@ MonoBehaviour:
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -55
       cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 37f8444f4a2f9374fbda3c1d0252eae8, type: 2}
-      priority: 2
+    tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
@@ -5045,6 +5286,18 @@ MonoBehaviour:
     - name: mass
       save: 0
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+    - name: up
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: left
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: up_target
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: left_target
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
   boolVariables:
     saves: []
   stringVariables:
@@ -5102,7 +5355,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a992037912a16d46a9e6c80c7e82ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinTag: tank
+  skinTag: lm
   meshModules:
   - {fileID: 6025496177165280392}
   colorTextureName:
@@ -5135,15 +5388,7 @@ MonoBehaviour:
         input: 0
       y:
         variables: {fileID: 6025496177165280511}
-        input: 0
-  - position:
-      variables: {fileID: 6025496177165280511}
-      x:
-        variables: {fileID: 6025496177165280511}
-        input: 0
-      y:
-        variables: {fileID: 6025496177165280511}
-        input: height
+        input: 1.9
   snapPoints:
   - variables: {fileID: 6025496177165280511}
     x:
@@ -5321,6 +5566,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -5328,7 +5574,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6025496177165280511}
@@ -5438,6 +5687,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31b57e6111e433f4cbee514dd9a8ad8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enabled:
+    variableName: 
+    referenceToVariables: {fileID: 6025496177165280511}
+    localValue: 1
   torque:
     variables: {fileID: 6025496177165280511}
     input: 3
@@ -5476,7 +5729,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8137320898162300870
 MonoBehaviour:
@@ -5490,11 +5743,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
-  baseDepth: 3
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
+  baseDepth: -1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -5532,6 +5786,8 @@ MonoBehaviour:
   - {x: -0.6374999, y: 2.6250029}
   - {x: -0.6374999, y: 2.3499992}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 3297165873542122291}
 --- !u!33 &3003005321448496697
 MeshFilter:
@@ -5644,10 +5900,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
   colliderArea: 0
-  clickArea: 1
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -5682,6 +5939,8 @@ MonoBehaviour:
   - {x: 1.3499995, y: 1.2500002}
   - {x: 1.3499995, y: 1.1499984}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 6831632416614474932}
 --- !u!33 &8509383016130582326
 MeshFilter:
@@ -5780,7 +6039,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8186181558466831144
 MonoBehaviour:
@@ -5794,10 +6053,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -5831,6 +6091,8 @@ MonoBehaviour:
   - {x: -0.95, y: 0.63749987}
   - {x: -0.95, y: 0.30000013}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 3178983700869601414}
 --- !u!33 &3400406275699851280
 MeshFilter:
@@ -5943,10 +6205,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -5981,6 +6244,8 @@ MonoBehaviour:
   - {x: 1.8999997, y: 1.05}
   - {x: 1.8999997, y: 0.6499999}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 4605396917813595883}
 --- !u!33 &2919535451124215291
 MeshFilter:
@@ -6096,6 +6361,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 1.5
   composedBaseDepth:
@@ -6150,6 +6416,8 @@ MonoBehaviour:
   - {x: 1.8999997, y: 2.500001}
   - {x: 1.8999997, y: 0.29999986}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5064479948796387313}
 --- !u!33 &3217468168506422450
 MeshFilter:
@@ -6243,12 +6511,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6838406027573718841}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.015, y: 0.02, z: 0}
   m_LocalScale: {x: 1.1, y: 1.1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &551939214989775905
 MonoBehaviour:
@@ -6275,10 +6543,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: -0.8
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6321,6 +6590,8 @@ MonoBehaviour:
   - {x: 1.1125002, y: 2.8000004}
   - {x: 1.1125002, y: 2.5625005}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 551939214989775905}
 --- !u!33 &1927218082081587183
 MeshFilter:
@@ -6409,6 +6680,289 @@ Transform:
   m_Father: {fileID: 6025496177165280393}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7125243038221980493
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6047876865557522494}
+  - component: {fileID: 3837408062588160531}
+  - component: {fileID: 970940897181362707}
+  - component: {fileID: 3903290797882268552}
+  - component: {fileID: 1162453590694463748}
+  - component: {fileID: 5894545372252159715}
+  - component: {fileID: 7724318797349200508}
+  - component: {fileID: 1810642160879226329}
+  m_Layer: 0
+  m_Name: Left Pyro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6047876865557522494
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 1, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6447340821703068675}
+  m_RootOrder: 36
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3837408062588160531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
+  baseDepth: 2.5
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: -0.48250005, y: 1.3999995}
+  - {x: -1.2724993, y: 1.4}
+  - {x: -1.2075008, y: 1.1075007}
+  - {x: -1.1550003, y: 0.9900006}
+  - {x: -1.0174997, y: 0.55000013}
+  - {x: -0.9349999, y: 0.46749997}
+  - {x: -0.79749984, y: 0.44}
+  - {x: -0.57750005, y: 0.35750002}
+  - {x: -0.58075, y: 0.53599995}
+  - {x: -0.48724967, y: 0.5335}
+  edit: 1
+  view: 0
+  gridSize: 0.0025
+--- !u!114 &970940897181362707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  polygonModule: {fileID: 3837408062588160531}
+  UV_Mode: 0
+  bounds:
+  - {x: -1.2724993, y: 0.35750002}
+  - {x: -1.2724993, y: 1.4}
+  - {x: -0.48250005, y: 1.4}
+  - {x: -0.48250005, y: 0.35750002}
+  texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
+  colorModule: {fileID: 5894545372252159715}
+--- !u!33 &3903290797882268552
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Mesh: {fileID: 0}
+--- !u!23 &1162453590694463748
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5894545372252159715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.1792453, g: 0.1792453, b: 0.1792453, a: 1}
+--- !u!114 &7724318797349200508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552528028df376f4ea4a34bddcebb6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time:
+    variableName: left
+    referenceToVariables: {fileID: 6025496177165280511}
+    localValue: 0
+  targetTime:
+    variableName: left_target
+    referenceToVariables: {fileID: 6025496177165280511}
+    localValue: 0
+  animationTime: 0.1
+  unscaledTime: 1
+  animationElements:
+  - type: 1
+    offset: 0
+    transform: {fileID: 6047876865557522494}
+    spriteRenderer: {fileID: 0}
+    image: {fileID: 0}
+    X:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Y:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    audioSource: {fileID: 0}
+--- !u!114 &1810642160879226329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7125243038221980493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb106702cd72414a8e4951698be39cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label:
+    plainText: 1
+    TranslatableName: Left Pyromark
+  state: {fileID: 7724318797349200508}
 --- !u!1 &7958041929076303045
 GameObject:
   m_ObjectHideFlags: 0
@@ -6457,10 +7011,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6495,6 +7050,8 @@ MonoBehaviour:
   - {x: 1.6499999, y: 1.2999997}
   - {x: 1.6499999, y: 1.0000001}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 6657692753422958557}
 --- !u!33 &4596293298467388420
 MeshFilter:
@@ -6593,7 +7150,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &8692979012786591134
 MonoBehaviour:
@@ -6610,6 +7167,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 3.1
   composedBaseDepth:
@@ -6652,6 +7210,8 @@ MonoBehaviour:
   - {x: -0.03749947, y: 2.9125016}
   - {x: -0.03749947, y: 2.4250007}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 4998630270029908595}
 --- !u!33 &8887206876021450624
 MeshFilter:
@@ -6750,7 +7310,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3895178263556346014
 MonoBehaviour:
@@ -6767,6 +7327,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 2
   composedBaseDepth:
@@ -6802,6 +7363,8 @@ MonoBehaviour:
   - {x: -0.21249944, y: 2.6375015}
   - {x: -0.21249944, y: 2.4624999}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 8126103735760043691}
 --- !u!33 &1250989773234587527
 MeshFilter:
@@ -6866,6 +7429,285 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+--- !u!1 &8259050256251634185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2821183322369314454}
+  - component: {fileID: 5934349533835354429}
+  - component: {fileID: 3472155217938418347}
+  - component: {fileID: 5239833964067879448}
+  - component: {fileID: 3656903886163005979}
+  - component: {fileID: 7905522000368874443}
+  - component: {fileID: 7508127173268652174}
+  - component: {fileID: 3301088275785057502}
+  m_Layer: 0
+  m_Name: Up Pyro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2821183322369314454
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 1, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6447340821703068675}
+  m_RootOrder: 37
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5934349533835354429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
+  baseDepth: 1.1
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 0.6605002, y: 2.9147544}
+  - {x: 0.98674965, y: 2.717001}
+  - {x: 0.6482501, y: 1.8900002}
+  - {x: -0.57574993, y: 1.8975006}
+  - {x: -0.9347506, y: 2.7490022}
+  - {x: -0.65999895, y: 2.9150035}
+  edit: 1
+  view: 0
+  gridSize: 0.0025
+--- !u!114 &3472155217938418347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  polygonModule: {fileID: 5934349533835354429}
+  UV_Mode: 0
+  bounds:
+  - {x: -0.9347506, y: 1.8900002}
+  - {x: -0.9347506, y: 2.9150035}
+  - {x: 0.98674965, y: 2.9150035}
+  - {x: 0.98674965, y: 1.8900002}
+  texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
+  colorModule: {fileID: 7905522000368874443}
+--- !u!33 &5239833964067879448
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3656903886163005979
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7905522000368874443
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.09019608, g: 0.09019608, b: 0.09019608, a: 1}
+--- !u!114 &7508127173268652174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb106702cd72414a8e4951698be39cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  label:
+    plainText: 1
+    TranslatableName: Upper Pyromark
+  state: {fileID: 3301088275785057502}
+--- !u!114 &3301088275785057502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8259050256251634185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 552528028df376f4ea4a34bddcebb6e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time:
+    variableName: up
+    referenceToVariables: {fileID: 6025496177165280511}
+    localValue: 1
+  targetTime:
+    variableName: up_target
+    referenceToVariables: {fileID: 6025496177165280511}
+    localValue: 0
+  animationTime: 0.1
+  unscaledTime: 1
+  animationElements:
+  - type: 1
+    offset: 0
+    transform: {fileID: 2821183322369314454}
+    spriteRenderer: {fileID: 0}
+    image: {fileID: 0}
+    X:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Y:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    audioSource: {fileID: 0}
 --- !u!1 &8347908457862056203
 GameObject:
   m_ObjectHideFlags: 0
@@ -6900,7 +7742,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2136189282880833275
 MonoBehaviour:
@@ -6927,10 +7769,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
   baseDepth: -1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6971,6 +7814,8 @@ MonoBehaviour:
   - {x: 1.0500001, y: 2.6999996}
   - {x: 1.0500001, y: 2.4249995}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 2136189282880833275}
 --- !u!33 &2990696064234180191
 MeshFilter:
@@ -7056,7 +7901,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &579188934742643229
 MonoBehaviour:
@@ -7070,11 +7915,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  attachmentSurfaces: 1
-  dragSurfaces: 1
-  colliderArea: 1
-  clickArea: 1
-  baseDepth: 3.1
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 0
+  baseDepth: 0.1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -7112,6 +7958,8 @@ MonoBehaviour:
   - {x: -0.6499999, y: 2.6125028}
   - {x: -0.6499999, y: 2.3499992}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 4405052102342883813}
 --- !u!33 &4680359351533614321
 MeshFilter:
@@ -7176,170 +8024,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0.254717, g: 0.254717, b: 0.254717, a: 1}
---- !u!1 &8913255909722202106
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5733622696391585909}
-  - component: {fileID: 3794826588165860493}
-  - component: {fileID: 6043830537800841164}
-  - component: {fileID: 4278883566951597834}
-  - component: {fileID: 3415146416592020261}
-  - component: {fileID: 7931677917023691157}
-  m_Layer: 0
-  m_Name: GameObject (8)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &5733622696391585909
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913255909722202106}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 6447340821703068675}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3794826588165860493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913255909722202106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attachmentSurfaces: 0
-  dragSurfaces: 1
-  colliderArea: 0
-  clickArea: 1
-  baseDepth: 2.1
-  composedBaseDepth:
-    variables: {fileID: 0}
-    input: 
-  isComposedDepth: 0
-  polygonVertices:
-  - {x: -0.35000005, y: 2.2624998}
-  - {x: -0.33749998, y: 2.3749998}
-  - {x: -0.33749995, y: 2.4125001}
-  - {x: -0.2875, y: 2.4625}
-  - {x: -0.25000003, y: 2.4625}
-  - {x: -0.21250004, y: 2.3749998}
-  - {x: 0.20000003, y: 2.375}
-  - {x: 0.25000006, y: 2.45}
-  - {x: 0.2875, y: 2.45}
-  - {x: 0.33749995, y: 2.3999999}
-  - {x: 0.33749995, y: 2.3875003}
-  - {x: 0.3500001, y: 2.262501}
-  - {x: 0.42500007, y: 0.90000045}
-  - {x: 0.37500003, y: 0.90000004}
-  - {x: 0.32499942, y: 1.4625}
-  - {x: -0.3249998, y: 1.4624994}
-  - {x: -0.37500018, y: 0.89999986}
-  - {x: -0.42499965, y: 0.8999994}
-  edit: 1
-  view: 0
-  gridSize: 0.0125
---- !u!114 &6043830537800841164
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913255909722202106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  renderQueueOffset: 0
-  polygonModule: {fileID: 3794826588165860493}
-  UV_Mode: 0
-  bounds:
-  - {x: -0.42499965, y: 0.8999994}
-  - {x: -0.42499965, y: 2.4625}
-  - {x: 0.42500007, y: 2.4625}
-  - {x: 0.42500007, y: 0.8999994}
-  texture: {fileID: 11400000, guid: 447654503d872044cb076dbc547b2d51, type: 2}
-  colorModule: {fileID: 7931677917023691157}
---- !u!33 &4278883566951597834
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913255909722202106}
-  m_Mesh: {fileID: 0}
---- !u!23 &3415146416592020261
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913255909722202106}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7931677917023691157
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8913255909722202106}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
 --- !u!1 &9080806393535288595
 GameObject:
   m_ObjectHideFlags: 0
@@ -7391,6 +8075,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 1
   composedBaseDepth:
@@ -7436,6 +8121,8 @@ MonoBehaviour:
   - {x: 1.1750001, y: 2.6499999}
   - {x: 1.1750001, y: 0.3}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
   colorModule: {fileID: 5831215939691882971}
 --- !u!33 &2827100254448906246
 MeshFilter:

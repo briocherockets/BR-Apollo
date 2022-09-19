@@ -50,6 +50,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  physicsCollider: 0
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -57,7 +58,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6025496177165280511}
@@ -242,7 +246,6 @@ GameObject:
   - component: {fileID: 9185718412258651831}
   - component: {fileID: 8943219765926418611}
   - component: {fileID: 1766207617468981286}
-  - component: {fileID: 7329375121132543225}
   m_Layer: 8
   m_Name: S-IC Fuel Tank
   m_TagString: Untagged
@@ -284,7 +287,9 @@ MonoBehaviour:
     TranslatableName: S-IC Fuel Tank
   description:
     plainText: 1
-    TranslatableName: A rather patriotic tank of kerosene and oxygen
+    TranslatableName: A rather patriotic tank of kerosene and oxygen. Comes with
+      2 skins, a launched paint scheme, and an early-Apollo extended roll-stripe
+      design
   mass:
     variables: {fileID: 6025496177165280511}
     input: mass
@@ -315,9 +320,7 @@ MonoBehaviour:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: -45
       cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 37f8444f4a2f9374fbda3c1d0252eae8, type: 2}
-      priority: 2
+    tags: []
   onPartUsed:
     m_PersistentCalls:
       m_Calls:
@@ -411,6 +414,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -418,7 +422,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   width_a:
     variables: {fileID: 6025496177165280511}
@@ -461,7 +468,7 @@ MonoBehaviour:
         shapeTexture: {fileID: 11400000, guid: 28d876137cb04ed41b7a18fd1a58bc89, type: 2}
       height: 12.6
     - texture:
-        colorTexture: {fileID: 11400000, guid: 71cd1917028932441b08a3e4ea662f81, type: 2}
+        colorTexture: {fileID: 11400000, guid: 79bb0d367cd91d04ea4f627bb7ec0918, type: 2}
         shapeTexture: {fileID: 11400000, guid: 85a08dce809142d4e90c12d443b02cbd, type: 2}
       height: 25
     - texture:
@@ -495,9 +502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1a992037912a16d46a9e6c80c7e82ee8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skinTag: tank
+  skinTag: sic
   meshModules:
-  - {fileID: 6025496177165280392}
+  - {fileID: 5766088241459384759}
   colorTextureName:
     variableName: color_tex
     referenceToVariables: {fileID: 6025496177165280511}
@@ -506,7 +513,7 @@ MonoBehaviour:
     variableName: shape_tex
     referenceToVariables: {fileID: 6025496177165280511}
     localValue: 
-  disableColorSelect: 1
+  disableColorSelect: 0
   disableShapeSelect: 1
 --- !u!114 &6025496177165280500
 MonoBehaviour:
@@ -713,22 +720,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7329375121132543225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6025496177165280394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fb106702cd72414a8e4951698be39cf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  label:
-    plainText: 0
-    TranslatableName: None
-  state: {fileID: 0}
 --- !u!1 &9173429586746568196
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +770,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 2
   composedBaseDepth:
@@ -786,7 +778,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
     variables: {fileID: 6025496177165280511}

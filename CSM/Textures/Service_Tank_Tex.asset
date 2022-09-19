@@ -34,5 +34,6 @@ MonoBehaviour:
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
-    icon: {fileID: 0}
-  tags: []
+    icon: {fileID: 21300000, guid: ca01c31c75085304e92953441da5220d, type: 3}
+  tags:
+  - sm

@@ -9,9 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6424596514217255833}
-  - component: {fileID: 8999274361298967476}
-  - component: {fileID: 7653100459696610725}
-  - component: {fileID: 1755123747858733051}
   - component: {fileID: 2827981956282713772}
   - component: {fileID: 6662873849607035660}
   - component: {fileID: 2514686376707739769}
@@ -19,7 +16,6 @@ GameObject:
   - component: {fileID: 4895254705268939762}
   - component: {fileID: 8079078276751822043}
   - component: {fileID: 8505228145266271255}
-  - component: {fileID: 8785604515700822000}
   - component: {fileID: 8380788964949457195}
   m_Layer: 8
   m_Name: Retro 1
@@ -45,105 +41,6 @@ Transform:
   m_Father: {fileID: 4516769934104391540}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8999274361298967476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336892208367519622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a01d8382f787b844d84fe3e7463aba27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  displayName:
-    plainText: 0
-    TranslatableName: Solid_Rocket_Booster
-  description:
-    plainText: 0
-    TranslatableName: Booster_Description
-  mass:
-    variables: {fileID: 1755123747858733051}
-    input: mass
-  centerOfMass:
-    variables: {fileID: 1755123747858733051}
-    x:
-      variables: {fileID: 1755123747858733051}
-      input: 0
-    y:
-      variables: {fileID: 1755123747858733051}
-      input: height / 2
-  orientation: {fileID: 7653100459696610725}
-  variablesModule: {fileID: 1755123747858733051}
-  variants:
-  - variants:
-    - changes: []
-      tags: []
-      cost: 0
-    tags:
-    - tag: {fileID: 11400000, guid: 37f8444f4a2f9374fbda3c1d0252eae8, type: 2}
-      priority: -6
-  onPartUsed:
-    m_PersistentCalls:
-      m_Calls: []
-  temperature: -Infinity
---- !u!114 &7653100459696610725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336892208367519622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d96e122f666f27140a430b6f43b5ac6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  orientation:
-    value:
-      x: 1
-      y: 1
-      z: 0
---- !u!114 &1755123747858733051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336892208367519622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1c86f5a5df11278449447b85a93fd5f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  doubleVariables:
-    saves:
-    - name: width
-      save: 1
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000400b
-    - name: height
-      save: 1
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000004400b
-    - name: fuel_percent
-      save: 1
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
-    - name: mass
-      save: 0
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
-    - name: throttle
-      save: 0
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
-  boolVariables:
-    saves:
-    - name: primed
-      save: 1
-      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
-    - name: heat_on__for_creative_use
-      save: 1
-      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
-  stringVariables:
-    saves: []
 --- !u!114 &2827981956282713772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -193,27 +90,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   points:
   - position:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 3852902279926224910}
       x:
-        variables: {fileID: 1755123747858733051}
+        variables: {fileID: 3852902279926224910}
         input: 0.25
       y:
-        variables: {fileID: 1755123747858733051}
+        variables: {fileID: 3852902279926224910}
         input: -0.1125
   snapPoints:
-  - variables: {fileID: 1755123747858733051}
+  - variables: {fileID: 0}
     x:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 0}
       input: 0
     y:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 0}
       input: -1
-  - variables: {fileID: 1755123747858733051}
+  - variables: {fileID: 0}
     x:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 0}
       input: 0
     y:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 0}
       input: height
 --- !u!114 &2514686376707739769
 MonoBehaviour:
@@ -246,10 +143,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   soundEffect: {fileID: 11400000, guid: 6428bb7784bd3be46bf23a3d2a6e6b74, type: 2}
   volume:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     input: 'throttle '
   pitch:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     input: 1
   playOnStart: 0
   loop: 1
@@ -266,52 +163,52 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   showDescription: 1
-  surfaceForCover: {fileID: 8785604515700822000}
+  surfaceForCover: {fileID: 2497522268078999781}
   resourceType: {fileID: 11400000, guid: 80de370597ab2fb4b869578638955829, type: 2}
   ISP:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     input: 120
   thrustVector:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     x:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 3852902279926224910}
       input: 0
     y:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 3852902279926224910}
       input: 30
   thrustPosition:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     x:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 3852902279926224910}
       input: 0
     y:
-      variables: {fileID: 1755123747858733051}
+      variables: {fileID: 3852902279926224910}
       input: 0
   wetMass:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     input: 1
   dryMassPercent:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     input: 0.2
   fuelPercent:
     variableName: fuel_percent
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   boosterPrimed:
     variableName: primed
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   throttle_Out:
     variableName: throttle
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   mass_Out:
     variableName: mass
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   heatOn:
     variableName: heat_on__for_creative_use
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   heatHolder: {fileID: 1432163620217601156}
 --- !u!33 &8079078276751822043
@@ -364,42 +261,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &8785604515700822000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 336892208367519622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 495e6cd1dab54734f852b5de090da5d9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attachmentSurfaces: 0
-  dragSurfaces: 0
-  points: []
-  loop: 0
-  pointsArray:
-  - points:
-    - variables: {fileID: 1755123747858733051}
-      x:
-        variables: {fileID: 1755123747858733051}
-        input: -1.15
-      y:
-        variables: {fileID: 1755123747858733051}
-        input: 0
-    - variables: {fileID: 1755123747858733051}
-      x:
-        variables: {fileID: 1755123747858733051}
-        input: 1.15
-      y:
-        variables: {fileID: 1755123747858733051}
-        input: 0
-    loop: 0
-  edit: 0
-  view: 1
-  gridSize: 0.1
 --- !u!114 &8380788964949457195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -415,6 +276,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -422,44 +284,47 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 1755123747858733051}
+    variables: {fileID: 3852902279926224910}
     points:
-    - variables: {fileID: 1755123747858733051}
+    - variables: {fileID: 3852902279926224910}
       position:
-        variables: {fileID: 1755123747858733051}
+        variables: {fileID: 3852902279926224910}
         x:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: 0.25
         y:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: -0.1125
       width:
-        variables: {fileID: 1755123747858733051}
+        variables: {fileID: 3852902279926224910}
         x:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: 0
         y:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: -1.1
-    - variables: {fileID: 1755123747858733051}
+    - variables: {fileID: 3852902279926224910}
       position:
-        variables: {fileID: 1755123747858733051}
+        variables: {fileID: 3852902279926224910}
         x:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: 0.825
         y:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: -0.8375
       width:
-        variables: {fileID: 1755123747858733051}
+        variables: {fileID: 3852902279926224910}
         x:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: -0.2875
         y:
-          variables: {fileID: 1755123747858733051}
+          variables: {fileID: 3852902279926224910}
           input: -0.1
   edit: 1
   view: 1
@@ -543,11 +408,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   time:
     variableName: 
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   targetTime:
     variableName: throttle
-    referenceToVariables: {fileID: 1755123747858733051}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   animationTime: 0.2
   unscaledTime: 0
@@ -1061,7 +926,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687287088880730413}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.01702021, y: 0.13978781, z: 0.021376975}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1083,6 +948,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: 0
   composedBaseDepth:
@@ -1090,8 +956,8 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   polygonVertices:
-  - {x: 0.26500005, y: -0.80499977}
-  - {x: 0.2675, y: 0.2975}
+  - {x: 0.25500005, y: -0.6624999}
+  - {x: 0.25500003, y: 0.43749988}
   edit: 1
   view: 0
   gridSize: 0.0025
@@ -1650,6 +1516,7 @@ GameObject:
   - component: {fileID: 425806679985207799}
   - component: {fileID: 7139595276225946378}
   - component: {fileID: 486674359385479018}
+  - component: {fileID: 3852902279926224910}
   m_Layer: 0
   m_Name: S-IVB Ullage Motor
   m_TagString: Untagged
@@ -1671,6 +1538,7 @@ Transform:
   m_Children:
   - {fileID: 6424596514217255833}
   - {fileID: 765919216502142793}
+  - {fileID: 775965135694426726}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1692,26 +1560,28 @@ MonoBehaviour:
   description:
     plainText: 1
     TranslatableName: "Solid motors used to settle fuel in S-IVB\u2019s tanks for
-      engine lighting. Stage once to light, stage again to jettison. "
+      engine lighting. Stage once to light, stage again to jettison"
   mass:
-    variables: {fileID: 0}
+    variables: {fileID: 3852902279926224910}
     input: 1
   centerOfMass:
-    variables: {fileID: 0}
+    variables: {fileID: 3852902279926224910}
     x:
-      variables: {fileID: 0}
+      variables: {fileID: 3852902279926224910}
       input: 0.5
     y:
-      variables: {fileID: 0}
+      variables: {fileID: 3852902279926224910}
       input: -0.5
   orientation: {fileID: 2763661159096845399}
-  variablesModule: {fileID: 1755123747858733051}
+  variablesModule: {fileID: 3852902279926224910}
   variants:
   - variants:
     - changes: []
       tags:
       - tag: {fileID: 11400000, guid: 168d1ca07a6e41944ae836517be060a0, type: 2}
         priority: -12
+      - tag: {fileID: 11400000, guid: ddcaceaa812c6884c9131ff372f57547, type: 2}
+        priority: -20
       cost: 0
     tags: []
   onPartUsed:
@@ -1761,7 +1631,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   state:
     variableName: 
-    referenceToVariables: {fileID: 0}
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 0
   steps:
   - m_PersistentCalls:
@@ -1806,21 +1676,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   separationSurface: {fileID: 9085241726091374060}
   separationForce:
-    variables: {fileID: 0}
+    variables: {fileID: 3852902279926224910}
     x:
-      variables: {fileID: 0}
-      input: 50
+      variables: {fileID: 3852902279926224910}
+      input: -0.5
     y:
-      variables: {fileID: 0}
-      input: 
+      variables: {fileID: 3852902279926224910}
+      input: 0
   cannotDetachIfSurfaceCovered: 0
   surfaceForCover: {fileID: 0}
   showDescription: 1
   showForceMultiplier: 0
   useForceMultiplierEvenIfNotShown: 1
   forceMultiplier:
-    variableName: 
-    referenceToVariables: {fileID: 0}
+    variableName: force_percent
+    referenceToVariables: {fileID: 3852902279926224910}
     localValue: 1
   onDetach:
     m_PersistentCalls:
@@ -1839,6 +1709,48 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
+--- !u!114 &3852902279926224910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6277912773113343743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c86f5a5df11278449447b85a93fd5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleVariables:
+    saves:
+    - name: width
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000400b
+    - name: height
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000004400b
+    - name: fuel_percent
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+    - name: mass
+      save: 0
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+    - name: throttle
+      save: 0
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: force_percent
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+  boolVariables:
+    saves:
+    - name: primed
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+    - name: heat_on__for_creative_use
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+  stringVariables:
+    saves: []
 --- !u!1 &7772025109380095910
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,6 +1854,66 @@ MonoBehaviour:
   manager: {fileID: 0}
   renderQueue: 0
   setSharedMaterial: 0
+--- !u!1 &8013694307834071125
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 775965135694426726}
+  - component: {fileID: 2497522268078999781}
+  m_Layer: 0
+  m_Name: Cover
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &775965135694426726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8013694307834071125}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4516769934104391540}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2497522268078999781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8013694307834071125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 1
+  dragSurfaces: 1
+  colliderArea: 1
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 0
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 0.69, y: -0.8899997}
+  - {x: 0.97499967, y: -0.7899999}
+  edit: 1
+  view: 0
+  gridSize: 0.0025
 --- !u!1 &8428145067895593312
 GameObject:
   m_ObjectHideFlags: 0

@@ -51,6 +51,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: -1
   composedBaseDepth:
@@ -58,7 +59,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 3626758053081018024}
@@ -293,7 +297,7 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: Huge red-and-white parachutes used to decelerate the Command
       Module for a slow enough speed for a safe splashdown. Place atop the Command
-      Module, inside the Forward Heat Shield.
+      Module, inside the Forward Heat Shield
   mass:
     variables: {fileID: 3626758053081018024}
     input: 0.4
@@ -304,7 +308,7 @@ MonoBehaviour:
       input: 0
     y:
       variables: {fileID: 3626758053081018024}
-      input: 0.2
+      input: -0.25
   orientation: {fileID: 3288586579123844196}
   variablesModule: {fileID: 3626758053081018024}
   variants:
@@ -831,6 +835,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  physicsCollider: 0
   clickArea: 1
   baseDepth: -1
   composedBaseDepth:
@@ -838,7 +843,10 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   depthMultiplier: 1
+  advancedCut: 0
   cut: 0
+  advancedCutData:
+    cuts: []
   reduceResolution: 0
   composedShape:
     variables: {fileID: 3626758053081018024}
