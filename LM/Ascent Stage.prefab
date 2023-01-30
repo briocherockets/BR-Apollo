@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5340009322669073653}
   - component: {fileID: 566373414476203074}
   - component: {fileID: 3614283912533512173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,7 +52,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   - component: {fileID: 3868018212027099914}
   - component: {fileID: 5520327897867265414}
   - component: {fileID: 9100035870116524816}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -206,7 +206,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 1
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -306,7 +306,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+  color: {r: 0.5176471, g: 0.53333336, b: 0.5019608, a: 1}
 --- !u!1 &330812519370098097
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,7 +321,7 @@ GameObject:
   - component: {fileID: 409123624486882607}
   - component: {fileID: 577907361886850661}
   - component: {fileID: 7233981348817097123}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -359,7 +359,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 1485791487962012890}
   - component: {fileID: 8839746084965790452}
   - component: {fileID: 6002302826966171809}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -518,7 +518,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -527,7 +527,7 @@ MonoBehaviour:
   polygonVertices:
   - {x: 1.1250004, y: 1.1750001}
   - {x: -1.125, y: 1.1749997}
-  - {x: -1.275, y: 1.2500001}
+  - {x: -1.275, y: 1.2250001}
   - {x: -1.3499994, y: 1.4749991}
   - {x: 1.3499995, y: 1.4749981}
   - {x: 1.25, y: 1.2249998}
@@ -620,7 +620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.6226415, g: 0.61383057, b: 0.61383057, a: 1}
+  color: {r: 0.6131509, g: 0.6320754, b: 0.5873531, a: 1}
 --- !u!1 &597858073145706532
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,7 +635,7 @@ GameObject:
   - component: {fileID: 4376223643596996837}
   - component: {fileID: 7241036000633824490}
   - component: {fileID: 6378656104421342963}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Face
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -673,7 +673,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2.2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -800,7 +800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
+  color: {r: 0.5660378, g: 0.5660378, b: 0.5660378, a: 1}
 --- !u!1 &696519903511745658
 GameObject:
   m_ObjectHideFlags: 0
@@ -815,7 +815,7 @@ GameObject:
   - component: {fileID: 8711998887699827622}
   - component: {fileID: 1775684438599504933}
   - component: {fileID: 191703222109132184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -853,7 +853,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -953,7 +953,195 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  color: {r: 0.7165825, g: 0.745283, b: 0.6925507, a: 1}
+--- !u!1 &1129242121596659012
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 660802057314129873}
+  - component: {fileID: 5024089031818079641}
+  - component: {fileID: 106673378701180629}
+  - component: {fileID: 2142743089684155109}
+  - component: {fileID: 2773012860611520894}
+  m_Layer: 8
+  m_Name: Strut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &660802057314129873
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129242121596659012}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6447340821703068675}
+  m_RootOrder: 38
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5024089031818079641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129242121596659012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305b12a83390f5c488a64145b53f92bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 1
+  dragSurfaces: 1
+  colliderArea: 1
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 1.6
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  depthMultiplier: 1
+  advancedCut: 0
+  cut: 0
+  advancedCutData:
+    cuts: []
+  reduceResolution: 1
+  composedShape:
+    variables: {fileID: 6025496177165280511}
+    points:
+    - variables: {fileID: 6025496177165280511}
+      position:
+        variables: {fileID: 6025496177165280511}
+        x:
+          variables: {fileID: 6025496177165280511}
+          input: 1.65
+        y:
+          variables: {fileID: 6025496177165280511}
+          input: 1
+      width:
+        variables: {fileID: 6025496177165280511}
+        x:
+          variables: {fileID: 6025496177165280511}
+          input: -0.025
+        y:
+          variables: {fileID: 6025496177165280511}
+          input: 0.04999999
+    - variables: {fileID: 6025496177165280511}
+      position:
+        variables: {fileID: 6025496177165280511}
+        x:
+          variables: {fileID: 6025496177165280511}
+          input: 0.725
+        y:
+          variables: {fileID: 6025496177165280511}
+          input: 0.515
+      width:
+        variables: {fileID: 6025496177165280511}
+        x:
+          variables: {fileID: 6025496177165280511}
+          input: -0.02
+        y:
+          variables: {fileID: 6025496177165280511}
+          input: 0.05
+  edit: 1
+  view: 1
+  gridSize: 0.005
+--- !u!114 &106673378701180629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129242121596659012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7560b24127b2fe45909a6821f093671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  pipeData: {fileID: 5024089031818079641}
+  textures:
+    textureMode: 0
+    texture:
+      colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}
+    textures: []
+    widthMode: 0
+    width:
+      variables: {fileID: 0}
+      input: 
+  colors:
+    mode: 0
+    color:
+      type: 0
+      colorBasic: {r: 0.46279812, g: 0.4716981, b: 0.45167318, a: 1}
+      colorModule: {fileID: 0}
+    colors: []
+  leftCover: 0
+  centerCover: 0
+  rightCover: 0
+  separatorRing: 0
+--- !u!33 &2142743089684155109
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129242121596659012}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2773012860611520894
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1129242121596659012}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1305817272010923128
 GameObject:
   m_ObjectHideFlags: 0
@@ -968,7 +1156,7 @@ GameObject:
   - component: {fileID: 5172978175825804107}
   - component: {fileID: 4666007602556715512}
   - component: {fileID: 8256939385379490853}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,7 +1194,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 1
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1106,7 +1294,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  color: {r: 0.43921572, g: 0.454902, b: 0.427451, a: 1}
 --- !u!1 &1492281532026623112
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1309,7 @@ GameObject:
   - component: {fileID: 4046628045408417602}
   - component: {fileID: 7830270704754823240}
   - component: {fileID: 5822461278998314323}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1159,7 +1347,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1282,7 +1470,7 @@ GameObject:
   - component: {fileID: 2488771614605848304}
   - component: {fileID: 8288926936221659614}
   - component: {fileID: 3452044537149084820}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1320,7 +1508,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1438,7 +1626,7 @@ GameObject:
   - component: {fileID: 224626326719529519}
   - component: {fileID: 4900888774596364441}
   - component: {fileID: 3362754012152416757}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1476,7 +1664,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2.9
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1600,7 +1788,7 @@ GameObject:
   - component: {fileID: 4892857632761252948}
   - component: {fileID: 3931981526057490547}
   - component: {fileID: 8682055738442142022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1638,7 +1826,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1739,6 +1927,159 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   color: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+--- !u!1 &1930600425678985717
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396736414277175136}
+  - component: {fileID: 9080431074636913207}
+  - component: {fileID: 5603748784515957259}
+  - component: {fileID: 8199850447316206}
+  - component: {fileID: 2066118389762638782}
+  - component: {fileID: 7263641344126309362}
+  m_Layer: 8
+  m_Name: GameObject (36)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &396736414277175136
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930600425678985717}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6447340821703068675}
+  m_RootOrder: 39
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9080431074636913207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930600425678985717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 2.3
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 0.125, y: 1.8}
+  - {x: 0.125, y: 1.5499992}
+  - {x: -0.12499999, y: 1.5499995}
+  - {x: -0.125, y: 1.8000002}
+  edit: 1
+  view: 0
+  gridSize: 0.025
+--- !u!114 &5603748784515957259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930600425678985717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 1
+  polygonModule: {fileID: 9080431074636913207}
+  UV_Mode: 0
+  bounds:
+  - {x: -0.125, y: 1.5499992}
+  - {x: -0.125, y: 1.8000002}
+  - {x: 0.125, y: 1.8000002}
+  - {x: 0.125, y: 1.5499992}
+  texture: {fileID: 11400000, guid: 60139f7111e187143a82ab316fe32d46, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
+  colorModule: {fileID: 7263641344126309362}
+--- !u!33 &8199850447316206
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930600425678985717}
+  m_Mesh: {fileID: 0}
+--- !u!23 &2066118389762638782
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930600425678985717}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &7263641344126309362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1930600425678985717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.7165825, g: 0.745283, b: 0.6925507, a: 1}
 --- !u!1 &1934827267610710813
 GameObject:
   m_ObjectHideFlags: 0
@@ -1753,7 +2094,7 @@ GameObject:
   - component: {fileID: 7988846642968672280}
   - component: {fileID: 8474567046416731061}
   - component: {fileID: 291439600056759972}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1791,7 +2132,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 1
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -1891,7 +2232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  color: {r: 0.45738742, g: 0.4716981, b: 0.44277322, a: 1}
 --- !u!1 &2112855627003522590
 GameObject:
   m_ObjectHideFlags: 0
@@ -1906,7 +2247,7 @@ GameObject:
   - component: {fileID: 8267284018487745295}
   - component: {fileID: 6162209861868442559}
   - component: {fileID: 5789497087577830474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2216,7 +2557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
+  color: {r: 0.39260572, g: 0.4245283, b: 0.374466, a: 1}
 --- !u!1 &2557853007785537844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2231,7 +2572,7 @@ GameObject:
   - component: {fileID: 5353052409626270183}
   - component: {fileID: 6287582452243386832}
   - component: {fileID: 7302972230355119713}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2610,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2369,7 +2710,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
+  color: {r: 0.6901961, g: 0.7176471, b: 0.6666667, a: 1}
 --- !u!1 &2612196106207544216
 GameObject:
   m_ObjectHideFlags: 0
@@ -2384,7 +2725,7 @@ GameObject:
   - component: {fileID: 1081383868443878882}
   - component: {fileID: 7166289925155338713}
   - component: {fileID: 7142440299615498856}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2537,7 +2878,7 @@ GameObject:
   - component: {fileID: 7165820739950361979}
   - component: {fileID: 1047555055881585544}
   - component: {fileID: 2279613177368286065}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2690,7 +3031,7 @@ GameObject:
   - component: {fileID: 1486239549435049360}
   - component: {fileID: 3766246873269426052}
   - component: {fileID: 4387715020493300585}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2741,7 +3082,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: -1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2849,7 +3190,7 @@ GameObject:
   - component: {fileID: 7907650292908592706}
   - component: {fileID: 8217324588136221314}
   - component: {fileID: 8520212024280738218}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2887,7 +3228,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -2992,7 +3333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.5137255, g: 0.5137255, b: 0.5137255, a: 1}
+  color: {r: 0.50901043, g: 0.5283019, b: 0.49092203, a: 1}
 --- !u!1 &3342680931666549782
 GameObject:
   m_ObjectHideFlags: 0
@@ -3007,7 +3348,7 @@ GameObject:
   - component: {fileID: 2446739904495332286}
   - component: {fileID: 2619224355164424667}
   - component: {fileID: 8779404587842964266}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3045,7 +3386,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3164,7 +3505,7 @@ GameObject:
   - component: {fileID: 2474809998958443424}
   - component: {fileID: 4012605510549544610}
   - component: {fileID: 2339726514626138826}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3202,7 +3543,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3325,7 +3666,7 @@ GameObject:
   - component: {fileID: 8201786484882279053}
   - component: {fileID: 6784291863419610077}
   - component: {fileID: 3337092251567954590}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3363,7 +3704,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3478,7 +3819,7 @@ GameObject:
   - component: {fileID: 5757436818586863299}
   - component: {fileID: 5108318627522832055}
   - component: {fileID: 8227360847580619649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3516,7 +3857,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3618,7 +3959,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.53333336, g: 0.53333336, b: 0.53333336, a: 1}
+  color: {r: 0.5234047, g: 0.5471698, b: 0.508455, a: 1}
 --- !u!1 &4376780743811043261
 GameObject:
   m_ObjectHideFlags: 0
@@ -3815,7 +4156,7 @@ GameObject:
   - component: {fileID: 3527217893171831566}
   - component: {fileID: 3440468661784997502}
   - component: {fileID: 6330755418057434532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3853,7 +4194,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 1
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -3954,7 +4295,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  color: {r: 0.63315463, g: 0.6603774, b: 0.6136526, a: 1}
 --- !u!1 &4939878379126933172
 GameObject:
   m_ObjectHideFlags: 0
@@ -3969,7 +4310,7 @@ GameObject:
   - component: {fileID: 815330722112878399}
   - component: {fileID: 4140665886874323736}
   - component: {fileID: 1653381355781462459}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4007,7 +4348,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 1
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -4108,7 +4449,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.6415094, g: 0.6415094, b: 0.6415094, a: 1}
+  color: {r: 0.60784316, g: 0.63529414, b: 0.5882353, a: 1}
 --- !u!1 &4989721899011039790
 GameObject:
   m_ObjectHideFlags: 0
@@ -4123,7 +4464,7 @@ GameObject:
   - component: {fileID: 4675050509593685431}
   - component: {fileID: 4937186838736895242}
   - component: {fileID: 5215490459679425246}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4271,7 +4612,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6447340821703068675}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Models
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4328,6 +4669,9 @@ Transform:
   - {fileID: 7373241561571507557}
   - {fileID: 6047876865557522494}
   - {fileID: 2821183322369314454}
+  - {fileID: 660802057314129873}
+  - {fileID: 396736414277175136}
+  - {fileID: 8080603762422068745}
   m_Father: {fileID: 6025496177165280393}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -4345,7 +4689,7 @@ GameObject:
   - component: {fileID: 6556763518367289685}
   - component: {fileID: 8583218206585471944}
   - component: {fileID: 75145561362108016}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4383,7 +4727,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 3.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -4505,7 +4849,7 @@ GameObject:
   - component: {fileID: 2409129975687703222}
   - component: {fileID: 6548854530520396900}
   - component: {fileID: 6903946592429520461}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4543,7 +4887,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
@@ -4661,7 +5005,7 @@ GameObject:
   - component: {fileID: 8095254081185347224}
   - component: {fileID: 1348611072663350254}
   - component: {fileID: 2764306485635009023}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4814,7 +5158,7 @@ GameObject:
   - component: {fileID: 774257742408374458}
   - component: {fileID: 256373826818597119}
   - component: {fileID: 7080169058743536069}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4852,7 +5196,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -4970,7 +5314,7 @@ GameObject:
   - component: {fileID: 6036785475016423436}
   - component: {fileID: 2510517186018382796}
   - component: {fileID: 4017875040074794467}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5008,7 +5352,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.7
   composedBaseDepth:
     variables: {fileID: 0}
@@ -5108,7 +5452,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+  color: {r: 0.4668508, g: 0.49056602, b: 0.4466002, a: 1}
 --- !u!1 &6025496177165280394
 GameObject:
   m_ObjectHideFlags: 0
@@ -5709,7 +6053,7 @@ GameObject:
   - component: {fileID: 3003005321448496697}
   - component: {fileID: 3601472169754325093}
   - component: {fileID: 3297165873542122291}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5747,7 +6091,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: -1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -5866,7 +6210,7 @@ GameObject:
   - component: {fileID: 8509383016130582326}
   - component: {fileID: 8160428061605671066}
   - component: {fileID: 6831632416614474932}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6019,7 +6363,7 @@ GameObject:
   - component: {fileID: 3400406275699851280}
   - component: {fileID: 3099788544577580064}
   - component: {fileID: 3178983700869601414}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6057,7 +6401,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.6
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6171,7 +6515,7 @@ GameObject:
   - component: {fileID: 2919535451124215291}
   - component: {fileID: 3832846932025765074}
   - component: {fileID: 4605396917813595883}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6209,7 +6553,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6309,7 +6653,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 1}
+  color: {r: 0.39741585, g: 0.41509432, b: 0.38572443, a: 1}
 --- !u!1 &6593664468086582863
 GameObject:
   m_ObjectHideFlags: 0
@@ -6324,7 +6668,7 @@ GameObject:
   - component: {fileID: 3217468168506422450}
   - component: {fileID: 7836038455846323376}
   - component: {fileID: 5064479948796387313}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6362,7 +6706,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6496,7 +6840,7 @@ GameObject:
   - component: {fileID: 8057174448334874495}
   - component: {fileID: 1927218082081587183}
   - component: {fileID: 7655206668419916416}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6547,7 +6891,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: -0.8
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6652,7 +6996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4374041566804683603}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: RCS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6696,13 +7040,13 @@ GameObject:
   - component: {fileID: 5894545372252159715}
   - component: {fileID: 7724318797349200508}
   - component: {fileID: 1810642160879226329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Left Pyro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6047876865557522494
 Transform:
   m_ObjectHideFlags: 0
@@ -6734,7 +7078,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -6874,9 +7218,9 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
+        value: 0.1
+        inSlope: 0.9
+        outSlope: 0.9
         tangentMode: 34
         weightedMode: 0
         inWeight: 0
@@ -6884,8 +7228,8 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 1
-        outSlope: 1
+        inSlope: 0.9
+        outSlope: 0.9
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
@@ -6947,6 +7291,71 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+  - type: 7
+    offset: 0
+    transform: {fileID: 6047876865557522494}
+    spriteRenderer: {fileID: 0}
+    image: {fileID: 0}
+    X:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Y:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    audioSource: {fileID: 0}
 --- !u!114 &1810642160879226329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6963,6 +7372,159 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: Left Pyromark
   state: {fileID: 7724318797349200508}
+--- !u!1 &7478972300916480569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8080603762422068745}
+  - component: {fileID: 3390937606326181123}
+  - component: {fileID: 2914689004179103565}
+  - component: {fileID: 3725459105307481057}
+  - component: {fileID: 6172873613394915671}
+  - component: {fileID: 3582770502120031431}
+  m_Layer: 8
+  m_Name: GameObject (37)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8080603762422068745
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478972300916480569}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.1, y: 1.1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6447340821703068675}
+  m_RootOrder: 40
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3390937606326181123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478972300916480569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 2.3
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 0.25000003, y: 2.2500007}
+  - {x: 0.25000003, y: 2.1249993}
+  - {x: 0.125, y: 2.1249995}
+  - {x: 0.12499999, y: 2.250001}
+  edit: 1
+  view: 0
+  gridSize: 0.025
+--- !u!114 &2914689004179103565
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478972300916480569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 1
+  polygonModule: {fileID: 3390937606326181123}
+  UV_Mode: 0
+  bounds:
+  - {x: 0.12499999, y: 2.1249993}
+  - {x: 0.12499999, y: 2.250001}
+  - {x: 0.25000003, y: 2.250001}
+  - {x: 0.25000003, y: 2.1249993}
+  texture: {fileID: 11400000, guid: 60139f7111e187143a82ab316fe32d46, type: 2}
+  type: 0
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
+  colorModule: {fileID: 3582770502120031431}
+--- !u!33 &3725459105307481057
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478972300916480569}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6172873613394915671
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478972300916480569}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3582770502120031431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7478972300916480569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0.7165825, g: 0.745283, b: 0.6925507, a: 1}
 --- !u!1 &7958041929076303045
 GameObject:
   m_ObjectHideFlags: 0
@@ -6977,7 +7539,7 @@ GameObject:
   - component: {fileID: 4596293298467388420}
   - component: {fileID: 5394305474371508093}
   - component: {fileID: 6657692753422958557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7015,7 +7577,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.5
   composedBaseDepth:
     variables: {fileID: 0}
@@ -7130,7 +7692,7 @@ GameObject:
   - component: {fileID: 8887206876021450624}
   - component: {fileID: 345838732013818749}
   - component: {fileID: 4998630270029908595}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7168,7 +7730,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 3.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -7290,7 +7852,7 @@ GameObject:
   - component: {fileID: 1250989773234587527}
   - component: {fileID: 1563682745093150836}
   - component: {fileID: 8126103735760043691}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7328,7 +7890,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 1
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
@@ -7428,7 +7990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.5566038, g: 0.5566038, b: 0.5566038, a: 1}
+  color: {r: 0.5403867, g: 0.5566038, b: 0.52247244, a: 1}
 --- !u!1 &8259050256251634185
 GameObject:
   m_ObjectHideFlags: 0
@@ -7445,13 +8007,13 @@ GameObject:
   - component: {fileID: 7905522000368874443}
   - component: {fileID: 7508127173268652174}
   - component: {fileID: 3301088275785057502}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Up Pyro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2821183322369314454
 Transform:
   m_ObjectHideFlags: 0
@@ -7483,7 +8045,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -7635,9 +8197,9 @@ MonoBehaviour:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
-        inSlope: 1
-        outSlope: 1
+        value: 0.1
+        inSlope: 0.9
+        outSlope: 0.9
         tangentMode: 34
         weightedMode: 0
         inWeight: 0
@@ -7645,8 +8207,8 @@ MonoBehaviour:
       - serializedVersion: 3
         time: 1
         value: 1
-        inSlope: 1
-        outSlope: 1
+        inSlope: 0.9
+        outSlope: 0.9
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
@@ -7708,6 +8270,71 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+  - type: 7
+    offset: 0
+    transform: {fileID: 2821183322369314454}
+    spriteRenderer: {fileID: 0}
+    image: {fileID: 0}
+    X:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    Y:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    gradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    audioSource: {fileID: 0}
 --- !u!1 &8347908457862056203
 GameObject:
   m_ObjectHideFlags: 0
@@ -7722,7 +8349,7 @@ GameObject:
   - component: {fileID: 1375483840819598276}
   - component: {fileID: 2990696064234180191}
   - component: {fileID: 4430551158606993173}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7773,7 +8400,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: -1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -7881,7 +8508,7 @@ GameObject:
   - component: {fileID: 4680359351533614321}
   - component: {fileID: 5224643677894047333}
   - component: {fileID: 4405052102342883813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7919,7 +8546,7 @@ MonoBehaviour:
   dragSurfaces: 0
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 0.1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -8038,7 +8665,7 @@ GameObject:
   - component: {fileID: 2827100254448906246}
   - component: {fileID: 7982101399941609438}
   - component: {fileID: 5831215939691882971}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8076,7 +8703,7 @@ MonoBehaviour:
   dragSurfaces: 1
   colliderArea: 0
   physicsCollider: 0
-  clickArea: 0
+  clickArea: 1
   baseDepth: 1
   composedBaseDepth:
     variables: {fileID: 0}
@@ -8186,7 +8813,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a873e7ca6d71ab43882574053dd3e4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color: {r: 0.4339623, g: 0.4339623, b: 0.4339623, a: 1}
+  color: {r: 0.40200028, g: 0.4245283, b: 0.39449093, a: 1}
 --- !u!1001 &1315266654536173260
 PrefabInstance:
   m_ObjectHideFlags: 0

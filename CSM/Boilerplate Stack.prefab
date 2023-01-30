@@ -442,7 +442,7 @@ MonoBehaviour:
       variables: {fileID: 7242928385856425093}
       input: 1
   colors:
-    mode: 0
+    mode: 1
     color:
       type: 0
       colorBasic: {r: 1, g: 1, b: 1, a: 1}
@@ -452,7 +452,17 @@ MonoBehaviour:
         type: 0
         colorBasic: {r: 1, g: 1, b: 1, a: 1}
         colorModule: {fileID: 0}
-      height: 0
+      height: 1.475
+    - color:
+        type: 0
+        colorBasic: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+        colorModule: {fileID: 0}
+      height: 1.525
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 2
   leftCover: 0
   centerCover: 0
   rightCover: 0
@@ -1292,8 +1302,8 @@ MonoBehaviour:
   - variants:
     - changes: []
       tags:
-      - tag: {fileID: 11400000, guid: 30c72e79617509640aff6ce810ff9e2f, type: 2}
-        priority: -10
+      - tag: {fileID: 11400000, guid: 645511d96e8e861478d0c21190ee5baa, type: 2}
+        priority: 7
       cost: 0
     tags: []
   onPartUsed:

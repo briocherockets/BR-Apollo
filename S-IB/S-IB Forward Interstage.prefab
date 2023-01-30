@@ -870,7 +870,6 @@ GameObject:
   - component: {fileID: 2322129295555479260}
   - component: {fileID: 2910599043662735247}
   - component: {fileID: 4468277913668657394}
-  - component: {fileID: 7457884409036213454}
   - component: {fileID: 1999566393407756354}
   - component: {fileID: 5985263742388835860}
   - component: {fileID: 6327674015164876853}
@@ -1017,10 +1016,34 @@ MonoBehaviour:
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000016400b
     - name: mass
       save: 0
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
     - name: force_percent
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000e03f0b
+    - name: fuel_percent
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+    - name: throttle
+      save: 0
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: state1
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: state2
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: state3
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: state4
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: time1
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: time2
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
   boolVariables:
     saves:
     - name: occupied_a
@@ -1029,6 +1052,12 @@ MonoBehaviour:
     - name: detach_edge
       save: 1
       data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001010b
+    - name: primed
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+    - name: heat_on__for_creative_use
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
   stringVariables:
     saves:
     - name: fragment
@@ -1085,88 +1114,6 @@ MonoBehaviour:
     variableName: mass
     referenceToVariables: {fileID: 128775577033961292}
     localValue: 0
---- !u!114 &7457884409036213454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974803736248124431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ddf3712453291b64bb7eae45b7e64cfb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  prefab: {fileID: 7457884409036213454}
-  fragments:
-  - fragmentName: left
-    toEnable:
-    - {fileID: 6315137701623261848}
-    toDisable:
-    - {fileID: 8755343932111010800}
-    - {fileID: 6392023232178782890}
-    - {fileID: 7397310878965006227}
-    - {fileID: 3846643733348151425}
-    - {fileID: 8893736811361052277}
-    attachmentSurfaces:
-    - {fileID: 7895355967732931639}
-    separationForce:
-      variables: {fileID: 128775577033961292}
-      x:
-        variables: {fileID: 128775577033961292}
-        input: -mass * 5
-      y:
-        variables: {fileID: 128775577033961292}
-        input: 0
-  - fragmentName: right
-    toEnable:
-    - {fileID: 3846643733348151425}
-    toDisable:
-    - {fileID: 8755343932111010800}
-    - {fileID: 7239512880014849628}
-    - {fileID: 2893801107823384958}
-    - {fileID: 6315137701623261848}
-    - {fileID: 5052079062743170679}
-    attachmentSurfaces:
-    - {fileID: 6600404066730342624}
-    separationForce:
-      variables: {fileID: 128775577033961292}
-      x:
-        variables: {fileID: 128775577033961292}
-        input: mass * 5
-      y:
-        variables: {fileID: 128775577033961292}
-        input: 0
-  showDescription: 1
-  showForceMultiplier: 1
-  forceMultiplier:
-    variableName: force_percent
-    referenceToVariables: {fileID: 128775577033961292}
-    localValue: 0
-  fairing: 1
-  detachEdges:
-    variableName: detach_edge
-    referenceToVariables: {fileID: 128775577033961292}
-    localValue: 0
-  fragmentName:
-    variableName: fragment
-    referenceToVariables: {fileID: 128775577033961292}
-    localValue: 
-  onDeploy:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 5985263742388835860}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: Spawn
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 7794294962025590185}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1999566393407756354
 MonoBehaviour:
   m_ObjectHideFlags: 0

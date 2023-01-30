@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45ccf3a634b47aa4f9855acf05dfd568, type: 3}
   m_Name: Rivets2
   m_EditorClassIdentifier: 
+  multiple: 0
+  segments: []
   shapeTex:
     textures:
     - texture: {fileID: 2800000, guid: 0caf388d5769ddc4a8954b0b93e02273, type: 3}
@@ -29,11 +31,14 @@ MonoBehaviour:
       sizeMode: 1
       size: 0
       logoHeightPercent: 0.5
+      scaleLogoToFit: 0
     fixedWidth: 0
-    width: 1
+    fixedWidthValue: 1
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
-    icon: {fileID: 21300000, guid: 6f00fecd8f9178f4ca1168c30d132c3a, type: 3}
+    icon: {fileID: 21300000, guid: a257ba2e2f336dc419596943b318df89, type: 3}
   shadowTex: {fileID: 11400000, guid: db0b90a0f7c797e4d964a36961bbb985, type: 2}
-  tags: []
+  tags:
+  - sivbforward
+  pack_Redstone_Atlas: 0

@@ -327,7 +327,7 @@ MonoBehaviour:
         input: 0
       y:
         variables: {fileID: 5371138025553930724}
-        input: -0.025 * width - 0.03
+        input: -0.045
     normal: {x: 0, y: -1}
     type: 0
     output:
@@ -554,12 +554,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 5371138025553930724}
-          input: -0.11 * width - 0.03
+          input: -0.47
       width:
         variables: {fileID: 5371138025553930724}
         x:
           variables: {fileID: 5371138025553930724}
-          input: 0.3 / 2 * width
+          input: 0.16
         y:
           variables: {fileID: 5371138025553930724}
           input: 0
@@ -571,12 +571,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 5371138025553930724}
-          input: -0.1 * width - 0.03
+          input: -0.45
       width:
         variables: {fileID: 5371138025553930724}
         x:
           variables: {fileID: 5371138025553930724}
-          input: 0.98 / 2 * width
+          input: 1.345
         y:
           variables: {fileID: 5371138025553930724}
           input: 0
@@ -588,12 +588,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 5371138025553930724}
-          input: -0.08 * width - 0.03
+          input: -0.43
       width:
         variables: {fileID: 5371138025553930724}
         x:
           variables: {fileID: 5371138025553930724}
-          input: 1.48 / 2 * width
+          input: 1.98
         y:
           variables: {fileID: 5371138025553930724}
           input: 0
@@ -605,12 +605,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 5371138025553930724}
-          input: -0.05 * width - 0.03
+          input: -0.39
       width:
         variables: {fileID: 5371138025553930724}
         x:
           variables: {fileID: 5371138025553930724}
-          input: 1.86 / 2 * width
+          input: 2.46
         y:
           variables: {fileID: 5371138025553930724}
           input: 0
@@ -622,15 +622,117 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 5371138025553930724}
-          input: -0.025 * width - 0.03
+          input: -0.35
       width:
         variables: {fileID: 5371138025553930724}
         x:
           variables: {fileID: 5371138025553930724}
-          input: 2 / 2 * width
+          input: 2.96
         y:
           variables: {fileID: 5371138025553930724}
-          input: -0.005
+          input: 0
+    - variables: {fileID: 5371138025553930724}
+      position:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: -0.295
+      width:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 3.31
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+    - variables: {fileID: 5371138025553930724}
+      position:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: -0.24
+      width:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 3.625
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+    - variables: {fileID: 5371138025553930724}
+      position:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: -0.19
+      width:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 3.785
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+    - variables: {fileID: 5371138025553930724}
+      position:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: -0.14
+      width:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 3.895
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+    - variables: {fileID: 5371138025553930724}
+      position:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: -0.09
+      width:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 3.97
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+    - variables: {fileID: 5371138025553930724}
+      position:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 0
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: -0.045
+      width:
+        variables: {fileID: 5371138025553930724}
+        x:
+          variables: {fileID: 5371138025553930724}
+          input: 4
+        y:
+          variables: {fileID: 5371138025553930724}
+          input: 0
     - variables: {fileID: 5371138025553930724}
       position:
         variables: {fileID: 5371138025553930724}
@@ -644,7 +746,7 @@ MonoBehaviour:
         variables: {fileID: 5371138025553930724}
         x:
           variables: {fileID: 5371138025553930724}
-          input: 2 / 2 * width
+          input: 4
         y:
           variables: {fileID: 5371138025553930724}
           input: 0
@@ -679,7 +781,7 @@ MonoBehaviour:
     mode: 0
     color:
       type: 0
-      colorBasic: {r: 0.5377358, g: 0.5377358, b: 0.5377358, a: 1}
+      colorBasic: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
       colorModule: {fileID: 0}
     colors:
     - color:

@@ -57,7 +57,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName:
     plainText: 1
-    TranslatableName: Docking Probe
+    TranslatableName: Docking Drogue
   description:
     plainText: 1
     TranslatableName: "Place on top of the LM Ascent Stage. Docks to the Docking

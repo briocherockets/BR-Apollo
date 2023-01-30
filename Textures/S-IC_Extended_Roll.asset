@@ -12,6 +12,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c70d8f290dd0284b87588ddf6666874, type: 3}
   m_Name: S-IC_Extended_Roll
   m_EditorClassIdentifier: 
+  multiple: 0
+  segments:
+  - height: 0
+    texture:
+      textures: []
+      border_Bottom:
+        uvSize: 0
+        sizeMode: 0
+        size: 0.5
+      border_Top:
+        uvSize: 0
+        sizeMode: 0
+        size: 0.5
+      center:
+        mode: 0
+        sizeMode: 0
+        size: 0.5
+        logoHeightPercent: 0.5
+        scaleLogoToFit: 0
+      fixedWidth: 0
+      fixedWidthValue: 1
+      flipToLight_X: 1
+      flipToLight_Y: 1
+      metalTexture: 0
+      icon: {fileID: 0}
   colorTex:
     textures:
     - texture: {fileID: 2800000, guid: cc52073929723d149a7214706cae9aa2, type: 3}
@@ -25,15 +50,17 @@ MonoBehaviour:
       sizeMode: 0
       size: 0.5
     center:
-      mode: 1
+      mode: 0
       sizeMode: 0
       size: 3.5
       logoHeightPercent: 0.5
+      scaleLogoToFit: 0
     fixedWidth: 0
-    width: 1
+    fixedWidthValue: 1
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
     icon: {fileID: 21300000, guid: cc52073929723d149a7214706cae9aa2, type: 3}
   tags:
   - sic
+  pack_Redstone_Atlas: 0

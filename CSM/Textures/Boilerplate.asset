@@ -12,9 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c70d8f290dd0284b87588ddf6666874, type: 3}
   m_Name: Boilerplate
   m_EditorClassIdentifier: 
+  multiple: 0
+  segments: []
   colorTex:
     textures:
-    - texture: {fileID: 2800000, guid: 7f2df2a9ac4ab7a459a78e4019b85d64, type: 3}
+    - texture: {fileID: 2800000, guid: 3fb20f9f5bcfc08448c6b600f2d18b6c, type: 3}
       ideal: 0
     border_Bottom:
       uvSize: 0
@@ -29,10 +31,12 @@ MonoBehaviour:
       sizeMode: 1
       size: 0
       logoHeightPercent: 1
+      scaleLogoToFit: 0
     fixedWidth: 1
-    width: 4.4
+    fixedWidthValue: 4.4
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
     icon: {fileID: 0}
   tags: []
+  pack_Redstone_Atlas: 0

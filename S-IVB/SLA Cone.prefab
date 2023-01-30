@@ -50,7 +50,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   displayName:
     plainText: 1
-    TranslatableName: SLA Cone
+    TranslatableName: 4m Aerodynamic Nose Cone
   description:
     plainText: 1
     TranslatableName: A cone placed atop the hinged SLA for the launch of Apollo

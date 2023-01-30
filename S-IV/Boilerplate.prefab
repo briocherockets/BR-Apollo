@@ -2609,7 +2609,7 @@ MonoBehaviour:
     plainText: 1
     TranslatableName: Inert mass simulators used in place of the S-IV and S-V stages
       of the Saturn I Block 1. Features toggles for interstage details and motion
-      targets to fit every Block I launch.
+      targets to fit every Block I launch
   mass:
     variables: {fileID: 6025496177165280511}
     input: 141
@@ -2637,8 +2637,8 @@ MonoBehaviour:
         toggleValue: 0
         textValue: 
       tags:
-      - tag: {fileID: 11400000, guid: 30c72e79617509640aff6ce810ff9e2f, type: 2}
-        priority: -20
+      - tag: {fileID: 11400000, guid: 645511d96e8e861478d0c21190ee5baa, type: 2}
+        priority: -34
       cost: 0
     tags: []
   onPartUsed:
