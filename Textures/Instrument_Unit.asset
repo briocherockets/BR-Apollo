@@ -34,8 +34,8 @@ MonoBehaviour:
       scaleLogoToFit: 0
     fixedWidth: 0
     fixedWidthValue: 1
-    flipToLight_X: 1
-    flipToLight_Y: 1
+    flipToLight_X: 0
+    flipToLight_Y: 0
     metalTexture: 0
     icon: {fileID: 21300000, guid: 59104a2ef64db5443a0e85218699a112, type: 3}
   tags:

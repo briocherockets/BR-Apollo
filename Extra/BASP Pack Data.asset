@@ -13,10 +13,8 @@ MonoBehaviour:
   m_Name: BASP Pack Data
   m_EditorClassIdentifier: 
   DisplayName: Brioche's Apollo-Saturn Pack
-  Version: 1.1.1
-  Description: 53 unique parts to recreate the Saturn rockets that defined a generation.
-    Features variants for every Apollo-Saturn launch, from the modest Saturn I to
-    the mighty Saturn V.
+  Version: 1.2
+  Description: 
   Author: Brioche
   ShowIcon: 1
   Icon: {fileID: 2800000, guid: 18dce7df98cf90c4586e782d08a15263, type: 3}

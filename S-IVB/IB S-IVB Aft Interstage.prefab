@@ -602,7 +602,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 6591942469913498697}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -681,6 +680,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &1610042932958675566
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,6 +805,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 0
@@ -903,6 +911,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &5390437906585796221
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1030,6 +1039,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &985771078139967024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1045,8 +1055,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 3636147907699298079}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!114 &6766123786157319159
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1060,7 +1068,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - position:
+  - toggle: 0
+    enabled:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    position:
       variables: {fileID: 128775577033961292}
       x:
         variables: {fileID: 128775577033961292}
@@ -1073,7 +1086,15 @@ MonoBehaviour:
     output:
       variables: {fileID: 128775577033961292}
       input: width
-  - position:
+    outputOffset: 0
+    shareIsOccupied: 0
+    shareIndex: 0
+  - toggle: 0
+    enabled:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    position:
       variables: {fileID: 128775577033961292}
       x:
         variables: {fileID: 128775577033961292}
@@ -1086,6 +1107,9 @@ MonoBehaviour:
     output:
       variables: {fileID: 128775577033961292}
       input: width
+    outputOffset: 0
+    shareIsOccupied: 0
+    shareIndex: 0
 --- !u!114 &5774808084748599833
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1208,6 +1232,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -1389,6 +1414,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -1477,6 +1503,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &2196190340672449946
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1604,6 +1631,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &4502508757267969599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1619,8 +1647,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 8978309892367087482}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!114 &1990834480250994352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,7 +1660,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   points:
-  - position:
+  - toggle: 0
+    enabled:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    position:
       variables: {fileID: 128775577033961292}
       x:
         variables: {fileID: 128775577033961292}
@@ -1647,7 +1678,15 @@ MonoBehaviour:
     output:
       variables: {fileID: 128775577033961292}
       input: width
-  - position:
+    outputOffset: 0
+    shareIsOccupied: 0
+    shareIndex: 0
+  - toggle: 0
+    enabled:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    position:
       variables: {fileID: 128775577033961292}
       x:
         variables: {fileID: 128775577033961292}
@@ -1660,6 +1699,9 @@ MonoBehaviour:
     output:
       variables: {fileID: 128775577033961292}
       input: width
+    outputOffset: 0
+    shareIsOccupied: 0
+    shareIndex: 0
 --- !u!114 &3398473538817391993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1782,6 +1824,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -1961,7 +2004,8 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 0
   colliderArea: 1
-  physicsCollider: 0
+  attachByOverlap: 1
+  physicsCollider: 1
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -2110,6 +2154,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -2198,6 +2243,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &5072707942634973960
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2311,6 +2357,7 @@ MonoBehaviour:
   renderQueueOffset: 0
   polygonModule: {fileID: 6600404066730342624}
   UV_Mode: 0
+  grid: 0
   bounds:
   - {x: 3.15, y: 0}
   - {x: 3.15, y: 5.5}
@@ -2433,6 +2480,7 @@ MonoBehaviour:
   renderQueueOffset: 0
   polygonModule: {fileID: 7895355967732931639}
   UV_Mode: 0
+  grid: 0
   bounds:
   - {x: -3.25, y: 0}
   - {x: -3.25, y: 5.5}
@@ -2713,6 +2761,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -1
@@ -2773,6 +2822,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &720879561050438797
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2900,11 +2950,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 1
     TranslatableName: 6.5m S-IVB Aft Interstage
-  description:
     plainText: 1
+  description:
     TranslatableName: 6.5m interstage with integrated retrorockets
+    plainText: 1
   mass:
     variables: {fileID: 128775577033961292}
     input: mass
@@ -3096,6 +3146,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   adaptPoints: []
   ignoreOccupied: 0
+  applySeparatorFix: 0
+  applyFairingConeFix: 0
+  original:
+    variableName: 
+    referenceToVariables: {fileID: 0}
+    localValue: 0
+  width:
+    variableName: 
+    referenceToVariables: {fileID: 0}
+    localValue: 0
 --- !u!114 &2910599043662735247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3246,8 +3306,6 @@ MonoBehaviour:
     y:
       variables: {fileID: 128775577033961292}
       input: -10
-  cannotDetachIfSurfaceCovered: 0
-  surfaceForCover: {fileID: 0}
   showDescription: 1
   showForceMultiplier: 0
   useForceMultiplierEvenIfNotShown: 1
@@ -3255,6 +3313,9 @@ MonoBehaviour:
     variableName: 
     referenceToVariables: {fileID: 128775577033961292}
     localValue: 0
+  cannotDetachIfSurfaceCovered: 0
+  surfaceForCover: {fileID: 0}
+  activatedByLES: 0
   onDetach:
     m_PersistentCalls:
       m_Calls: []
@@ -3271,8 +3332,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label:
-    plainText: 1
     TranslatableName: Taper
+    plainText: 1
   state: {fileID: 1957075697424196825}
 --- !u!1 &4081412320419366482
 GameObject:
@@ -3973,7 +4034,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 8724219548128668271}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -4034,11 +4094,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 3279129875512500030}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -4117,11 +4184,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 5205088151682521639}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -4164,11 +4238,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 7290418978965888844}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -4211,11 +4292,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 1059290390157935600}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -4258,11 +4346,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 717694691913996295}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -4305,11 +4400,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 8551383770059260582}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -4388,11 +4490,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 7
     offset: 0
     transform: {fileID: 8551383770059260582}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -4453,6 +4562,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &6315137701623261848
 GameObject:
   m_ObjectHideFlags: 0
@@ -4504,6 +4621,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -1
@@ -4564,6 +4682,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &5413712374093581485
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4694,6 +4813,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -4754,6 +4874,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &8135786342966820497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4769,8 +4890,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5838623073662023320}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &3790234166904285906
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4945,6 +5064,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -5033,6 +5153,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &1404769850468635998
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5150,6 +5271,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -5210,6 +5332,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &1695688700315851077
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5225,8 +5348,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5374624668142111536}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &8151325336863846708
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5342,6 +5463,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 0
@@ -5447,6 +5569,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &5691861440007216294
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5524,7 +5647,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 638406193785601201}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -5603,6 +5725,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &7397310878965006227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5651,7 +5781,8 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 0
   colliderArea: 1
-  physicsCollider: 0
+  attachByOverlap: 1
+  physicsCollider: 1
   clickArea: 0
   baseDepth: 0
   composedBaseDepth:
@@ -5867,7 +5998,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 2001305891232001922}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -5928,11 +6058,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 2387901028596534162}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -6011,11 +6148,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 628137071553601646}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -6058,11 +6202,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 2431228547890636612}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -6105,11 +6256,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 8469344903445588699}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -6152,11 +6310,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 5
     offset: 0
     transform: {fileID: 0}
     spriteRenderer: {fileID: 8209757926831263072}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve: []
@@ -6199,11 +6364,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 8668421747079675168}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -6282,11 +6454,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 7
     offset: 0
     transform: {fileID: 8668421747079675168}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -6347,6 +6526,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &7585332466389856602
 GameObject:
   m_ObjectHideFlags: 0
@@ -6873,6 +7060,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -1
@@ -6933,6 +7121,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &7538323741266064244
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7094,6 +7283,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -7210,6 +7400,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -7298,6 +7489,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &4950210310159833061
 MeshFilter:
   m_ObjectHideFlags: 0

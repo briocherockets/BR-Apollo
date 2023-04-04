@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c70d8f290dd0284b87588ddf6666874, type: 3}
   m_Name: SaturnBars
   m_EditorClassIdentifier: 
+  multiple: 0
+  segments: []
   colorTex:
     textures:
     - texture: {fileID: 2800000, guid: 8027d50b1f2cdde42b1cfad4f250dd5d, type: 3}
@@ -29,8 +31,9 @@ MonoBehaviour:
       sizeMode: 0
       size: 3.5
       logoHeightPercent: 0.5
+      scaleLogoToFit: 0
     fixedWidth: 0
-    width: 1
+    fixedWidthValue: 1
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
@@ -38,4 +41,4 @@ MonoBehaviour:
   tags:
   - sivbupper
   - sivbskirt
-  - iu
+  pack_Redstone_Atlas: 0

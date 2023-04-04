@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &20020950282024065
 Transform:
   m_ObjectHideFlags: 0
@@ -51,6 +51,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1.5
@@ -173,6 +174,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &3978322187054776490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,8 +190,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 8571780969658601328}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &4707605188119231856
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -385,9 +385,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 258797687484295214}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4125211163672434937}
@@ -408,6 +408,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 4
@@ -429,18 +430,18 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.08
+          input: 1.14
         y:
           variables: {fileID: 4125211162013701134}
-          input: -0.02
+          input: 0.01
       width:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.15
+          input: 1.04
         y:
           variables: {fileID: 4125211162013701134}
-          input: 0.1
+          input: 0.15
     - variables: {fileID: 4125211162013701134}
       position:
         variables: {fileID: 4125211162013701134}
@@ -480,40 +481,6 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.33
-        y:
-          variables: {fileID: 4125211162013701134}
-          input: -0.86
-      width:
-        variables: {fileID: 4125211162013701134}
-        x:
-          variables: {fileID: 4125211162013701134}
-          input: 0.81
-        y:
-          variables: {fileID: 4125211162013701134}
-          input: 0.03
-    - variables: {fileID: 4125211162013701134}
-      position:
-        variables: {fileID: 4125211162013701134}
-        x:
-          variables: {fileID: 4125211162013701134}
-          input: 1.37
-        y:
-          variables: {fileID: 4125211162013701134}
-          input: -0.96
-      width:
-        variables: {fileID: 4125211162013701134}
-        x:
-          variables: {fileID: 4125211162013701134}
-          input: 0.72
-        y:
-          variables: {fileID: 4125211162013701134}
-          input: 0.06
-    - variables: {fileID: 4125211162013701134}
-      position:
-        variables: {fileID: 4125211162013701134}
-        x:
-          variables: {fileID: 4125211162013701134}
           input: 1.42
         y:
           variables: {fileID: 4125211162013701134}
@@ -522,10 +489,10 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 0.63
+          input: 0.65
         y:
           variables: {fileID: 4125211162013701134}
-          input: 0.06
+          input: 0
     - variables: {fileID: 4125211162013701134}
       position:
         variables: {fileID: 4125211162013701134}
@@ -539,7 +506,7 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 0.55
+          input: 0.6
         y:
           variables: {fileID: 4125211162013701134}
           input: -0.02
@@ -565,27 +532,10 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.43
+          input: 1.41
         y:
           variables: {fileID: 4125211162013701134}
-          input: -1.59
-      width:
-        variables: {fileID: 4125211162013701134}
-        x:
-          variables: {fileID: 4125211162013701134}
-          input: 0.54
-        y:
-          variables: {fileID: 4125211162013701134}
-          input: -0.14
-    - variables: {fileID: 4125211162013701134}
-      position:
-        variables: {fileID: 4125211162013701134}
-        x:
-          variables: {fileID: 4125211162013701134}
-          input: 1.4
-        y:
-          variables: {fileID: 4125211162013701134}
-          input: -1.72
+          input: -1.67
       width:
         variables: {fileID: 4125211162013701134}
         x:
@@ -616,18 +566,18 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.34
+          input: 1.27
         y:
           variables: {fileID: 4125211162013701134}
-          input: -2.08
+          input: -2.04
       width:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 0.21
+          input: 0.2
         y:
           variables: {fileID: 4125211162013701134}
-          input: -0.32
+          input: -0.48
   edit: 1
   view: 1
   gridSize: 0.01
@@ -648,7 +598,7 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: 569f443ad3606214596040b8ca0d70e2, type: 2}
+      colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
       shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
     textures: []
     widthMode: 0
@@ -666,6 +616,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &2567015280398788280
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1294,7 +1245,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6746469188559624980
 Transform:
   m_ObjectHideFlags: 0
@@ -1325,6 +1276,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -1430,6 +1382,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &626323137621307743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1445,8 +1398,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 7687837601730547252}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &6283463328505707584
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1738,7 +1689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4718491813501627834
 Transform:
   m_ObjectHideFlags: 0
@@ -1769,6 +1720,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1.5
@@ -2180,6 +2132,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &5107130196466384022
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2195,8 +2148,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 3294410352714789755}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &229066519591274090
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2488,7 +2439,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6491163194147725814
 Transform:
   m_ObjectHideFlags: 0
@@ -2519,6 +2470,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 3
@@ -2936,6 +2888,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &7473435500698801572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2951,8 +2904,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 797657789309730178}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &53086863476936887
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3025,7 +2976,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3870955589748929171
 Transform:
   m_ObjectHideFlags: 0
@@ -3056,6 +3007,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1.2
@@ -3416,6 +3368,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &8446800729690439490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3431,8 +3384,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5350251993369832922}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &1307824966476106975
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3842,7 +3793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &821153771359018867
 Transform:
   m_ObjectHideFlags: 0
@@ -3873,6 +3824,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 4
@@ -4012,6 +3964,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &7112820885644434775
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4027,8 +3980,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 6942245474014361872}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &3868270607351848440
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4367,6 +4318,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -4472,6 +4424,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &4125211161912708540
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4487,8 +4440,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 4125211161912708538}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &8189300613989478127
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4616,11 +4567,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 1
     TranslatableName: Rocketdyne F-1
-  description:
     plainText: 1
+  description:
     TranslatableName: High thrust, kerosene gobbling beast engine. Nuff said
+    plainText: 1
   mass:
     variables: {fileID: 4125211162013701134}
     input: mass
@@ -4873,14 +4824,6 @@ MonoBehaviour:
       y:
         variables: {fileID: 4125211162013701134}
         input: 0
-  snapPoints:
-  - variables: {fileID: 4125211162013701134}
-    x:
-      variables: {fileID: 4125211162013701134}
-      input: 0
-    y:
-      variables: {fileID: 4125211162013701134}
-      input: 0
 --- !u!114 &8822655475812390929
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4929,7 +4872,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 4125211163672434937}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -4990,6 +4932,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &4125211163672434936
 GameObject:
   m_ObjectHideFlags: 0
@@ -5060,6 +5010,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -5539,6 +5490,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &4125211163672434822
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5554,8 +5506,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 8840839256373816614}
   polygon: {fileID: 4125211163672434820}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &6861600667891959257
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5774,9 +5724,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4232543035825816635}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4125211163672434937}
@@ -5797,6 +5747,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 1
@@ -5806,7 +5757,7 @@ MonoBehaviour:
   isComposedDepth: 0
   depthMultiplier: 1
   advancedCut: 0
-  cut: 0
+  cut: 0.45
   advancedCutData:
     cuts: []
   reduceResolution: 1
@@ -5835,6 +5786,23 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
+          input: 0.74
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 1
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 2.1
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.04
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
           input: 0.76
         y:
           variables: {fileID: 4125211162013701134}
@@ -5847,6 +5815,40 @@ MonoBehaviour:
         y:
           variables: {fileID: 4125211162013701134}
           input: 0.08
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.78
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.72
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.96
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.09999999
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.79
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.64
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.93
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.09999999
     - variables: {fileID: 4125211162013701134}
       position:
         variables: {fileID: 4125211162013701134}
@@ -5869,15 +5871,83 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 0.86
+          input: 0.82
         y:
           variables: {fileID: 4125211162013701134}
-          input: 0.26
+          input: 0.5
       width:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.64
+          input: 1.83
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.12
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.83
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.42
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.78
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.13
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.85
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.34
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.69
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.14
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.88
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.18
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.63
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.15
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.89
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.09999999
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.59
         y:
           variables: {fileID: 4125211162013701134}
           input: 0.16
@@ -5886,18 +5956,52 @@ MonoBehaviour:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 0.92
+          input: 0.91
         y:
           variables: {fileID: 4125211162013701134}
-          input: -0.05
+          input: -0.04
       width:
         variables: {fileID: 4125211162013701134}
         x:
           variables: {fileID: 4125211162013701134}
-          input: 1.5
+          input: 1.53
         y:
           variables: {fileID: 4125211162013701134}
-          input: 0.15
+          input: 0.06000002
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.29
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: -0.42
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.82
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.09999999
+    - variables: {fileID: 4125211162013701134}
+      position:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 1.42
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: -2.06
+      width:
+        variables: {fileID: 4125211162013701134}
+        x:
+          variables: {fileID: 4125211162013701134}
+          input: 0.12
+        y:
+          variables: {fileID: 4125211162013701134}
+          input: 0.13
   edit: 1
   view: 1
   gridSize: 0.01
@@ -5918,7 +6022,7 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
+      colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
       shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
     textures: []
     widthMode: 0
@@ -5936,6 +6040,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &8591890325369240069
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6258,6 +6363,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -6420,6 +6526,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &3753335542145846458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6435,8 +6542,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 347645566389126543}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &2741568148757334763
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6507,7 +6612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5774107459469456329
 Transform:
   m_ObjectHideFlags: 0
@@ -6538,6 +6643,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -6853,6 +6959,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &4280809249180183794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6868,8 +6975,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 665933213369762497}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &7415733007161196421
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7059,7 +7164,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6867337742075990420
 Transform:
   m_ObjectHideFlags: 0
@@ -7090,6 +7195,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -7178,6 +7284,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &6509787024837701118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7193,8 +7300,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 2964447110860555399}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &5110856154421864207
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7345,7 +7450,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1715313449826150171
 Transform:
   m_ObjectHideFlags: 0
@@ -7376,6 +7481,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 4
@@ -7515,6 +7621,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &2496103689661764668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7530,8 +7637,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 1704783536948778024}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &1576409436492460452
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7632,6 +7737,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 4
@@ -7720,6 +7826,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &8084317089448888571
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8545,6 +8652,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 0.5
@@ -9024,6 +9132,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &7378423985031670772
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9824,9 +9933,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7731429173066259712}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4125211163672434937}
@@ -9847,6 +9956,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 4
@@ -10002,8 +10112,8 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
-      shapeTexture: {fileID: 11400000, guid: 7f8ad62781d7d034587e431a49d36ad1, type: 2}
+      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
     textures: []
     widthMode: 0
     width:
@@ -10020,6 +10130,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &4652205761272616364
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10215,9 +10326,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8123759598771433731}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.9999999, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4125211163672434937}
@@ -10238,6 +10349,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
   baseDepth: 0.5
@@ -10772,32 +10884,49 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 0}
-          input: 0.2
+          input: 0.1
       width:
         variables: {fileID: 0}
         x:
           variables: {fileID: 0}
-          input: 1.71
+          input: 1.63
         y:
           variables: {fileID: 0}
-          input: -0.07
+          input: -0.08
     - variables: {fileID: 0}
       position:
         variables: {fileID: 0}
         x:
           variables: {fileID: 0}
-          input: -0.01
+          input: 0.03
         y:
           variables: {fileID: 0}
-          input: 0.5
+          input: 0.28
       width:
         variables: {fileID: 0}
         x:
           variables: {fileID: 0}
-          input: 1.77
+          input: 2.01
         y:
           variables: {fileID: 0}
-          input: -0.02
+          input: -0.17
+    - variables: {fileID: 0}
+      position:
+        variables: {fileID: 0}
+        x:
+          variables: {fileID: 0}
+          input: 0.02
+        y:
+          variables: {fileID: 0}
+          input: 0.46
+      width:
+        variables: {fileID: 0}
+        x:
+          variables: {fileID: 0}
+          input: 1.76
+        y:
+          variables: {fileID: 0}
+          input: -0.13
     - variables: {fileID: 0}
       position:
         variables: {fileID: 0}
@@ -10850,26 +10979,45 @@ MonoBehaviour:
   renderQueueOffset: 0
   pipeData: {fileID: 5839594821165936826}
   textures:
-    textureMode: 0
+    textureMode: 1
     texture:
-      colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
+      colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
       shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
-    textures: []
+    textures:
+    - texture:
+        colorTexture: {fileID: 11400000, guid: 6e09d549acb863740ac65f548822d9ed, type: 2}
+        shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
+      height: 0.3
+    - texture:
+        colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
+        shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
+      height: 6
     widthMode: 0
     width:
       variables: {fileID: 0}
       input: 
   colors:
-    mode: 0
+    mode: 1
     color:
       type: 0
       colorBasic: {r: 0.9056604, g: 0.9056604, b: 0.9056604, a: 1}
       colorModule: {fileID: 0}
-    colors: []
+    colors:
+    - color:
+        type: 0
+        colorBasic: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+        colorModule: {fileID: 0}
+      height: 0.3
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 2
   leftCover: 0
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &5761362677979937702
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11650,7 +11798,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4313311121917674236
 Transform:
   m_ObjectHideFlags: 0
@@ -11694,7 +11842,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 9082487331866576503}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -11755,11 +11902,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 4313311121917674236}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -11838,11 +11992,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 3042699029231273184}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -11921,11 +12082,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 7
     offset: 0
     transform: {fileID: 3042699029231273184}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -11986,6 +12154,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &9080122647422807370
 GameObject:
   m_ObjectHideFlags: 0
@@ -12074,7 +12250,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3736455863541092141
 Transform:
   m_ObjectHideFlags: 0
@@ -12105,6 +12281,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1.5
@@ -12227,6 +12404,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &2989752251193841743
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12242,8 +12420,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5400096122065253696}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &1494902787688172880
 MeshRenderer:
   m_ObjectHideFlags: 0
