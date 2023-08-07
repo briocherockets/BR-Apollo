@@ -46,7 +46,7 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
 	Stuff I just don't want to see done with my mod:
 
 		Recreating tragedies, e.g. Apollo 1 pad fire. Just don't do this, please.
-		The stack is recreatable with the Block 1 CSM parts and the Saturn IB, and is even showcased in the trailer for 1.2.
+		The stack is recreatable with the Block 1 CSM parts and the Saturn IB, and is even showcased in the trailer for 1.1.
 		This however, is, and should ONLY be used, to honor the mission that should have flown and NOT to recreate what eventually transpired at Pad 34.
 
 
