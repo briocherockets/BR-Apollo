@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5499134bc9bf4342a3880329018c3a62, type: 3}
   m_Name: New Pack Data
   m_EditorClassIdentifier: 
-  DisplayName: BASP- Launch Umbiliical Tower Addon
+  DisplayName: vab
   Version: 1.0
   Description: :)
   Author: Brioche

@@ -666,7 +666,7 @@ MonoBehaviour:
         shapeTexture: {fileID: 11400000, guid: 28d876137cb04ed41b7a18fd1a58bc89, type: 2}
       height: 13.6
     - texture:
-        colorTexture: {fileID: 11400000, guid: 79bb0d367cd91d04ea4f627bb7ec0918, type: 2}
+        colorTexture: {fileID: 11400000, guid: 71cd1917028932441b08a3e4ea662f81, type: 2}
         shapeTexture: {fileID: 11400000, guid: 85a08dce809142d4e90c12d443b02cbd, type: 2}
       height: 26.5
     - texture:

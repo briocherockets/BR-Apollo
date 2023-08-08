@@ -14,7 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: BR-Apollo
   Version: 1.2
-  Description: 
+  Description: Countless detailed, researched, and accurate parts to recreate the
+    Apollo program with.
   Author: Brioche
   ShowIcon: 1
   Icon: {fileID: 2800000, guid: 18dce7df98cf90c4586e782d08a15263, type: 3}
