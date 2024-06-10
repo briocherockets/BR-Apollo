@@ -2195,7 +2195,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.011
+  baseDepth: 0.0002
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -2528,7 +2528,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -3525,7 +3525,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -3699,7 +3699,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -4507,7 +4507,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -5225,7 +5225,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.001
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -6988,7 +6988,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -7319,7 +7319,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -7463,7 +7463,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.011
+  baseDepth: 0.0002
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -7795,7 +7795,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.0011
+  baseDepth: 0.0003
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -7803,8 +7803,8 @@ MonoBehaviour:
   polygonVertices:
   - {x: -8, y: 37}
   - {x: -8, y: 26.5}
-  - {x: -23, y: 26.5}
-  - {x: -23, y: 37}
+  - {x: -21.5, y: 26.5}
+  - {x: -21.5, y: 37}
   edit: 1
   view: 1
   gridSize: 0.5
@@ -7825,8 +7825,8 @@ MonoBehaviour:
   UV_Mode: 0
   grid: 0
   bounds:
-  - {x: -23, y: 26.5}
-  - {x: -23, y: 37}
+  - {x: -21.5, y: 26.5}
+  - {x: -21.5, y: 37}
   - {x: -8, y: 37}
   - {x: -8, y: 26.5}
   texture: {fileID: 11400000, guid: 761850f21d3ae1a45a36f3f9b0e8c333, type: 2}
@@ -8127,7 +8127,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.5
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -8272,7 +8272,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -8795,7 +8795,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.002
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -9280,7 +9280,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -10190,7 +10190,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -10331,7 +10331,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -10472,7 +10472,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -10895,7 +10895,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -11178,7 +11178,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -11319,7 +11319,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -11841,7 +11841,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -13119,7 +13119,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -13406,7 +13406,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -13548,7 +13548,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -13880,7 +13880,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.5
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -14215,7 +14215,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -14356,7 +14356,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.0011
+  baseDepth: 0.0003
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -14364,8 +14364,8 @@ MonoBehaviour:
   polygonVertices:
   - {x: -8, y: 37}
   - {x: -8, y: 26.5}
-  - {x: -23, y: 26.5}
-  - {x: -23, y: 37}
+  - {x: -21.5, y: 26.5}
+  - {x: -21.5, y: 37}
   edit: 1
   view: 1
   gridSize: 0.5
@@ -14386,8 +14386,8 @@ MonoBehaviour:
   UV_Mode: 0
   grid: 0
   bounds:
-  - {x: -23, y: 26.5}
-  - {x: -23, y: 37}
+  - {x: -21.5, y: 26.5}
+  - {x: -21.5, y: 37}
   - {x: -8, y: 37}
   - {x: -8, y: 26.5}
   texture: {fileID: 11400000, guid: 761850f21d3ae1a45a36f3f9b0e8c333, type: 2}
@@ -14639,7 +14639,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.001
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -14921,7 +14921,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -15394,7 +15394,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.001
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -16804,7 +16804,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -17661,7 +17661,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -18515,7 +18515,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -19313,22 +19313,22 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
   isComposedDepth: 0
   polygonVertices:
-  - {x: -13.999998, y: 159.00002}
-  - {x: 5, y: 159}
-  - {x: 5, y: 143}
-  - {x: -12, y: 143}
-  - {x: -19, y: 39}
-  - {x: -19, y: 37}
-  - {x: -34, y: 37}
-  - {x: -34, y: 39}
-  - {x: -21, y: 39.000023}
   - {x: -14.000009, y: 143.00003}
+  - {x: -21, y: 39.000023}
+  - {x: -34, y: 39}
+  - {x: -34, y: 37}
+  - {x: -19, y: 37}
+  - {x: -19, y: 39}
+  - {x: -12, y: 143}
+  - {x: 5, y: 143}
+  - {x: 5, y: 159}
+  - {x: -13.999998, y: 159.00002}
   edit: 1
   view: 1
   gridSize: 1
@@ -21584,7 +21584,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -22107,7 +22107,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.01
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -22252,7 +22252,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.6
+  baseDepth: 0.001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -25234,7 +25234,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1.001
+  baseDepth: 0.0001
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
