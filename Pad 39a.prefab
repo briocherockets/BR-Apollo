@@ -8859,7 +8859,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
-  baseDepth: -2
+  baseDepth: -20
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
