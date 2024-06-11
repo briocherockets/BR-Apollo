@@ -12612,7 +12612,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8070051798027655089
 Transform:
   m_ObjectHideFlags: 0
@@ -22690,9 +22690,9 @@ MonoBehaviour:
   - {x: 23.5, y: -18}
   - {x: 36.5, y: -18}
   - {x: 36.5, y: -27.5}
-  texture: {fileID: 11400000, guid: 12d751bf548a2804fa69c2ef5d84a019, type: 2}
+  texture: {fileID: 11400000, guid: b1cea3cfdebb74c47b9c6b1347e57474, type: 2}
   type: 1
-  colorBasic: {r: 0.6021716, g: 0.6415094, b: 0.6415094, a: 1}
+  colorBasic: {r: 0.617168, g: 0.6509434, b: 0.6509434, a: 1}
   colorModule: {fileID: 0}
 --- !u!33 &8492777621983730295
 MeshFilter:
