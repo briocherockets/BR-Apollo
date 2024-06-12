@@ -12618,9 +12618,9 @@ MonoBehaviour:
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 3634570139794084410}
-        m_TargetAssemblyTypeName: AutoDetachModule, BASPModules
-        m_MethodName: OnDetach
+      - m_Target: {fileID: 2465421646538620287}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.DetachModule, Assembly-CSharp
+        m_MethodName: Detach
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

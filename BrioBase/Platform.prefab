@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4510781753285445676}
   - component: {fileID: 5283482578408435574}
   - component: {fileID: 302881264963830181}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -150,7 +150,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 417209016400849551}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   - component: {fileID: 6009829812870233637}
   - component: {fileID: 5445645850787492277}
   - component: {fileID: 7380179048017001664}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 0
+  colliderArea: 1
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 3452410033938522267}
   - component: {fileID: 3425045099759356552}
   - component: {fileID: 8841051561199926520}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 1645680537561468293}
   - component: {fileID: 4076188396572945640}
   - component: {fileID: 2608717550614707180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -504,7 +504,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 0
+  colliderArea: 1
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 6128132761898742399}
   - component: {fileID: 7546761505049649808}
   - component: {fileID: 3500146064868144042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 0
+  colliderArea: 1
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -746,7 +746,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2472321211045174175}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -782,7 +782,7 @@ GameObject:
   - component: {fileID: 6878153666788516556}
   - component: {fileID: 6606311732372631833}
   - component: {fileID: 3240878342955663999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -923,7 +923,7 @@ GameObject:
   - component: {fileID: 190681137667771941}
   - component: {fileID: 7947032719650282056}
   - component: {fileID: 7520452407517857686}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -959,7 +959,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 0
+  colliderArea: 1
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -1060,7 +1060,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2414959182600647078}
-  m_Layer: 0
+  - component: {fileID: -2244898347026022847}
+  - component: {fileID: 3254427361503918256}
+  - component: {fileID: 849329257776322673}
+  m_Layer: 8
   m_Name: Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1091,6 +1094,84 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-2244898347026022847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7317693661741229937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01d8382f787b844d84fe3e7463aba27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName:
+    TranslatableName: Platform
+    plainText: 1
+  description:
+    TranslatableName: None
+    plainText: 0
+  mass:
+    variables: {fileID: 849329257776322673}
+    input: 2
+  centerOfMass:
+    variables: {fileID: 849329257776322673}
+    x:
+      variables: {fileID: 849329257776322673}
+      input: 0
+    y:
+      variables: {fileID: 849329257776322673}
+      input: 0.5
+  orientation: {fileID: 3254427361503918256}
+  variablesModule: {fileID: 849329257776322673}
+  variants:
+  - variants:
+    - changes: []
+      tags:
+      - tag: {fileID: 11400000, guid: 63e202f7c2a3c594d814232b182e2a82, type: 2}
+        priority: 0
+      cost: 0
+    tags: []
+  onPartUsed:
+    m_PersistentCalls:
+      m_Calls: []
+  temperature: -Infinity
+--- !u!114 &3254427361503918256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7317693661741229937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96e122f666f27140a430b6f43b5ac6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation:
+    value:
+      x: 1
+      y: 1
+      z: 0
+--- !u!114 &849329257776322673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7317693661741229937}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c86f5a5df11278449447b85a93fd5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleVariables:
+    saves: []
+  boolVariables:
+    saves: []
+  stringVariables:
+    saves: []
 --- !u!1 &8952923660266846470
 GameObject:
   m_ObjectHideFlags: 0
@@ -1100,7 +1181,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3908134869645123862}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1216,7 @@ GameObject:
   - component: {fileID: 3811642796905240379}
   - component: {fileID: 7109465996727138164}
   - component: {fileID: 1457179364730548762}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Pad (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

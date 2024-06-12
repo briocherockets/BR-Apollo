@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1821126434482601697}
   - component: {fileID: 2704274093778282957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magnet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -66,7 +66,7 @@ GameObject:
   - component: {fileID: 4671666260083786237}
   - component: {fileID: 8787452366950071383}
   - component: {fileID: 4916143888182145154}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -207,7 +207,7 @@ GameObject:
   - component: {fileID: 8003779695692249068}
   - component: {fileID: 4477436770767118820}
   - component: {fileID: 4009417626954941977}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -348,7 +348,7 @@ GameObject:
   - component: {fileID: 7321562195112054620}
   - component: {fileID: 1780819149889657496}
   - component: {fileID: 6383666688736496873}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -489,7 +489,7 @@ GameObject:
   - component: {fileID: 1137929495082182300}
   - component: {fileID: 2196631868966689392}
   - component: {fileID: 3925334945632461760}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   - component: {fileID: 6468594002292614904}
   - component: {fileID: 2546214332837928720}
   - component: {fileID: 1088602223544951433}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -767,7 +767,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1560909286136506696}
-  m_Layer: 0
+  - component: {fileID: 96528354036005312}
+  - component: {fileID: -1993296974912865661}
+  - component: {fileID: 5266982538307507702}
+  m_Layer: 8
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -800,6 +803,84 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &96528354036005312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7036048053797400846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01d8382f787b844d84fe3e7463aba27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName:
+    TranslatableName: Stairs
+    plainText: 1
+  description:
+    TranslatableName: None
+    plainText: 0
+  mass:
+    variables: {fileID: 5266982538307507702}
+    input: 0.2
+  centerOfMass:
+    variables: {fileID: 5266982538307507702}
+    x:
+      variables: {fileID: 5266982538307507702}
+      input: 0.25
+    y:
+      variables: {fileID: 5266982538307507702}
+      input: 0
+  orientation: {fileID: -1993296974912865661}
+  variablesModule: {fileID: 5266982538307507702}
+  variants:
+  - variants:
+    - changes: []
+      tags:
+      - tag: {fileID: 11400000, guid: 63e202f7c2a3c594d814232b182e2a82, type: 2}
+        priority: 0
+      cost: 0
+    tags: []
+  onPartUsed:
+    m_PersistentCalls:
+      m_Calls: []
+  temperature: -Infinity
+--- !u!114 &-1993296974912865661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7036048053797400846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96e122f666f27140a430b6f43b5ac6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation:
+    value:
+      x: 1
+      y: 1
+      z: 0
+--- !u!114 &5266982538307507702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7036048053797400846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c86f5a5df11278449447b85a93fd5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleVariables:
+    saves: []
+  boolVariables:
+    saves: []
+  stringVariables:
+    saves: []
 --- !u!1 &7634301069994661607
 GameObject:
   m_ObjectHideFlags: 0
@@ -810,7 +891,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3688202707360525004}
   - component: {fileID: 6699739768094093038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: magnet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -865,7 +946,7 @@ GameObject:
   - component: {fileID: 7883611530342452217}
   - component: {fileID: 230441629818893178}
   - component: {fileID: 4255478372601484281}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -981,7 +1062,7 @@ GameObject:
   - component: {fileID: 4781981227381844292}
   - component: {fileID: 5926635846259630602}
   - component: {fileID: 7171146825197332854}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1122,7 +1203,7 @@ GameObject:
   - component: {fileID: 7188851444578349579}
   - component: {fileID: 3931620120778231190}
   - component: {fileID: 3354891504956568316}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1263,7 +1344,7 @@ GameObject:
   - component: {fileID: 7434035792362408178}
   - component: {fileID: 2336722679381934262}
   - component: {fileID: 4917286107074539332}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: GameObject (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
