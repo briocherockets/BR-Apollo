@@ -2,11 +2,12 @@
    __ )    _ \             \                   |  |        
    __ \   |   |           _ \    __ \    _ \   |  |   _ \  
    |   |  __ <   ____|   ___ \   |   |  (   |  |  |  (   | 
-  ____/  _| \_\        _/    _\  .__/  \___/  _| _| \___/  v1.2
+  ____/  _| \_\        _/    _\   __/  \___/  _| _| \___/  v1.2
                                 _|                         
-----------------------------------------------------
-▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░░░░░░░░░░░░░░
-▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░▓▓▓▓▓▓▓▓▓▓▓▓▓░░░░░░░░░░░░░
+By Brioche/RPD, made with love
+--------------------------------------------------------------------
+██████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+█████████████████░░░░░░░░░░░░░░░░░█████████████████░░░░░░░░░░░░░░░░░
 
 ▛▚ Thanks for downloading! ▛▚
 
@@ -25,7 +26,7 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
 		I Highly doubt anybody will end up reading this, much less follow it, but here's what I would like to be included if you decide to make a post featuring my mod.
 
 		Youtube:
-		Must have a link to my channel, the jmnet forum post, and the github repo. 
+		Please add link to my channel, the jmnet forum post, and the github repo. 
 		Adding a link to the discord server would also be pretty cool, but that's a lot of links, you don't have to do that.
 		Also, please mention my channel so I get a notification, I would love to watch!
 
@@ -35,7 +36,7 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
 		Discord:
 		Just put my username and the name of the mod :)
 
-		That being said, I don't really care what you put. If I see it, I'm just happy someone enjoyed my work.
+		That being said, I don't really care too much what you put. If I see it, I'm just happy someone enjoyed my work.
 
 	Creating an addon pack for BR-Apollo:
 
@@ -49,10 +50,14 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
 		The stack is recreatable with the Block 1 CSM parts and the Saturn IB, and is even showcased in the trailer for 1.1.
 		This however, is, and should ONLY be used, to honor the mission that should have flown and NOT to recreate what eventually transpired at Pad 34.
 
+	Do not use the source code whenever I push backups to download unreleased parts and release them. Not cool.
+
+▛▚ Dorg ▛▚
+	dorg.png is a picture of my dog that takes up exactly 32 kilobytes, the exact amount of data it would take to max out Saturn V instrument unit. Do with that what you will.
 
 ▛▚ Credits ▛▚
-	Raw LM mylar texture courtesy of Unnamed Shadow#4833
-	LES custom behavior courtest of dani0105#5815 https://github.com/105-Code/basp-modules
+	Raw LM mylar texture courtesy of unnamed_shadow1
+	LES custom behavior courtest of dani0105 https://github.com/105-Code/basp-modules
 
 
       /\
@@ -79,16 +84,6 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
     █  ██
    /█░░██░\
     /\/\/\
-   ▒▓▓▓▓▓▓▒
-  ░▒▒▒▒▒▒▒▒░
-   ░▒░▒░▒░░
-    ░▒░▒░▒
-     ▒░▒░▒
-     ▒ ▒ ▒
-    ░ ░ ░
-    ░ ░ ░
-    ░ ░ ░
-   ░░░░░░░░
- ░░░░░░░░░░░░
-░░fly  safe!░░
-░░░░░░░░░░░░░░
+
+
+made with love by brioche. thank you everyone
