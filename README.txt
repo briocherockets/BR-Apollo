@@ -72,7 +72,7 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
 ▒    /  ██\            ▒▒
 ▒    ░░░░░░                            /\
 ▒    :   :            |  |             ▒▒
-▒    :   :            ████             
+▒    :   :            ████
 ▒                     |               /  \
 ▒    ██████           |                   
 ▒    █░░██░           ████            ████
