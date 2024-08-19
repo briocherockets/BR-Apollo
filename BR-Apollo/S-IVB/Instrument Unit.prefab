@@ -353,11 +353,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 1
+  colliderArea: 0
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 3
+  baseDepth: 2.5
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -2516,7 +2516,7 @@ MonoBehaviour:
     variables: {fileID: 0}
     input: 
   isComposedDepth: 0
-  depthMultiplier: -1
+  depthMultiplier: 1
   advancedCut: 0
   cut: 0
   advancedCutData:
@@ -2784,7 +2784,7 @@ MonoBehaviour:
     textureMode: 0
     texture:
       colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
-      shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}
     textures: []
     widthMode: 0
     width:
@@ -8608,6 +8608,8 @@ MonoBehaviour:
         priority: 0
       - tag: {fileID: 11400000, guid: ddcaceaa812c6884c9131ff372f57547, type: 2}
         priority: -10
+      - tag: {fileID: 11400000, guid: 32bce95f680e82a4cb759b2bd71d3237, type: 2}
+        priority: 0
       cost: 0
     tags: []
   onPartUsed:
@@ -10751,12 +10753,12 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0.1
+  baseDepth: -2
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
   isComposedDepth: 0
-  depthMultiplier: -1
+  depthMultiplier: 1
   advancedCut: 0
   cut: 0
   advancedCutData:
@@ -10956,7 +10958,7 @@ MonoBehaviour:
     textureMode: 0
     texture:
       colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
-      shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}
     textures: []
     widthMode: 0
     width:
@@ -11934,7 +11936,7 @@ MonoBehaviour:
     variables: {fileID: 0}
     input: 
   isComposedDepth: 0
-  depthMultiplier: -1
+  depthMultiplier: 1
   advancedCut: 0
   cut: 0
   advancedCutData:
@@ -12100,7 +12102,7 @@ MonoBehaviour:
     textureMode: 0
     texture:
       colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
-      shapeTexture: {fileID: 11400000, guid: 2a5cc279313cd99458c8f241584c6648, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}
     textures: []
     widthMode: 1
     width:
@@ -17766,11 +17768,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 1
+  colliderArea: 0
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 3
+  baseDepth: 2.5
   composedBaseDepth:
     variables: {fileID: 0}
     input: 

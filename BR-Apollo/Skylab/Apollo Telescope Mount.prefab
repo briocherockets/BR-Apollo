@@ -250,7 +250,7 @@ MonoBehaviour:
   isComposedDepth: 0
   polygonVertices:
   - {x: -2.9999995, y: -2.0000002}
-  - {x: -1.6, y: -0.9}
+  - {x: -1.3, y: -0.9}
   - {x: -1.7000003, y: -2.0000002}
   edit: 1
   view: 0
@@ -274,8 +274,8 @@ MonoBehaviour:
   bounds:
   - {x: -2.9999995, y: -2.0000002}
   - {x: -2.9999995, y: -0.9}
-  - {x: -1.6, y: -0.9}
-  - {x: -1.6, y: -2.0000002}
+  - {x: -1.3, y: -0.9}
+  - {x: -1.3, y: -2.0000002}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
   type: 1
   colorBasic: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
@@ -390,7 +390,7 @@ MonoBehaviour:
   isComposedDepth: 0
   polygonVertices:
   - {x: -1.7000002, y: -2.0000002}
-  - {x: -1.6, y: -0.9}
+  - {x: -1.4, y: -0.9}
   - {x: 0, y: -0.90000015}
   - {x: -0.000000074505806, y: -2.0000002}
   edit: 1
@@ -865,8 +865,8 @@ MonoBehaviour:
   isComposedDepth: 0
   polygonVertices:
   - {x: -2.9999995, y: -2.0000002}
-  - {x: -1.6000001, y: -0.89999956}
-  - {x: -1.6125002, y: -1.0749999}
+  - {x: -1.4499996, y: -0.89999956}
+  - {x: -1.2624989, y: -0.8999998}
   - {x: -2.7999997, y: -2.0000002}
   edit: 1
   view: 0
@@ -890,8 +890,8 @@ MonoBehaviour:
   bounds:
   - {x: -2.9999995, y: -2.0000002}
   - {x: -2.9999995, y: -0.89999956}
-  - {x: -1.6000001, y: -0.89999956}
-  - {x: -1.6000001, y: -2.0000002}
+  - {x: -1.2624989, y: -0.89999956}
+  - {x: -1.2624989, y: -2.0000002}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
   type: 1
   colorBasic: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 1}
@@ -1244,41 +1244,41 @@ MonoBehaviour:
     cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 4300501979147172479}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 4300501979147172479}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: -0.025
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.15
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 4300501979147172479}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 1.975
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.15
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
   edit: 1
   view: 1
@@ -1397,8 +1397,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2367629033319817752}
   m_LocalRotation: {x: 0, y: 0, z: 0.34439713, w: 0.93882406}
-  m_LocalPosition: {x: 2.739, y: 1.363, z: 0}
-  m_LocalScale: {x: 0.3020184, y: 0.472, z: 0.472}
+  m_LocalPosition: {x: 2.7965, y: 1.4117, z: 0}
+  m_LocalScale: {x: 0.4793267, y: 0.472, z: 0.472}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 9076971234390460598}
@@ -1575,7 +1575,7 @@ MonoBehaviour:
   isComposedDepth: 0
   polygonVertices:
   - {x: -0.0034, y: 0.018599996}
-  - {x: 0, y: -0.05}
+  - {x: 0.008599999, y: -0.050499994}
   - {x: 2, y: -0.05}
   - {x: 2, y: 0.05}
   - {x: 0.03889998, y: 0.05}
@@ -1599,10 +1599,10 @@ MonoBehaviour:
   UV_Mode: 0
   grid: 0
   bounds:
-  - {x: -0.0034, y: -0.05}
+  - {x: -0.0034, y: -0.050499994}
   - {x: -0.0034, y: 0.05}
   - {x: 2, y: 0.05}
-  - {x: 2, y: -0.05}
+  - {x: 2, y: -0.050499994}
   texture: {fileID: 11400000, guid: 51534363d0210bb4f8631f3b2a5c9f80, type: 2}
   type: 1
   colorBasic: {r: 1, g: 1, b: 1, a: 1}
@@ -1783,41 +1783,41 @@ MonoBehaviour:
     cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 4300501979147172479}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 4300501979147172479}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.025
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.025
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.15
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.025
-    - variables: {fileID: 0}
+    - variables: {fileID: 4300501979147172479}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.025
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 1.825
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.15
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
   edit: 1
   view: 1
@@ -2159,11 +2159,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    TranslatableName: ATMM
+    TranslatableName: Apollo Telescope Mount
     plainText: 1
   description:
-    TranslatableName: A stylish nosecone used on the unique looking SA-5 launch
-    plainText: 1
+    TranslatableName: None
+    plainText: 0
   mass:
     variables: {fileID: 4300501979147172479}
     input: 2
@@ -2414,7 +2414,15 @@ MonoBehaviour:
         input: 0
       y:
         variables: {fileID: 4300501979147172479}
-        input: -5
+        input: -4
+  - position:
+      variables: {fileID: 4300501979147172479}
+      x:
+        variables: {fileID: 4300501979147172479}
+        input: 
+      y:
+        variables: {fileID: 4300501979147172479}
+        input: 2.5
 --- !u!114 &3400976046294227713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,7 +2948,7 @@ MonoBehaviour:
           input: 0.15
         y:
           variables: {fileID: 4300501979147172479}
-          input: 0
+          input: 0.025
     - variables: {fileID: 4300501979147172479}
       position:
         variables: {fileID: 4300501979147172479}
@@ -3257,41 +3265,41 @@ MonoBehaviour:
     cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 4300501979147172479}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 4300501979147172479}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.15
         y:
-          variables: {fileID: 0}
-          input: 0
-    - variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
+          input: -0.025
+    - variables: {fileID: 4300501979147172479}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: -0.025
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 1.825
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 4300501979147172479}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0.15
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 4300501979147172479}
           input: 0
   edit: 1
   view: 1
@@ -3442,11 +3450,11 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   polygonVertices:
-  - {x: -0.010199997, y: -0.025499994}
+  - {x: -0.0011999968, y: -0.02849999}
   - {x: 0.07469992, y: -0.05}
   - {x: 1.9925005, y: -0.05}
   - {x: 2.0387003, y: 0.05}
-  - {x: 0, y: 0.05}
+  - {x: 0.009099999, y: 0.05039998}
   edit: 1
   view: 0
   gridSize: 0.0001
@@ -3467,9 +3475,9 @@ MonoBehaviour:
   UV_Mode: 0
   grid: 0
   bounds:
-  - {x: -0.010199997, y: -0.05}
-  - {x: -0.010199997, y: 0.05}
-  - {x: 2.0387003, y: 0.05}
+  - {x: -0.0011999968, y: -0.05}
+  - {x: -0.0011999968, y: 0.05039998}
+  - {x: 2.0387003, y: 0.05039998}
   - {x: 2.0387003, y: -0.05}
   texture: {fileID: 11400000, guid: 51534363d0210bb4f8631f3b2a5c9f80, type: 2}
   type: 1
@@ -4579,11 +4587,11 @@ MonoBehaviour:
     input: 
   isComposedDepth: 0
   polygonVertices:
-  - {x: -0.012499999, y: -0.05}
+  - {x: 0.0073999967, y: 0.05089998}
   - {x: 2.0162017, y: -0.05}
   - {x: 2.0122974, y: -0.026899993}
   - {x: 1.9948012, y: 0.04999995}
-  - {x: -0.0125, y: 0.05}
+  - {x: 0.021099998, y: 0.15230006}
   edit: 1
   view: 0
   gridSize: 0.0001
@@ -4604,9 +4612,9 @@ MonoBehaviour:
   UV_Mode: 0
   grid: 0
   bounds:
-  - {x: -0.0125, y: -0.05}
-  - {x: -0.0125, y: 0.05}
-  - {x: 2.0162017, y: 0.05}
+  - {x: 0.0073999967, y: -0.05}
+  - {x: 0.0073999967, y: 0.15230006}
+  - {x: 2.0162017, y: 0.15230006}
   - {x: 2.0162017, y: -0.05}
   texture: {fileID: 11400000, guid: 51534363d0210bb4f8631f3b2a5c9f80, type: 2}
   type: 1
@@ -4734,10 +4742,10 @@ MonoBehaviour:
         variables: {fileID: 4300501979147172479}
         x:
           variables: {fileID: 4300501979147172479}
-          input: 0.025
+          input: -0.1
         y:
           variables: {fileID: 4300501979147172479}
-          input: 0.025
+          input: 0.05
       width:
         variables: {fileID: 4300501979147172479}
         x:
@@ -4751,7 +4759,7 @@ MonoBehaviour:
         variables: {fileID: 4300501979147172479}
         x:
           variables: {fileID: 4300501979147172479}
-          input: 0.025
+          input: 0
         y:
           variables: {fileID: 4300501979147172479}
           input: 1.825
@@ -4794,7 +4802,7 @@ MonoBehaviour:
     mode: 0
     color:
       type: 0
-      colorBasic: {r: 1, g: 1, b: 1, a: 1}
+      colorBasic: {r: 0.7169812, g: 0.7169812, b: 0.7169812, a: 1}
       colorModule: {fileID: 0}
     colors: []
   leftCover: 0

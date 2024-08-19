@@ -7358,10 +7358,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    TranslatableName: ATM
+    TranslatableName: Apollo Telescope
     plainText: 1
   description:
-    TranslatableName: A stylish nosecone used on the unique looking SA-5 launch
+    TranslatableName: Not your average backyard telescope
     plainText: 1
   mass:
     variables: {fileID: 6235279090927427242}
@@ -7487,7 +7487,7 @@ MonoBehaviour:
         input: 0
       y:
         variables: {fileID: 6235279090927427242}
-        input: -5
+        input: 
 --- !u!114 &6235279090927427242
 MonoBehaviour:
   m_ObjectHideFlags: 0

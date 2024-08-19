@@ -2043,8 +2043,6 @@ GameObject:
   - component: {fileID: 3118108649581711696}
   - component: {fileID: 7411282460286175478}
   - component: {fileID: 128775577033961292}
-  - component: {fileID: 2322129295555479260}
-  - component: {fileID: 2910599043662735247}
   - component: {fileID: 4468277913668657394}
   - component: {fileID: 1999566393407756354}
   - component: {fileID: 5985263742388835860}
@@ -2222,43 +2220,6 @@ MonoBehaviour:
     - name: shape_tex
       save: 1
       data: 0001000000ffffffff01000000000000000601000000015f0b
---- !u!114 &2322129295555479260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974803736248124431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e6816d1b05c0ac48bfc5b847420486e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  adaptPoints: []
-  ignoreOccupied: 0
-  applySeparatorFix: 0
-  applyFairingConeFix: 0
-  original:
-    variableName: 
-    referenceToVariables: {fileID: 0}
-    localValue: 0
-  width:
-    variableName: 
-    referenceToVariables: {fileID: 0}
-    localValue: 0
---- !u!114 &2910599043662735247
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3974803736248124431}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 641659d31fdc50c4aa71e2efbc218dd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points: []
 --- !u!114 &4468277913668657394
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3458,14 +3419,14 @@ MonoBehaviour:
       input: 
     y:
       variables: {fileID: 128775577033961292}
-      input: -10
+      input: -30
   showDescription: 1
   showForceMultiplier: 0
   useForceMultiplierEvenIfNotShown: 1
   forceMultiplier:
     variableName: 
     referenceToVariables: {fileID: 128775577033961292}
-    localValue: 0
+    localValue: 1
   cannotDetachIfSurfaceCovered: 0
   surfaceForCover: {fileID: 0}
   activatedByLES: 0
@@ -4193,6 +4154,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
   - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0

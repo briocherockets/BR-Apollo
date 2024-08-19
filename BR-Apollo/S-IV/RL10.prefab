@@ -288,6 +288,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1
@@ -415,6 +416,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &232993768915036881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -430,8 +432,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 7254044166720083983}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &4363109621157188469
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -561,7 +561,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 2441999630724956154}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -622,11 +621,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 8893447200282644245}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -705,11 +711,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 1
     offset: 0
     transform: {fileID: 3628342049599988561}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -788,11 +801,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 7
     offset: 0
     transform: {fileID: 8554298700905561011}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -853,6 +873,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &1729019994516091339
 GameObject:
   m_ObjectHideFlags: 0
@@ -938,6 +966,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -2
@@ -1082,6 +1111,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &4391666510742920742
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,8 +1127,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 8576189235911343585}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &1382158486168949464
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1220,6 +1248,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -1364,6 +1393,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &2552292612770884801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1379,8 +1409,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 7856223777287709771}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &6280708937118664361
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1753,6 +1781,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 1
@@ -2140,6 +2169,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &492141225641032947
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2242,6 +2272,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1
@@ -2369,6 +2400,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &6226815069068939107
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2384,8 +2416,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5009408319889786886}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &2081617731846068203
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2610,6 +2640,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1
@@ -2737,6 +2768,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &1349522466520944045
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2752,8 +2784,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 4628438497108095616}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &1220255506019248005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2873,6 +2903,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -3029,6 +3060,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &732844523457938679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3131,6 +3163,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -1
@@ -3292,6 +3325,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &7146645415672265292
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3307,8 +3341,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 2794465672559185344}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &7944158371417916392
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3533,6 +3565,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1
@@ -3660,6 +3693,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &5984342649567008364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3675,8 +3709,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5186985963916035103}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &6067414794619693057
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3901,6 +3933,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1
@@ -4028,6 +4061,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &5936114186207787312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4043,8 +4077,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 3364678545569492303}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &7538436533947028194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4269,6 +4301,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -4396,6 +4429,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &8348686003712297499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4411,8 +4445,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5821909071226755709}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &4512612836389149546
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4573,12 +4605,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 1
     TranslatableName: RL10
-  description:
     plainText: 1
+  description:
     TranslatableName: An engine witha hugely extensive history, this modest engine
       was used to propel the S-IV stage into orbit
+    plainText: 1
   mass:
     variables: {fileID: 7566055751565209050}
     input: mass
@@ -4685,14 +4717,6 @@ MonoBehaviour:
       y:
         variables: {fileID: 7566055751565209050}
         input: 0
-  snapPoints:
-  - variables: {fileID: 7566055751565209050}
-    x:
-      variables: {fileID: 7566055751565209050}
-      input: 0
-    y:
-      variables: {fileID: 7566055751565209050}
-      input: 0
 --- !u!114 &4429565665035733665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4877,7 +4901,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 7566055752362691677}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -4938,6 +4961,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &7566055752362691678
 GameObject:
   m_ObjectHideFlags: 0
@@ -5007,6 +5038,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -5282,6 +5314,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &7566055752362691676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5297,8 +5330,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 3701730911440516173}
   polygon: {fileID: 7566055752362691674}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &1631977622355876102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5421,6 +5452,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -5509,6 +5541,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &3768530639192883473
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5609,6 +5642,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -5714,6 +5748,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &8408651766970227661
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5814,6 +5849,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 2
@@ -6030,7 +6066,7 @@ MonoBehaviour:
         variables: {fileID: 7566055751565209050}
         x:
           variables: {fileID: 7566055751565209050}
-          input: 0.07750002
+          input: 0.07250004
         y:
           variables: {fileID: 7566055751565209050}
           input: 0.0325
@@ -6047,7 +6083,7 @@ MonoBehaviour:
         variables: {fileID: 7566055751565209050}
         x:
           variables: {fileID: 7566055751565209050}
-          input: 0.0875
+          input: 0.08000001
         y:
           variables: {fileID: 7566055751565209050}
           input: 0.0075
@@ -6056,7 +6092,7 @@ MonoBehaviour:
         variables: {fileID: 7566055751565209050}
         x:
           variables: {fileID: 7566055751565209050}
-          input: 0.26
+          input: 0.2675
         y:
           variables: {fileID: 7566055751565209050}
           input: -0.46
@@ -6064,7 +6100,7 @@ MonoBehaviour:
         variables: {fileID: 7566055751565209050}
         x:
           variables: {fileID: 7566055751565209050}
-          input: 0.08
+          input: 0.07500001
         y:
           variables: {fileID: 7566055751565209050}
           input: 0
@@ -6081,7 +6117,7 @@ MonoBehaviour:
         variables: {fileID: 7566055751565209050}
         x:
           variables: {fileID: 7566055751565209050}
-          input: 0.07000002
+          input: 0.07250002
         y:
           variables: {fileID: 7566055751565209050}
           input: -0.02
@@ -6174,6 +6210,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &7710658283244325539
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6276,6 +6313,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -6381,6 +6419,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &7566055753439704240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6396,8 +6435,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 7566055753439704254}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &430967610072694348
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6536,6 +6573,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -1
@@ -6663,6 +6701,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &2729345975497572497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6678,8 +6717,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 219585638314527243}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &8680838434811622466
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6799,6 +6836,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 2
@@ -6848,7 +6886,7 @@ MonoBehaviour:
           input: 0.15
         y:
           variables: {fileID: 7566055751565209050}
-          input: -0.0125
+          input: 0
     - variables: {fileID: 7566055751565209050}
       position:
         variables: {fileID: 7566055751565209050}
@@ -6865,7 +6903,7 @@ MonoBehaviour:
           input: 0.15
         y:
           variables: {fileID: 7566055751565209050}
-          input: -0.005
+          input: 0
     - variables: {fileID: 7566055751565209050}
       position:
         variables: {fileID: 7566055751565209050}
@@ -6955,6 +6993,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &1418446588719085285
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7160,6 +7199,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -2
@@ -7321,6 +7361,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &7558881829988251288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7336,8 +7377,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 6603589130113194655}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &2461795771507419609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7457,6 +7496,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -7647,6 +7687,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!23 &978805753207373774
 MeshRenderer:
   m_ObjectHideFlags: 0
