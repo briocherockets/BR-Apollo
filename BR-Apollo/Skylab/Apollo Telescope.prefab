@@ -4582,7 +4582,7 @@ MonoBehaviour:
     mode: 0
     color:
       type: 0
-      colorBasic: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
+      colorBasic: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
       colorModule: {fileID: 0}
     colors: []
   leftCover: 0
@@ -7365,7 +7365,7 @@ MonoBehaviour:
     plainText: 1
   mass:
     variables: {fileID: 6235279090927427242}
-    input: 2
+    input: 15
   centerOfMass:
     variables: {fileID: 6235279090927427242}
     x:
@@ -7381,7 +7381,7 @@ MonoBehaviour:
     - changes: []
       tags:
       - tag: {fileID: 11400000, guid: 32bce95f680e82a4cb759b2bd71d3237, type: 2}
-        priority: -15
+        priority: -5
       cost: 0
     tags: []
   onPartUsed:
@@ -7505,7 +7505,13 @@ MonoBehaviour:
     - name: ArrayState
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: ArrayTarget
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
     - name: HingeState
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: HingeTarget
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
     - name: ActivationState
@@ -13075,7 +13081,7 @@ MonoBehaviour:
     referenceToVariables: {fileID: 6235279090927427242}
     localValue: 0.5
   targetTime:
-    variableName: 
+    variableName: ArrayTarget
     referenceToVariables: {fileID: 6235279090927427242}
     localValue: 0
   animationTime: 8
@@ -16152,7 +16158,7 @@ MonoBehaviour:
     referenceToVariables: {fileID: 6235279090927427242}
     localValue: 0
   targetTime:
-    variableName: 
+    variableName: HingeTarget
     referenceToVariables: {fileID: 6235279090927427242}
     localValue: 0
   animationTime: 5

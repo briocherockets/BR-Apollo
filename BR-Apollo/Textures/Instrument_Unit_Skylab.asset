@@ -9,14 +9,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45ccf3a634b47aa4f9855acf05dfd568, type: 3}
-  m_Name: S-IC_Fairing_Rivet_Patch
+  m_Script: {fileID: 11500000, guid: 5c70d8f290dd0284b87588ddf6666874, type: 3}
+  m_Name: Instrument_Unit_Skylab
   m_EditorClassIdentifier: 
   multiple: 0
   segments: []
-  shapeTex:
+  colorTex:
     textures:
-    - texture: {fileID: 2800000, guid: f534da3be0b6d4340ab5b7204edee473, type: 3}
+    - texture: {fileID: 2800000, guid: 8037bb4d1416228439a4e138d5f884fa, type: 3}
       ideal: 0
     border_Bottom:
       uvSize: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
     flipToLight_X: 0
     flipToLight_Y: 0
     metalTexture: 0
-    icon: {fileID: 0}
-  shadowTex: {fileID: 11400000, guid: 5f8640c65b6ff014bbc193b05d96b6d2, type: 2}
-  tags: []
+    icon: {fileID: 21300000, guid: 489db273ba24a6b4fb48c94587f19f6b, type: 3}
+  tags:
+  - iu
   pack_Redstone_Atlas: 0

@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DisplayName: BR-Apollo
   Version: 1.3
-  Description: Countless detailed, researched, and accurate parts to recreate the
-    Apollo program with.
+  Description: Recreate the glory days of Apollo with countless extensive, researched,
+    and accurate parts representing the beginning of Saturn to the final flights
+    of Skylab. SFS's most popular part pack!
   Author: Brioche
   ShowIcon: 1
   Icon: {fileID: 2800000, guid: 18dce7df98cf90c4586e782d08a15263, type: 3}

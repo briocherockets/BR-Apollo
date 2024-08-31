@@ -357,7 +357,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 2.5
+  baseDepth: 0.1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -8406,7 +8406,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 1
+  colliderArea: 0
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -8589,7 +8589,7 @@ MonoBehaviour:
     plainText: 1
   mass:
     variables: {fileID: 5371138025553930724}
-    input: width * 1.5
+    input: 2
   centerOfMass:
     variables: {fileID: 5371138025553930724}
     x:
@@ -8608,8 +8608,18 @@ MonoBehaviour:
         priority: 0
       - tag: {fileID: 11400000, guid: ddcaceaa812c6884c9131ff372f57547, type: 2}
         priority: -10
+      cost: 0
+    tags: []
+  - variants:
+    - changes:
+      - name: color_tex
+        type: 2
+        numberValue: 0
+        toggleValue: 0
+        textValue: Instrument_Unit_Skylab
+      tags:
       - tag: {fileID: 11400000, guid: 32bce95f680e82a4cb759b2bd71d3237, type: 2}
-        priority: 0
+        priority: -25
       cost: 0
     tags: []
   onPartUsed:
@@ -10158,7 +10168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 1
+  colliderArea: 0
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -10314,7 +10324,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 1
+  colliderArea: 0
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -16092,7 +16102,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   attachmentSurfaces: 0
   dragSurfaces: 1
-  colliderArea: 1
+  colliderArea: 0
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
@@ -17772,7 +17782,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 2.5
+  baseDepth: 0.1
   composedBaseDepth:
     variables: {fileID: 0}
     input: 

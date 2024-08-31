@@ -1,5 +1,429 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &417153739140875621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4649531646319492432}
+  - component: {fileID: 7497070390161847392}
+  - component: {fileID: 4975884258409761195}
+  - component: {fileID: 7806112269449653961}
+  - component: {fileID: 817493116185113849}
+  m_Layer: 8
+  m_Name: Mesh (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4649531646319492432
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417153739140875621}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8370754926087132744}
+  m_Father: {fileID: 7794294962025590185}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7497070390161847392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417153739140875621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7560b24127b2fe45909a6821f093671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  pipeData: {fileID: 817493116185113849}
+  textures:
+    textureMode: 0
+    texture:
+      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 5b25bfc3f2e8dc3499afb03d76798199, type: 2}
+    textures: []
+    widthMode: 0
+    width:
+      variables: {fileID: 0}
+      input: 
+  colors:
+    mode: 1
+    color:
+      type: 0
+      colorBasic: {r: 1, g: 1, b: 1, a: 1}
+      colorModule: {fileID: 0}
+    colors:
+    - color:
+        type: 0
+        colorBasic: {r: 0.8773585, g: 0.8773585, b: 0.8773585, a: 1}
+        colorModule: {fileID: 0}
+      height: 0.07
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 1
+  leftCover: 0
+  centerCover: 0
+  rightCover: 0
+  separatorRing: 0
+  smoothShading: 0
+--- !u!23 &4975884258409761195
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417153739140875621}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &7806112269449653961
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417153739140875621}
+  m_Mesh: {fileID: 0}
+--- !u!114 &817493116185113849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 417153739140875621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305b12a83390f5c488a64145b53f92bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 1
+  colliderArea: 1
+  attachByOverlap: 1
+  physicsCollider: 1
+  clickArea: 1
+  baseDepth: 5
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  depthMultiplier: 1
+  advancedCut: 0
+  cut: 0.905
+  advancedCutData:
+    cuts: []
+  reduceResolution: 1
+  composedShape:
+    variables: {fileID: 128775577033961292}
+    points:
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 14.3
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 1.6
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 14.7
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 1
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 15.00001
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0.2
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+  edit: 1
+  view: 1
+  gridSize: 0.1
+--- !u!1 &974780367775851827
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8413224380612609427}
+  - component: {fileID: 814241654859156575}
+  - component: {fileID: 7870065054608570577}
+  - component: {fileID: 3669274953657825949}
+  - component: {fileID: 5516860401567103157}
+  - component: {fileID: 6000043355856068739}
+  m_Layer: 12
+  m_Name: Mesh (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8413224380612609427
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974780367775851827}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5061617066968660652}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &814241654859156575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974780367775851827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaac581eed06dc48bcaa946005d44fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerType: 1
+--- !u!114 &7870065054608570577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974780367775851827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7560b24127b2fe45909a6821f093671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  pipeData: {fileID: 6000043355856068739}
+  textures:
+    textureMode: 0
+    texture:
+      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 2129421f71fb97e4ba71582fe7cc1d74, type: 2}
+    textures: []
+    widthMode: 0
+    width:
+      variables: {fileID: 0}
+      input: 
+  colors:
+    mode: 0
+    color:
+      type: 0
+      colorBasic: {r: 0.5828587, g: 0.6283539, b: 0.6981132, a: 1}
+      colorModule: {fileID: 0}
+    colors: []
+  leftCover: 0
+  centerCover: 0
+  rightCover: 0
+  separatorRing: 0
+  smoothShading: 0
+--- !u!23 &3669274953657825949
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974780367775851827}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &5516860401567103157
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974780367775851827}
+  m_Mesh: {fileID: 0}
+--- !u!114 &6000043355856068739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974780367775851827}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305b12a83390f5c488a64145b53f92bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  attachByOverlap: 1
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 5
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  depthMultiplier: 1
+  advancedCut: 1
+  cut: 0
+  advancedCutData:
+    cuts:
+    - left: 0.332
+      right: 0.465
+  reduceResolution: 1
+  composedShape:
+    variables: {fileID: 128775577033961292}
+    points:
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 6.599999
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 6.6
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 7.500005
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 6.6
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+  edit: 1
+  view: 1
+  gridSize: 0.1
 --- !u!1 &1610042932958675566
 GameObject:
   m_ObjectHideFlags: 0
@@ -31,7 +455,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5061617066968660652}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7510769403623046617
 MonoBehaviour:
@@ -171,10 +595,10 @@ MonoBehaviour:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: -2.15
+          input: -2.35
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.57499
+          input: 11.17499
       width:
         variables: {fileID: 128775577033961292}
         x:
@@ -188,72 +612,21 @@ MonoBehaviour:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: -1.25
+          input: -0.75
         y:
           variables: {fileID: 128775577033961292}
-          input: 13.475
+          input: 14.3
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 0.1
+          input: 0.09999999
         y:
-          variables: {fileID: 128775577033961292}
-          input: -0.05
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: -0.775
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 14.25
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.05
-        y:
-          variables: {fileID: 128775577033961292}
-          input: -0.1
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: -0.075
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 14.95
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.05
-        y:
-          variables: {fileID: 128775577033961292}
-          input: -0.1
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
           variables: {fileID: 128775577033961292}
           input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 14.95
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: -0.1
   edit: 1
   view: 1
-  gridSize: 0.2
+  gridSize: 0.0125
 --- !u!1 &3161571663047810045
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,9 +896,9 @@ MonoBehaviour:
   UV_Mode: 0
   grid: 0
   bounds:
-  - {x: 0, y: 0}
-  - {x: 0, y: 15}
-  - {x: 3.25, y: 15}
+  - {x: 0.7, y: 0}
+  - {x: 0.7, y: 14.3}
+  - {x: 3.25, y: 14.3}
   - {x: 3.25, y: 0}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
   type: 0
@@ -647,9 +1020,9 @@ MonoBehaviour:
   grid: 0
   bounds:
   - {x: -3.25, y: 0}
-  - {x: -3.25, y: 15}
-  - {x: 0, y: 15}
-  - {x: 0, y: 0}
+  - {x: -3.25, y: 14.3}
+  - {x: -0.7, y: 14.3}
+  - {x: -0.7, y: 0}
   texture: {fileID: 11400000, guid: 76afb0ac1321dd24ea5da9407564a75e, type: 2}
   type: 0
   colorBasic: {r: 1, g: 1, b: 1, a: 1}
@@ -980,29 +1353,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.6
+          input: 11.2
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 4.4
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 13.5
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 2.6
+          input: 4.8
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -1020,23 +1376,6 @@ MonoBehaviour:
         x:
           variables: {fileID: 128775577033961292}
           input: 1.6
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 15.00001
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.2
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -1082,6 +1421,7 @@ Transform:
   - {fileID: 8924549007669627196}
   - {fileID: 5061617066968660652}
   - {fileID: 5949429722400376676}
+  - {fileID: 4649531646319492432}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1098,11 +1438,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    TranslatableName: Fairing_Name
-    plainText: 0
+    TranslatableName: Skylab Fairing
+    plainText: 1
   description:
-    TranslatableName: Fairing_Description
-    plainText: 0
+    TranslatableName: A giant fairing to keep the delicate bits of Skylab safe from
+      the stresses of aerodynamics during ascent
+    plainText: 1
   mass:
     variables: {fileID: 128775577033961292}
     input: mass
@@ -1186,7 +1527,7 @@ MonoBehaviour:
       data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
     - name: detach_edge
       save: 1
-      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001010b
   stringVariables:
     saves:
     - name: fragment
@@ -1238,7 +1579,8 @@ MonoBehaviour:
     - {fileID: 4509282057476568398}
     - {fileID: 7397310878965006227}
     - {fileID: 8893736811361052277}
-    attachmentSurfaces: []
+    attachmentSurfaces:
+    - {fileID: 7895355967732931639}
     separationForce:
       variables: {fileID: 128775577033961292}
       x:
@@ -1255,7 +1597,9 @@ MonoBehaviour:
     - {fileID: 5266870663853228397}
     - {fileID: 2893801107823384958}
     - {fileID: 5052079062743170679}
-    attachmentSurfaces: []
+    - {fileID: 417153739140875621}
+    attachmentSurfaces:
+    - {fileID: 6600404066730342624}
     separationForce:
       variables: {fileID: 128775577033961292}
       x:
@@ -1272,9 +1616,9 @@ MonoBehaviour:
     localValue: 0
   fairing: 1
   detachEdges:
-    variableName: detach_edge
+    variableName: 
     referenceToVariables: {fileID: 128775577033961292}
-    localValue: 0
+    localValue: 1
   fragmentName:
     variableName: fragment
     referenceToVariables: {fileID: 128775577033961292}
@@ -1343,6 +1687,213 @@ Transform:
   m_Father: {fileID: 7794294962025590185}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4959472299748043273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8370754926087132744}
+  - component: {fileID: 8542632863223540699}
+  - component: {fileID: 4374570671184246311}
+  - component: {fileID: 396733799458424020}
+  - component: {fileID: 8358534941195521320}
+  m_Layer: 8
+  m_Name: Mesh (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8370754926087132744
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959472299748043273}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4649531646319492432}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8542632863223540699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959472299748043273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7560b24127b2fe45909a6821f093671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  pipeData: {fileID: 8358534941195521320}
+  textures:
+    textureMode: 0
+    texture:
+      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 5b25bfc3f2e8dc3499afb03d76798199, type: 2}
+    textures: []
+    widthMode: 0
+    width:
+      variables: {fileID: 0}
+      input: 
+  colors:
+    mode: 0
+    color:
+      type: 0
+      colorBasic: {r: 1, g: 1, b: 1, a: 1}
+      colorModule: {fileID: 0}
+    colors: []
+  leftCover: 0
+  centerCover: 0
+  rightCover: 0
+  separatorRing: 0
+  smoothShading: 0
+--- !u!23 &4374570671184246311
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959472299748043273}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &396733799458424020
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959472299748043273}
+  m_Mesh: {fileID: 0}
+--- !u!114 &8358534941195521320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4959472299748043273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305b12a83390f5c488a64145b53f92bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 1
+  colliderArea: 1
+  attachByOverlap: 1
+  physicsCollider: 1
+  clickArea: 1
+  baseDepth: 5
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  depthMultiplier: 1
+  advancedCut: 0
+  cut: -1.095
+  advancedCutData:
+    cuts: []
+  reduceResolution: 1
+  composedShape:
+    variables: {fileID: 128775577033961292}
+    points:
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 14.3
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 1.6
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 14.7
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 1
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 15.00001
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0.2
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+  edit: 1
+  view: 1
+  gridSize: 0.1
 --- !u!1 &5052079062743170679
 GameObject:
   m_ObjectHideFlags: 0
@@ -1423,8 +1974,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 8413224380612609427}
   - {fileID: 5597590090012328748}
   - {fileID: 7887677957168436818}
+  - {fileID: 8041409902485866194}
   m_Father: {fileID: 7794294962025590185}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1637,29 +2190,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.6
+          input: 11.2
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 4.4
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 13.5
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 2.6
+          input: 4.8
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -1677,23 +2213,6 @@ MonoBehaviour:
         x:
           variables: {fileID: 128775577033961292}
           input: 1.6
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 15.00001
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.2
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -1768,19 +2287,52 @@ MonoBehaviour:
     textureMode: 0
     texture:
       colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
-      shapeTexture: {fileID: 11400000, guid: c380355d3ae9e2640b3e758fb4799921, type: 2}
-    textures: []
+      shapeTexture: {fileID: 11400000, guid: 941a39db60d29444089525849a74fc0b, type: 2}
+    textures:
+    - texture:
+        colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+        shapeTexture: {fileID: 11400000, guid: c380355d3ae9e2640b3e758fb4799921, type: 2}
+      height: 10
+    - texture:
+        colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+        shapeTexture: {fileID: 11400000, guid: 941a39db60d29444089525849a74fc0b, type: 2}
+      height: 20
     widthMode: 0
     width:
       variables: {fileID: 0}
       input: 
   colors:
-    mode: 0
+    mode: 1
     color:
       type: 0
       colorBasic: {r: 1, g: 1, b: 1, a: 1}
       colorModule: {fileID: 0}
-    colors: []
+    colors:
+    - color:
+        type: 0
+        colorBasic: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+        colorModule: {fileID: 0}
+      height: 2.5
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 5
+    - color:
+        type: 0
+        colorBasic: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+        colorModule: {fileID: 0}
+      height: 6.6
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 7.5
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 8
   leftCover: 0
   centerCover: 0
   rightCover: 0
@@ -1925,29 +2477,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.6
+          input: 11.2
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 4.4
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 13.5
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 2.6
+          input: 4.8
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -1965,23 +2500,6 @@ MonoBehaviour:
         x:
           variables: {fileID: 128775577033961292}
           input: 1.6
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 15.00001
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.2
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -2274,7 +2792,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5061617066968660652}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4044315614591166801
 MonoBehaviour:
@@ -2307,19 +2825,54 @@ MonoBehaviour:
     textureMode: 0
     texture:
       colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
-      shapeTexture: {fileID: 11400000, guid: c380355d3ae9e2640b3e758fb4799921, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 941a39db60d29444089525849a74fc0b, type: 2}
     textures: []
     widthMode: 0
     width:
       variables: {fileID: 0}
       input: 
   colors:
-    mode: 0
+    mode: 1
     color:
       type: 0
       colorBasic: {r: 1, g: 1, b: 1, a: 1}
       colorModule: {fileID: 0}
-    colors: []
+    colors:
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 2.5
+    - color:
+        type: 0
+        colorBasic: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+        colorModule: {fileID: 0}
+      height: 5
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 6.6
+    - color:
+        type: 0
+        colorBasic: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+        colorModule: {fileID: 0}
+      height: 7.5
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 10
+    - color:
+        type: 0
+        colorBasic: {r: 0.9622642, g: 0.9622642, b: 0.9622642, a: 1}
+        colorModule: {fileID: 0}
+      height: 11.2
+    - color:
+        type: 0
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
+        colorModule: {fileID: 0}
+      height: 12
   leftCover: 0
   centerCover: 0
   rightCover: 0
@@ -2464,29 +3017,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.6
+          input: 11.2
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 4.4
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 13.5
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 2.6
+          input: 4.8
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -2515,18 +3051,18 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 128775577033961292}
-          input: 15.00001
+          input: 14.4625
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 0.2
+          input: 1.25
         y:
           variables: {fileID: 128775577033961292}
           input: 0
   edit: 1
   view: 1
-  gridSize: 0.1
+  gridSize: 0.0125
 --- !u!1 &7397310878965006227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2631,10 +3167,10 @@ MonoBehaviour:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 2.15
+          input: 2.35
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.57499
+          input: 11.17499
       width:
         variables: {fileID: 128775577033961292}
         x:
@@ -2648,69 +3184,18 @@ MonoBehaviour:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 1.25
+          input: 0.75
         y:
           variables: {fileID: 128775577033961292}
-          input: 13.475
+          input: 14.3
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
           input: 0.1
         y:
-          variables: {fileID: 128775577033961292}
-          input: 0.05
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.775
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 14.25
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.05
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0.1
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.075
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 14.95
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.05
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0.1
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
           variables: {fileID: 128775577033961292}
           input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 14.95
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0.1
   edit: 1
   view: 1
   gridSize: 0.025
@@ -2816,7 +3301,15 @@ MonoBehaviour:
     texture:
       colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
       shapeTexture: {fileID: 11400000, guid: c380355d3ae9e2640b3e758fb4799921, type: 2}
-    textures: []
+    textures:
+    - texture:
+        colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+        shapeTexture: {fileID: 11400000, guid: c380355d3ae9e2640b3e758fb4799921, type: 2}
+      height: 10
+    - texture:
+        colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+        shapeTexture: {fileID: 11400000, guid: 941a39db60d29444089525849a74fc0b, type: 2}
+      height: 20
     widthMode: 0
     width:
       variables: {fileID: 0}
@@ -2957,29 +3450,12 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 128775577033961292}
-          input: 11.6
+          input: 11.2
       width:
         variables: {fileID: 128775577033961292}
         x:
           variables: {fileID: 128775577033961292}
-          input: 4.4
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 13.5
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 2.6
+          input: 4.8
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -2997,23 +3473,6 @@ MonoBehaviour:
         x:
           variables: {fileID: 128775577033961292}
           input: 1.6
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 0
-    - variables: {fileID: 128775577033961292}
-      position:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0
-        y:
-          variables: {fileID: 128775577033961292}
-          input: 15.00001
-      width:
-        variables: {fileID: 128775577033961292}
-        x:
-          variables: {fileID: 128775577033961292}
-          input: 0.2
         y:
           variables: {fileID: 128775577033961292}
           input: 0
@@ -3123,3 +3582,209 @@ MonoBehaviour:
   left: 1
   bottom: 0
   right: 0
+--- !u!1 &8981945645342629794
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8041409902485866194}
+  - component: {fileID: 3759837168446564435}
+  - component: {fileID: 6898732298454169930}
+  - component: {fileID: 7112239698930069735}
+  - component: {fileID: 7991959308604445784}
+  - component: {fileID: 2086126834855153020}
+  m_Layer: 12
+  m_Name: Mesh (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8041409902485866194
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981945645342629794}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5061617066968660652}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3759837168446564435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981945645342629794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eaac581eed06dc48bcaa946005d44fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerType: 1
+--- !u!114 &6898732298454169930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981945645342629794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7560b24127b2fe45909a6821f093671, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  pipeData: {fileID: 2086126834855153020}
+  textures:
+    textureMode: 0
+    texture:
+      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 2129421f71fb97e4ba71582fe7cc1d74, type: 2}
+    textures: []
+    widthMode: 0
+    width:
+      variables: {fileID: 0}
+      input: 
+  colors:
+    mode: 0
+    color:
+      type: 0
+      colorBasic: {r: 0.63630295, g: 0.6776402, b: 0.745283, a: 1}
+      colorModule: {fileID: 0}
+    colors: []
+  leftCover: 0
+  centerCover: 0
+  rightCover: 0
+  separatorRing: 0
+  smoothShading: 0
+--- !u!23 &7112239698930069735
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981945645342629794}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &7991959308604445784
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981945645342629794}
+  m_Mesh: {fileID: 0}
+--- !u!114 &2086126834855153020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8981945645342629794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305b12a83390f5c488a64145b53f92bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 0
+  dragSurfaces: 0
+  colliderArea: 0
+  attachByOverlap: 1
+  physicsCollider: 0
+  clickArea: 1
+  baseDepth: 5.001
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  depthMultiplier: 1
+  advancedCut: 1
+  cut: 0
+  advancedCutData:
+    cuts:
+    - left: 0.342
+      right: 0.455
+  reduceResolution: 1
+  composedShape:
+    variables: {fileID: 128775577033961292}
+    points:
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 6.699999
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 6.6
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+    - variables: {fileID: 128775577033961292}
+      position:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 0
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 7.400005
+      width:
+        variables: {fileID: 128775577033961292}
+        x:
+          variables: {fileID: 128775577033961292}
+          input: 6.6
+        y:
+          variables: {fileID: 128775577033961292}
+          input: 0
+  edit: 1
+  view: 1
+  gridSize: 0.1

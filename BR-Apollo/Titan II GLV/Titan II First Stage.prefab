@@ -155,7 +155,6 @@ GameObject:
   - component: {fileID: 6025496177165280511}
   - component: {fileID: 6025496177165280503}
   - component: {fileID: 6025496177165280392}
-  - component: {fileID: 6025496177165280510}
   - component: {fileID: 6025496177165280500}
   - component: {fileID: 6025496177165280497}
   - component: {fileID: 4355835229077590899}
@@ -396,30 +395,6 @@ MonoBehaviour:
   rightCover: 0
   separatorRing: 0
   smoothShading: 0
---- !u!114 &6025496177165280510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6025496177165280394}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a992037912a16d46a9e6c80c7e82ee8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  skinTag: sivbforward
-  meshModules: []
-  colorTextureName:
-    variableName: color_tex
-    referenceToVariables: {fileID: 6025496177165280511}
-    localValue: 
-  shapeTextureName:
-    variableName: shape_tex
-    referenceToVariables: {fileID: 6025496177165280511}
-    localValue: 
-  disableColorSelect: 1
-  disableShapeSelect: 0
 --- !u!114 &6025496177165280500
 MonoBehaviour:
   m_ObjectHideFlags: 0

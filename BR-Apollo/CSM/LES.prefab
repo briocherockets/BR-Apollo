@@ -12309,6 +12309,9 @@ MonoBehaviour:
     - name: fuel_percent2
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
+    - name: LES_state
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
   boolVariables:
     saves: []
   stringVariables:
@@ -12586,7 +12589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state:
-    variableName: 
+    variableName: LES_state
     referenceToVariables: {fileID: 6025496177165280511}
     localValue: 0
   steps:

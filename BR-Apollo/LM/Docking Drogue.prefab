@@ -56,12 +56,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 1
     TranslatableName: Docking Drogue
-  description:
     plainText: 1
+  description:
     TranslatableName: "Place on top of the LM Ascent Stage. Docks to the Docking
       Probe. (Or just dock it to another drogue, I can\u2019t stop you)"
+    plainText: 1
   mass:
     variables: {fileID: 8877277868885857939}
     input: width * 0.2
@@ -86,6 +86,8 @@ MonoBehaviour:
       tags:
       - tag: {fileID: 11400000, guid: fc52177048a27f14d98b4ac7a82570a4, type: 2}
         priority: -50
+      - tag: {fileID: 11400000, guid: 32bce95f680e82a4cb759b2bd71d3237, type: 2}
+        priority: -15
       cost: 0
     tags: []
   onPartUsed:
@@ -159,6 +161,10 @@ MonoBehaviour:
   dockDistance: 0.03
   pullDistance: 3
   pullForce: 0.6
+  forceMultiplier:
+    variableName: 
+    referenceToVariables: {fileID: 0}
+    localValue: 0
   isOccupied:
     value: 0
   isOnCooldown:
@@ -186,8 +192,6 @@ MonoBehaviour:
     y:
       variables: {fileID: 8877277868885857939}
       input: width * 2
-  cannotDetachIfSurfaceCovered: 0
-  surfaceForCover: {fileID: 0}
   showDescription: 1
   showForceMultiplier: 0
   useForceMultiplierEvenIfNotShown: 0
@@ -195,6 +199,9 @@ MonoBehaviour:
     variableName: 
     referenceToVariables: {fileID: 8877277868885857939}
     localValue: 0.5
+  cannotDetachIfSurfaceCovered: 0
+  surfaceForCover: {fileID: 0}
+  activatedByLES: 0
   onDetach:
     m_PersistentCalls:
       m_Calls: []
@@ -255,7 +262,6 @@ MonoBehaviour:
       y:
         variables: {fileID: 8877277868885857939}
         input: -0.1
-  snapPoints: []
 --- !u!1 &890075953337142916
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +313,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -367,6 +374,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &6357238278833458122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -382,8 +390,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 5573987081523053494}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!23 &6981683051694342211
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -588,6 +594,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &9160554080579259055
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,6 +610,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -776,6 +784,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!114 &6628735957226109508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -791,6 +800,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -941,6 +951,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 4
