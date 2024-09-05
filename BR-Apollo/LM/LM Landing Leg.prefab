@@ -51,6 +51,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: -50
@@ -173,6 +174,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &44140257849869834
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -274,6 +276,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: -1
@@ -308,8 +311,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 7233070496976148569}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!114 &3561697823246010886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +326,7 @@ MonoBehaviour:
   renderQueueOffset: 0
   polygonModule: {fileID: 7233070496976148569}
   UV_Mode: 0
+  grid: 0
   bounds:
   - {x: -2.8625004, y: -5.037497}
   - {x: -2.8625004, y: -2.3999991}
@@ -434,6 +436,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 1
@@ -581,6 +584,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &5577954492439201036
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -682,6 +686,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -846,6 +851,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &891647330097564181
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -953,13 +959,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 1
     TranslatableName: LM Landing Gear
-  description:
     plainText: 1
+  description:
     TranslatableName: Deployable landing gear for the LM Descent Stage. Features
       contact probes beneath the footpads. Toggle "leg" to disable the leg, as it
       was for the launch of Apollo 5
+    plainText: 1
   mass:
     variables: {fileID: 6825023653115384441}
     input: 0.5
@@ -1024,7 +1030,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 3897505738393350780}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -1085,11 +1090,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 0
     offset: 0
     transform: {fileID: 483101251242054631}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -1231,11 +1243,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 0
     offset: 0
     transform: {fileID: 5104077605951776884}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -1386,11 +1405,18 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
   - type: 0
     offset: 0
     transform: {fileID: 5963166100125120163}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -1460,6 +1486,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!114 &8542427493602707297
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1520,8 +1554,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label:
-    plainText: 0
     TranslatableName: Landing_Leg_Expanded
+    plainText: 0
   state: {fileID: 4102685734026124113}
 --- !u!114 &2445370958945316862
 MonoBehaviour:
@@ -1538,8 +1572,6 @@ MonoBehaviour:
   impactTolerance: 2
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 8547181835504876240}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!114 &6883186896486252794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,8 +1585,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   label:
-    plainText: 1
     TranslatableName: Leg
+    plainText: 1
   state: {fileID: 1472572638133004719}
 --- !u!1 &1921346024609138199
 GameObject:
@@ -1608,6 +1640,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -1712,7 +1745,7 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
       shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
     textures: []
     widthMode: 0
@@ -1723,13 +1756,14 @@ MonoBehaviour:
     mode: 0
     color:
       type: 0
-      colorBasic: {r: 0.5294118, g: 0.3803922, b: 0.13725491, a: 1}
+      colorBasic: {r: 0.90588236, g: 0.66830844, b: 0.23529409, a: 1}
       colorModule: {fileID: 0}
     colors: []
   leftCover: 0
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &8064628684251171467
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1864,7 +1898,6 @@ MonoBehaviour:
     offset: 0
     transform: {fileID: 5796138901746035100}
     spriteRenderer: {fileID: 0}
-    image: {fileID: 0}
     X:
       serializedVersion: 2
       m_Curve:
@@ -1943,6 +1976,14 @@ MonoBehaviour:
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     audioSource: {fileID: 0}
+    floatVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
+    boolVariable:
+      variableName: 
+      referenceToVariables: {fileID: 0}
+      localValue: 0
 --- !u!1 &3273281840555581439
 GameObject:
   m_ObjectHideFlags: 0
@@ -1990,6 +2031,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -2056,6 +2098,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -2178,6 +2221,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &2310180495423879316
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2282,6 +2326,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -2424,7 +2469,7 @@ MonoBehaviour:
       shapeTexture: {fileID: 11400000, guid: 8b353574270d0dc459788bd8b0aecdc9, type: 2}
     textures:
     - texture:
-        colorTexture: {fileID: 11400000, guid: 36545590e079b5b479600f57ba3f8ef7, type: 2}
+        colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
         shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
       height: 0.9
     - texture:
@@ -2433,19 +2478,30 @@ MonoBehaviour:
       height: 1
     widthMode: 0
     width:
-      variables: {fileID: 0}
+      variables: {fileID: 6825023653115384441}
       input: 
   colors:
-    mode: 0
+    mode: 1
     color:
       type: 0
       colorBasic: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
       colorModule: {fileID: 0}
-    colors: []
+    colors:
+    - color:
+        type: 0
+        colorBasic: {r: 0.8773585, g: 0.6872282, b: 0.27727836, a: 1}
+        colorModule: {fileID: 0}
+      height: 0.9
+    - color:
+        type: 0
+        colorBasic: {r: 0.745283, g: 0.745283, b: 0.745283, a: 1}
+        colorModule: {fileID: 0}
+      height: 1
   leftCover: 0
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &6531346912060032535
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2512,8 +2568,6 @@ MonoBehaviour:
   impactTolerance: 1
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 8547181835504876240}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!1 &5690442626552853852
 GameObject:
   m_ObjectHideFlags: 0
@@ -2561,6 +2615,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: 0
@@ -2624,6 +2679,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 0
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 0
   baseDepth: -50
@@ -2679,10 +2735,10 @@ MonoBehaviour:
         variables: {fileID: 6825023653115384441}
         x:
           variables: {fileID: 6825023653115384441}
-          input: 0
+          input: 0.0025
         y:
           variables: {fileID: 6825023653115384441}
-          input: 0.3
+          input: 0.3025
       width:
         variables: {fileID: 6825023653115384441}
         x:
@@ -2690,7 +2746,7 @@ MonoBehaviour:
           input: 0.025
         y:
           variables: {fileID: 6825023653115384441}
-          input: 0
+          input: -0.005
     - variables: {fileID: 6825023653115384441}
       position:
         variables: {fileID: 6825023653115384441}
@@ -2762,8 +2818,8 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: b33e39158bc16f4409301bbdd660174c, type: 2}
-      shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
+      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}
     textures: []
     widthMode: 0
     width:
@@ -2780,6 +2836,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &7077804929273016276
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2881,6 +2938,7 @@ MonoBehaviour:
   attachmentSurfaces: 1
   dragSurfaces: 1
   colliderArea: 1
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -3003,6 +3061,7 @@ MonoBehaviour:
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &2265065544547410298
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3103,6 +3162,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 0
   clickArea: 1
   baseDepth: 0
@@ -3173,7 +3233,7 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
+      colorTexture: {fileID: 11400000, guid: b9ea11faf7f669849884e84203b3e4f7, type: 2}
       shapeTexture: {fileID: 11400000, guid: a7fea6a4c17162f448b5bfb4bbc5cb9e, type: 2}
     textures: []
     widthMode: 0
@@ -3184,13 +3244,14 @@ MonoBehaviour:
     mode: 0
     color:
       type: 0
-      colorBasic: {r: 0.6039216, g: 0.43921572, b: 0.15686275, a: 1}
+      colorBasic: {r: 0.90588236, g: 0.66830844, b: 0.23529409, a: 1}
       colorModule: {fileID: 0}
     colors: []
   leftCover: 0
   centerCover: 0
   rightCover: 0
   separatorRing: 0
+  smoothShading: 0
 --- !u!33 &4863800211543873589
 MeshFilter:
   m_ObjectHideFlags: 0

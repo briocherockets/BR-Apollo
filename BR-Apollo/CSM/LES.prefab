@@ -482,7 +482,7 @@ MonoBehaviour:
   soundEffect: {fileID: 11400000, guid: 6428bb7784bd3be46bf23a3d2a6e6b74, type: 2}
   volume:
     variables: {fileID: 6025496177165280511}
-    input: 'throttle '
+    input: 'throttle2 '
   pitch:
     variables: {fileID: 6025496177165280511}
     input: 1
@@ -569,7 +569,7 @@ MonoBehaviour:
     referenceToVariables: {fileID: 6025496177165280511}
     localValue: 0
   boosterPrimed:
-    variableName: primed
+    variableName: primed2
     referenceToVariables: {fileID: 6025496177165280511}
     localValue: 0
   throttle_Out:
@@ -577,7 +577,7 @@ MonoBehaviour:
     referenceToVariables: {fileID: 6025496177165280511}
     localValue: 0
   mass_Out:
-    variableName: mass
+    variableName: mass2
     referenceToVariables: {fileID: 6025496177165280511}
     localValue: 0
   heatOn:
@@ -12312,8 +12312,17 @@ MonoBehaviour:
     - name: LES_state
       save: 1
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000000000b
+    - name: mass2
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
   boolVariables:
-    saves: []
+    saves:
+    - name: primed
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
+    - name: primed2
+      save: 1
+      data: 0001000000ffffffff010000000000000004010000000e53797374656d2e426f6f6c65616e01000000076d5f76616c75650001000b
   stringVariables:
     saves: []
 --- !u!114 &6025496177165280503
@@ -12621,10 +12630,10 @@ MonoBehaviour:
         m_CallState: 2
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2465421646538620287}
-        m_TargetAssemblyTypeName: SFS.Parts.Modules.DetachModule, Assembly-CSharp
-        m_MethodName: Detach
-        m_Mode: 0
+      - m_Target: {fileID: 2252271237507662706}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.BoosterModule, Assembly-CSharp
+        m_MethodName: Fire
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -12633,10 +12642,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 2252271237507662706}
-        m_TargetAssemblyTypeName: SFS.Parts.Modules.BoosterModule, Assembly-CSharp
-        m_MethodName: Fire
-        m_Mode: 1
+      - m_Target: {fileID: 3634570139794084410}
+        m_TargetAssemblyTypeName: AutoDetachModule, BASPModules
+        m_MethodName: OnDetach
+        m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

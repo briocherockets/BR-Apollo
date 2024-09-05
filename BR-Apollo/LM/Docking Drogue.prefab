@@ -88,6 +88,8 @@ MonoBehaviour:
         priority: -50
       - tag: {fileID: 11400000, guid: 32bce95f680e82a4cb759b2bd71d3237, type: 2}
         priority: -15
+      - tag: {fileID: 11400000, guid: 40d646e743e2cc4479a8300136f79f06, type: 2}
+        priority: -10
       cost: 0
     tags: []
   onPartUsed:
