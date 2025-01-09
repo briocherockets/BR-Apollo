@@ -299,7 +299,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 12.5
+          input: 12.75
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -308,26 +308,26 @@ MonoBehaviour:
         y:
           variables: {fileID: 6025496177165280511}
           input: 0
-    - variables: {fileID: 6025496177165280511}
+    - variables: {fileID: 0}
       position:
-        variables: {fileID: 6025496177165280511}
+        variables: {fileID: 0}
         x:
-          variables: {fileID: 6025496177165280511}
+          variables: {fileID: 0}
           input: 0
         y:
-          variables: {fileID: 6025496177165280511}
-          input: 12.60001
+          variables: {fileID: 0}
+          input: 12.85
       width:
-        variables: {fileID: 6025496177165280511}
+        variables: {fileID: 0}
         x:
-          variables: {fileID: 6025496177165280511}
+          variables: {fileID: 0}
           input: 10
         y:
-          variables: {fileID: 6025496177165280511}
+          variables: {fileID: 0}
           input: 0
   edit: 1
   view: 1
-  gridSize: 0.1
+  gridSize: 0.05
 --- !u!114 &5766088241459384759
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -510,7 +510,7 @@ MonoBehaviour:
         textValue: 
       - name: height
         type: 0
-        numberValue: 29.5
+        numberValue: 30.5
         toggleValue: 0
         textValue: 
       tags:
@@ -576,7 +576,7 @@ MonoBehaviour:
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c7565000600000000000024400b
     - name: height
       save: 1
-      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c756500060000000000803d400b
+      data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c756500060000000000803e400b
     - name: mass_wet
       save: 0
       data: 0001000000ffffffff010000000000000004010000000d53797374656d2e446f75626c6501000000076d5f76616c75650006000000000000f03f0b
@@ -668,11 +668,11 @@ MonoBehaviour:
     - texture:
         colorTexture: {fileID: 11400000, guid: 71cd1917028932441b08a3e4ea662f81, type: 2}
         shapeTexture: {fileID: 11400000, guid: 85a08dce809142d4e90c12d443b02cbd, type: 2}
-      height: 26.5
+      height: 27
     - texture:
         colorTexture: {fileID: 11400000, guid: b9ee04442e6159a45a853c09843da9a5, type: 2}
         shapeTexture: {fileID: 11400000, guid: 28d876137cb04ed41b7a18fd1a58bc89, type: 2}
-      height: 27
+      height: 30
     widthMode: 0
     width:
       variables: {fileID: 0}
@@ -1130,7 +1130,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7743957557095982566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 17, z: 0}
+  m_LocalPosition: {x: 0, y: 18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1177,7 +1177,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 9.499998
+          input: 8.999998
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -1194,7 +1194,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 9.599998
+          input: 9.099998
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -1239,7 +1239,7 @@ MonoBehaviour:
           input: 0
   edit: 1
   view: 1
-  gridSize: 0.1
+  gridSize: 0.5
 --- !u!114 &1092859223937980188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1831,7 +1831,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 3.7
+          input: 4.7
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -1848,7 +1848,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 4.1
+          input: 5.1
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -1865,7 +1865,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 4.3
+          input: 5.3
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -1904,7 +1904,7 @@ MonoBehaviour:
     - texture:
         colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
         shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}
-      height: 26.5
+      height: 27
     - texture:
         colorTexture: {fileID: 11400000, guid: b19b447d30bc5d64fb9f88401e73e263, type: 2}
         shapeTexture: {fileID: 11400000, guid: 9a1cdeaedc20b56458594c37de6da28f, type: 2}

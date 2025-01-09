@@ -16270,7 +16270,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 0.2
+          input: 1.2
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -16287,7 +16287,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 0.925
+          input: 1.925
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -16304,7 +16304,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 0.975
+          input: 1.975
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -16321,7 +16321,7 @@ MonoBehaviour:
           input: 0
         y:
           variables: {fileID: 6025496177165280511}
-          input: 1
+          input: 2
       width:
         variables: {fileID: 6025496177165280511}
         x:
@@ -16332,7 +16332,7 @@ MonoBehaviour:
           input: 0
   edit: 1
   view: 1
-  gridSize: 0.025
+  gridSize: 1
 --- !u!1 &8116044378483729869
 GameObject:
   m_ObjectHideFlags: 0
@@ -18097,7 +18097,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8991873920159668763}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalPosition: {x: 0, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

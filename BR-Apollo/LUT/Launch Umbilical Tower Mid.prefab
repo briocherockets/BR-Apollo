@@ -44547,7 +44547,7 @@ MonoBehaviour:
           input: -2.7
         y:
           variables: {fileID: 2601767636593947351}
-          input: -25.75
+          input: -25.7
       width:
         variables: {fileID: 2601767636593947351}
         x:
@@ -54003,7 +54003,7 @@ MonoBehaviour:
           input: -4.2
         y:
           variables: {fileID: 2601767636593947351}
-          input: -24.65
+          input: -24.7
       width:
         variables: {fileID: 2601767636593947351}
         x:
@@ -60307,7 +60307,7 @@ MonoBehaviour:
           input: 0.4
         y:
           variables: {fileID: 2601767636593947351}
-          input: 0.1
+          input: 0.2
     - variables: {fileID: 2601767636593947351}
       position:
         variables: {fileID: 2601767636593947351}
@@ -60324,7 +60324,7 @@ MonoBehaviour:
           input: 0.4
         y:
           variables: {fileID: 2601767636593947351}
-          input: 0.1
+          input: 0.2
   edit: 1
   view: 1
   gridSize: 0.1

@@ -8060,7 +8060,6 @@ GameObject:
   - component: {fileID: 135729929796912517}
   - component: {fileID: 2771227738125057895}
   - component: {fileID: 5560337339559378413}
-  - component: {fileID: 197271896169591735}
   - component: {fileID: 4984949461630507751}
   - component: {fileID: 9143954407919819676}
   - component: {fileID: 3167623131360201917}
@@ -8152,14 +8151,6 @@ MonoBehaviour:
   type: 1
   colorBasic: {r: 0.24968849, g: 0.26394325, b: 0.2924528, a: 1}
   colorModule: {fileID: 0}
---- !u!33 &197271896169591735
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3212721356092540755}
-  m_Mesh: {fileID: 0}
 --- !u!23 &4984949461630507751
 MeshRenderer:
   m_ObjectHideFlags: 0
