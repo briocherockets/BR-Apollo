@@ -246,7 +246,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderQueueOffset: 0
+  renderQueueOffset: 1
   polygonModule: {fileID: 1798638355542912518}
   UV_Mode: 0
   grid: 0
@@ -388,7 +388,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -530,7 +530,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -555,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderQueueOffset: 0
+  renderQueueOffset: 1
   polygonModule: {fileID: 271441207087579319}
   UV_Mode: 0
   grid: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -814,7 +814,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 5
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 5
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -1241,7 +1241,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -1776,7 +1776,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 5
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -1918,7 +1918,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -2677,7 +2677,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -2819,7 +2819,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -3249,7 +3249,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -3391,7 +3391,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 4
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -3533,7 +3533,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -3957,7 +3957,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 2
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -5149,7 +5149,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 5
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -5907,7 +5907,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 4
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -6048,7 +6048,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 1
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -6190,7 +6190,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -6522,7 +6522,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 3
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -6664,7 +6664,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 4
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -6805,7 +6805,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 5.9
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -8069,7 +8069,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 4
   composedBaseDepth:
     variables: {fileID: 0}
     input: 
@@ -8210,7 +8210,7 @@ MonoBehaviour:
   attachByOverlap: 1
   physicsCollider: 1
   clickArea: 1
-  baseDepth: 0
+  baseDepth: 6
   composedBaseDepth:
     variables: {fileID: 0}
     input: 

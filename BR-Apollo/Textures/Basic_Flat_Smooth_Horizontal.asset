@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Basic_Flat_Smooth_Horizontal
   m_EditorClassIdentifier: 
   colorTex:
-    texture: {fileID: 2800000, guid: c56928144ef349a4d848e893f56b20d1, type: 3}
+    texture: {fileID: 2800000, guid: 6da66af88463a054ebb246632a7647b5, type: 3}
     flipToLight_X: 0
     flipToLight_Y: 0
   shapeTex:
