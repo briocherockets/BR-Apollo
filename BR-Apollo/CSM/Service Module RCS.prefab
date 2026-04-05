@@ -24,13 +24,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4681565206561903342}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5267125522172473145}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2326845261868806632
 MonoBehaviour:
@@ -47,6 +47,7 @@ MonoBehaviour:
   attachmentSurfaces: 0
   dragSurfaces: 1
   colliderArea: 0
+  attachByOverlap: 1
   physicsCollider: 1
   clickArea: 0
   baseDepth: 0
@@ -90,6 +91,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5884519143579475418}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -100,7 +102,6 @@ Transform:
   - {fileID: 477380443544009984}
   - {fileID: 4431014509392620529}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2211759444339401649
 MonoBehaviour:
@@ -115,12 +116,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayName:
-    plainText: 1
     TranslatableName: Service Module RCS
-  description:
     plainText: 1
+  description:
     TranslatableName: Make fine maneuvers in orbit with the all-new Apollo Reaction
       Control System quads. Now with stylish angled thrusters
+    plainText: 1
   mass:
     variables: {fileID: 734508643457964588}
     input: 0.2
@@ -144,7 +145,19 @@ MonoBehaviour:
     tags: []
   onPartUsed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 477380443544010012}
+        m_TargetAssemblyTypeName: SFS.Parts.Modules.RcsModule, Assembly-CSharp
+        m_MethodName: ToggleRCS
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   temperature: -Infinity
 --- !u!114 &8534203570577737951
 MonoBehaviour:
@@ -196,8 +209,6 @@ MonoBehaviour:
   impactTolerance: 0
   ownEngineNozzle: {fileID: 0}
   polygon: {fileID: 2326845261868806632}
-  collider_Polygon: {fileID: 0}
-  collider_Box: {fileID: 0}
 --- !u!114 &2321453283073976402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,19 +238,14 @@ MonoBehaviour:
       y:
         variables: {fileID: 734508643457964588}
         input: 0
-  snapPoints: []
 --- !u!1001 &1128029312104528379
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5267125522172473145}
     m_Modifications:
-    - target: {fileID: 3670525871328318648, guid: 706aff7337f02514ca4fc719ae0b7843,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5144503109960961100, guid: 706aff7337f02514ca4fc719ae0b7843,
         type: 3}
       propertyPath: m_RootOrder
@@ -306,6 +312,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5243143228129703336}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 706aff7337f02514ca4fc719ae0b7843, type: 3}
 --- !u!114 &5243143228129703336 stripped
 MonoBehaviour:
@@ -330,13 +339,9 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5267125522172473145}
     m_Modifications:
-    - target: {fileID: 3670525871328318648, guid: 706aff7337f02514ca4fc719ae0b7843,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5144503109960961100, guid: 706aff7337f02514ca4fc719ae0b7843,
         type: 3}
       propertyPath: m_RootOrder
@@ -408,6 +413,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8202374583587419761}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 706aff7337f02514ca4fc719ae0b7843, type: 3}
 --- !u!4 &8202374583587419758 stripped
 Transform:
@@ -432,13 +440,9 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+    serializedVersion: 3
     m_TransformParent: {fileID: 5267125522172473145}
     m_Modifications:
-    - target: {fileID: 3754390238221416186, guid: 21e15c39ed52d5b40a6300e6ebca81af,
-        type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5144503109960961100, guid: 21e15c39ed52d5b40a6300e6ebca81af,
         type: 3}
       propertyPath: m_RootOrder
@@ -505,6 +509,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 477380443544010015}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21e15c39ed52d5b40a6300e6ebca81af, type: 3}
 --- !u!4 &477380443544009984 stripped
 Transform:
@@ -512,6 +519,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4754407754548195660}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &477380443544010012 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5144503109960961104, guid: 21e15c39ed52d5b40a6300e6ebca81af,
+    type: 3}
+  m_PrefabInstance: {fileID: 4754407754548195660}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce7e6b04cd6d32b40958291f2c5bd3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &477380443544010015 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5144503109960961107, guid: 21e15c39ed52d5b40a6300e6ebca81af,
