@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4865430861187747188}
   - component: {fileID: 3138020233997790034}
   - component: {fileID: 4154640303392729760}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,6 +27,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9387774861656345}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -68, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -35,7 +36,6 @@ Transform:
   - {fileID: 8665631434712086257}
   - {fileID: 8329703558545336078}
   m_Father: {fileID: 757872244809784621}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3730355051931517970
 MonoBehaviour:
@@ -118,6 +118,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -156,7 +159,7 @@ GameObject:
   - component: {fileID: 1701860360163605545}
   - component: {fileID: 5846434459813113826}
   - component: {fileID: 4466688480191582691}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -170,13 +173,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 66667642031968529}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 109.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &542902208525861847
 MonoBehaviour:
@@ -259,6 +262,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -297,7 +303,7 @@ GameObject:
   - component: {fileID: 8006988915016916685}
   - component: {fileID: 6896226616875566810}
   - component: {fileID: 7402917176520093535}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -311,13 +317,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91796904660260046}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 583597731661856564}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6830320585114018897
 MonoBehaviour:
@@ -449,6 +455,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -483,7 +492,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 664118463415673402}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,6 +506,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 94075197893047788}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 172, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -504,7 +514,6 @@ Transform:
   m_Children:
   - {fileID: 6148976007994513695}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &279931100940350143
 GameObject:
@@ -519,7 +528,7 @@ GameObject:
   - component: {fileID: 6740258031854528830}
   - component: {fileID: 1715123845687619796}
   - component: {fileID: 8980898591975192924}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,6 +542,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279931100940350143}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 47, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -540,7 +550,6 @@ Transform:
   m_Children:
   - {fileID: 3164733279772024736}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &971985563877004130
 MonoBehaviour:
@@ -623,6 +632,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -661,7 +673,7 @@ GameObject:
   - component: {fileID: 4094935376144469900}
   - component: {fileID: 1958219794675222269}
   - component: {fileID: 3214618338484313512}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,6 +687,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280985416071676176}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -682,7 +695,6 @@ Transform:
   m_Children:
   - {fileID: 5916383554240847241}
   m_Father: {fileID: 4643439979147046102}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6963763433821196535
 MonoBehaviour:
@@ -814,6 +826,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -852,7 +867,7 @@ GameObject:
   - component: {fileID: 6328602851181402313}
   - component: {fileID: 5864952341174860433}
   - component: {fileID: 5980044691600035632}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -866,13 +881,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344167108774289787}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 47
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &608978074628520089
 MonoBehaviour:
@@ -955,6 +970,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -993,7 +1011,7 @@ GameObject:
   - component: {fileID: 3111983050853313281}
   - component: {fileID: 4448403607778706639}
   - component: {fileID: 8010971956918301578}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1007,6 +1025,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 356392387148975092}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1014,7 +1033,6 @@ Transform:
   m_Children:
   - {fileID: 5314703606272916281}
   m_Father: {fileID: 6235410960932881811}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6842324995905717973
 MonoBehaviour:
@@ -1146,6 +1164,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1184,7 +1205,7 @@ GameObject:
   - component: {fileID: 2215383354673778008}
   - component: {fileID: 3230831144483132900}
   - component: {fileID: 144170656714514791}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1198,6 +1219,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 359386960884506529}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1205,7 +1227,6 @@ Transform:
   m_Children:
   - {fileID: 5076051000007170829}
   m_Father: {fileID: 908081148212070680}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2521128775931709994
 MonoBehaviour:
@@ -1337,6 +1358,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1375,7 +1399,7 @@ GameObject:
   - component: {fileID: 7247051859669498327}
   - component: {fileID: 6959430637543775748}
   - component: {fileID: 4340859134601720755}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1389,13 +1413,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 388800383115169210}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8430775857612067518
 MonoBehaviour:
@@ -1478,6 +1502,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1516,7 +1543,7 @@ GameObject:
   - component: {fileID: 7377020065210930986}
   - component: {fileID: 2294006953358505553}
   - component: {fileID: 1924581019374375558}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1530,6 +1557,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 434742211059216831}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1537,7 +1565,6 @@ Transform:
   m_Children:
   - {fileID: 6359376488843767333}
   m_Father: {fileID: 5314703606272916281}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8002599675456054998
 MonoBehaviour:
@@ -1669,6 +1696,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1707,7 +1737,7 @@ GameObject:
   - component: {fileID: 373649834319376548}
   - component: {fileID: 4844203719170400992}
   - component: {fileID: 1320386828211965549}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1721,6 +1751,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 560516344022690370}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1728,7 +1759,6 @@ Transform:
   m_Children:
   - {fileID: 6268152382238593397}
   m_Father: {fileID: 1565999393697740314}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5173814236171592163
 MonoBehaviour:
@@ -1860,6 +1890,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1897,7 +1930,7 @@ GameObject:
   - component: {fileID: 5102605012482686020}
   - component: {fileID: 2721200825527707419}
   - component: {fileID: 1323120049779217855}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1911,6 +1944,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 602924909320324283}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 2, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1918,7 +1952,6 @@ Transform:
   m_Children:
   - {fileID: 4061838452119149845}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5102605012482686020
 MonoBehaviour:
@@ -1976,6 +2009,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2014,7 +2050,7 @@ GameObject:
   - component: {fileID: 1655952377240999087}
   - component: {fileID: 8713753928405881196}
   - component: {fileID: 290019880992652040}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2028,13 +2064,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 669825800531904786}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 94, y: 61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 752114767153323497}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &3414213357844296722
 MonoBehaviour:
@@ -2117,6 +2153,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2155,7 +2194,7 @@ GameObject:
   - component: {fileID: 4515965031473409429}
   - component: {fileID: 7930919010979084919}
   - component: {fileID: 8535709998504658458}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (45)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2169,13 +2208,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 684496130265481643}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 219, y: 0.0000050185845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &928776798499959421
 MonoBehaviour:
@@ -2258,6 +2297,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2296,7 +2338,7 @@ GameObject:
   - component: {fileID: 3186183803884983938}
   - component: {fileID: 4095204495646799755}
   - component: {fileID: 968564878164017482}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2310,6 +2352,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822245748755831206}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -2317,7 +2360,6 @@ Transform:
   m_Children:
   - {fileID: 7601117525702802665}
   m_Father: {fileID: 4878534671769165376}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6856615509680997009
 MonoBehaviour:
@@ -2449,6 +2491,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2487,7 +2532,7 @@ GameObject:
   - component: {fileID: 60046950880370423}
   - component: {fileID: 1456160870285143606}
   - component: {fileID: 1979132153487088074}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2501,6 +2546,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 836169404674616573}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.1803, y: -14.0012, z: 0}
   m_LocalScale: {x: 0.9914, y: 1.518542, z: 1}
@@ -2508,7 +2554,6 @@ Transform:
   m_Children:
   - {fileID: 6453291223544027231}
   m_Father: {fileID: 3717377554553792846}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5971767398197816749
 MonoBehaviour:
@@ -2591,6 +2636,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2629,7 +2677,7 @@ GameObject:
   - component: {fileID: 4946164234014143212}
   - component: {fileID: 1393926647403825039}
   - component: {fileID: 7229991645763524150}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2643,6 +2691,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 840748120872115039}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 68, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 6.36, z: 1}
@@ -2650,7 +2699,6 @@ Transform:
   m_Children:
   - {fileID: 1565999393697740314}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2712864678442138844
 MonoBehaviour:
@@ -2782,6 +2830,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2820,7 +2871,7 @@ GameObject:
   - component: {fileID: 6987701077389276491}
   - component: {fileID: 5655577241677072736}
   - component: {fileID: 4848407371324615007}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2834,13 +2885,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1033495842100039774}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9108061959181851690
 MonoBehaviour:
@@ -2923,6 +2974,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2961,7 +3015,7 @@ GameObject:
   - component: {fileID: 8996482955381981861}
   - component: {fileID: 4590606258392365420}
   - component: {fileID: 6102260233788298755}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2975,13 +3029,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132601471894575084}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 15, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2630276416091283005
 MonoBehaviour:
@@ -3064,6 +3118,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3102,7 +3159,7 @@ GameObject:
   - component: {fileID: 7790912755515735297}
   - component: {fileID: 3713737120678044883}
   - component: {fileID: 3510952230559625296}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3116,6 +3173,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157958208129448252}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3123,7 +3181,6 @@ Transform:
   m_Children:
   - {fileID: 1425284099518386126}
   m_Father: {fileID: 1196677618295724285}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6965627126782304647
 MonoBehaviour:
@@ -3255,6 +3312,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3293,7 +3353,7 @@ GameObject:
   - component: {fileID: 1908310334118384987}
   - component: {fileID: 5728744543778428627}
   - component: {fileID: 3680396222908334185}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3307,6 +3367,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1178021365722915080}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3314,7 +3375,6 @@ Transform:
   m_Children:
   - {fileID: 3608480344477500131}
   m_Father: {fileID: 7632720022816915732}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3640033752463653968
 MonoBehaviour:
@@ -3446,6 +3506,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3484,7 +3547,7 @@ GameObject:
   - component: {fileID: 7085605955958890715}
   - component: {fileID: 3512981152046418285}
   - component: {fileID: 957143617261570246}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3498,6 +3561,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1212610825120182430}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3505,7 +3569,6 @@ Transform:
   m_Children:
   - {fileID: 3564811280959918248}
   m_Father: {fileID: 8670063063331277890}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8368933011340255777
 MonoBehaviour:
@@ -3588,6 +3651,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3622,7 +3688,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3717377554553792846}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: GameObject (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3636,6 +3702,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1307266288523610290}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 211, y: 10.000004, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3643,7 +3710,6 @@ Transform:
   m_Children:
   - {fileID: 3748352510013122408}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1313343843714300395
 GameObject:
@@ -3658,7 +3724,7 @@ GameObject:
   - component: {fileID: 82464371271231155}
   - component: {fileID: 2933093550406133360}
   - component: {fileID: 1889043157587512757}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3672,6 +3738,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1313343843714300395}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3679,7 +3746,6 @@ Transform:
   m_Children:
   - {fileID: 4790363478636800171}
   m_Father: {fileID: 3748352510013122408}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2189414327840618685
 MonoBehaviour:
@@ -3762,6 +3828,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3800,7 +3869,7 @@ GameObject:
   - component: {fileID: 8045922278603348732}
   - component: {fileID: 7018330558809700068}
   - component: {fileID: 5458965977857023260}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3814,6 +3883,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1318651925835324562}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -3821,7 +3891,6 @@ Transform:
   m_Children:
   - {fileID: 5897966463674780325}
   m_Father: {fileID: 5486505628854532526}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6263294737344794402
 MonoBehaviour:
@@ -3953,6 +4022,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3991,7 +4063,7 @@ GameObject:
   - component: {fileID: 9057708242301909769}
   - component: {fileID: 8480819854104812274}
   - component: {fileID: 3577933519967566490}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4005,6 +4077,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1359294474063381185}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -4012,7 +4085,6 @@ Transform:
   m_Children:
   - {fileID: 4312923492698889499}
   m_Father: {fileID: 775139550158445411}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4177972996449340601
 MonoBehaviour:
@@ -4144,6 +4216,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4182,7 +4257,7 @@ GameObject:
   - component: {fileID: 656510365514660391}
   - component: {fileID: 2965141286484584666}
   - component: {fileID: 3139551704883406643}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4196,13 +4271,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415454162686865914}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6359325232018372041
 MonoBehaviour:
@@ -4285,6 +4360,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4323,7 +4401,7 @@ GameObject:
   - component: {fileID: 5418719521584604692}
   - component: {fileID: 2634086300426128279}
   - component: {fileID: 1638049216209348368}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4337,13 +4415,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1535914294200527033}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 109.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4426079260838011159
 MonoBehaviour:
@@ -4426,6 +4504,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4464,7 +4545,7 @@ GameObject:
   - component: {fileID: 2420870356325002770}
   - component: {fileID: 5540359535284734049}
   - component: {fileID: 5197773552289555049}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4478,6 +4559,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1771326170645625015}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -19, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -4487,7 +4569,6 @@ Transform:
   - {fileID: 1584756898061954955}
   - {fileID: 6989410109937551170}
   m_Father: {fileID: 8350817287884026734}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6506106011377857996
 MonoBehaviour:
@@ -4574,6 +4655,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4612,7 +4696,7 @@ GameObject:
   - component: {fileID: 7910457343479299081}
   - component: {fileID: 3045944055512581477}
   - component: {fileID: 3108859203987899744}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4626,6 +4710,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1830854904976963464}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -4633,7 +4718,6 @@ Transform:
   m_Children:
   - {fileID: 6556094273751727931}
   m_Father: {fileID: 7946897129347109308}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2025155736438942421
 MonoBehaviour:
@@ -4765,6 +4849,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4803,7 +4890,7 @@ GameObject:
   - component: {fileID: 8705361641785940358}
   - component: {fileID: 7977715182746189876}
   - component: {fileID: 7483761970816546504}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4817,6 +4904,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1880522799648004155}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -4824,7 +4912,6 @@ Transform:
   m_Children:
   - {fileID: 160008518526529247}
   m_Father: {fileID: 6359376488843767333}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1226839971042837871
 MonoBehaviour:
@@ -4956,6 +5043,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -4994,7 +5084,7 @@ GameObject:
   - component: {fileID: 6014938852629299986}
   - component: {fileID: 2684082227251490926}
   - component: {fileID: 1079589547676993767}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5008,6 +5098,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1935405560186300559}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -5015,7 +5106,6 @@ Transform:
   m_Children:
   - {fileID: 4643439979147046102}
   m_Father: {fileID: 3357097438520436377}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8257902051982939365
 MonoBehaviour:
@@ -5147,6 +5237,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5185,7 +5278,7 @@ GameObject:
   - component: {fileID: 1810842592144291632}
   - component: {fileID: 4274585367314167223}
   - component: {fileID: 9104434586833897992}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5199,13 +5292,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963944207393039130}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 173, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7814861653288376355
 MonoBehaviour:
@@ -5288,6 +5381,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5326,7 +5422,7 @@ GameObject:
   - component: {fileID: 4095984540217194488}
   - component: {fileID: 59857702969560360}
   - component: {fileID: 297896711022591217}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5340,6 +5436,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094111101691766634}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -5347,7 +5444,6 @@ Transform:
   m_Children:
   - {fileID: 6599444502171739640}
   m_Father: {fileID: 2243215968327519953}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3934563938691887552
 MonoBehaviour:
@@ -5479,6 +5575,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5517,7 +5616,7 @@ GameObject:
   - component: {fileID: 2680876065644594501}
   - component: {fileID: 8283878795186792513}
   - component: {fileID: 6005876140620735044}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5531,13 +5630,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2131993481500278029}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5261242241710778482}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &18902218670563239
 MonoBehaviour:
@@ -5669,6 +5768,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5707,7 +5809,7 @@ GameObject:
   - component: {fileID: 1523006694312885031}
   - component: {fileID: 3453440179477925311}
   - component: {fileID: 5585145301146279963}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5721,13 +5823,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2222657518036061141}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8246447606730122395}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2394898634428481231
 MonoBehaviour:
@@ -5859,6 +5961,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -5897,7 +6002,7 @@ GameObject:
   - component: {fileID: 59830463657123117}
   - component: {fileID: 6841755144677798441}
   - component: {fileID: 3076939193016677738}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5911,6 +6016,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2257233192481808101}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -5918,7 +6024,6 @@ Transform:
   m_Children:
   - {fileID: 8744230911230739147}
   m_Father: {fileID: 3608480344477500131}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1860924184966909702
 MonoBehaviour:
@@ -6050,6 +6155,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6088,7 +6196,7 @@ GameObject:
   - component: {fileID: 2708221768075707091}
   - component: {fileID: 1848716703679775244}
   - component: {fileID: 323306661080146807}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6102,13 +6210,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2346017896936485636}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 18.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5743052147640938254}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4847604061902450378
 MonoBehaviour:
@@ -6191,6 +6299,153 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &2369425131810435490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780120488032145659}
+  - component: {fileID: 8429565561868748459}
+  - component: {fileID: 7499357642883492155}
+  - component: {fileID: 5860952316449695051}
+  - component: {fileID: 3715307431868251287}
+  m_Layer: 8
+  m_Name: Meatball
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &780120488032145659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369425131810435490}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 96.2921, y: 102.3054, z: 0}
+  m_LocalScale: {x: 0.01656, y: 0.018749999, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 999771150531744742}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8429565561868748459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369425131810435490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 1
+  dragSurfaces: 1
+  colliderArea: 1
+  attachByOverlap: 1
+  physicsCollider: 1
+  clickArea: 1
+  baseDepth: 0.0001
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 43, y: 100}
+  - {x: 43, y: 1949}
+  - {x: 2168.399, y: 1949}
+  - {x: 2168.3992, y: 100}
+  edit: 1
+  view: 1
+  gridSize: 0.1
+--- !u!114 &7499357642883492155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369425131810435490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 1
+  polygonModule: {fileID: 8429565561868748459}
+  UV_Mode: 0
+  grid: 0
+  bounds:
+  - {x: 43, y: 100}
+  - {x: 43, y: 1949}
+  - {x: 2168.3992, y: 1949}
+  - {x: 2168.3992, y: 100}
+  texture: {fileID: 11400000, guid: 991cf93a3a62d4747ba47e5ca7347ff2, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
+  colorModule: {fileID: 0}
+--- !u!33 &5860952316449695051
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369425131810435490}
+  m_Mesh: {fileID: 0}
+--- !u!23 &3715307431868251287
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2369425131810435490}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6229,7 +6484,7 @@ GameObject:
   - component: {fileID: 752343183704844474}
   - component: {fileID: 8566863515734577833}
   - component: {fileID: 8791107413439074911}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6243,6 +6498,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2478362828074442957}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2376649, z: 1}
@@ -6250,7 +6506,6 @@ Transform:
   m_Children:
   - {fileID: 908081148212070680}
   m_Father: {fileID: 3164733279772024736}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6562619139998709361
 MonoBehaviour:
@@ -6382,6 +6637,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6420,7 +6678,7 @@ GameObject:
   - component: {fileID: 7371671752465825172}
   - component: {fileID: 3850132758502364607}
   - component: {fileID: 6765340732320201400}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6434,6 +6692,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2645995895801063682}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -6441,7 +6700,6 @@ Transform:
   m_Children:
   - {fileID: 7632720022816915732}
   m_Father: {fileID: 1425284099518386126}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &291581566989228889
 MonoBehaviour:
@@ -6473,7 +6731,7 @@ MonoBehaviour:
     cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 3778512438147541291}
     points:
     - variables: {fileID: 0}
       position:
@@ -6573,6 +6831,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6611,7 +6872,7 @@ GameObject:
   - component: {fileID: 2597029342913377635}
   - component: {fileID: 4452748952694607529}
   - component: {fileID: 6855387685529860461}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6625,13 +6886,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2723518516405762621}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 94, y: 61, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 752114767153323497}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &7369167167422158105
 MonoBehaviour:
@@ -6718,6 +6979,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6756,7 +7020,7 @@ GameObject:
   - component: {fileID: 8578644334536928687}
   - component: {fileID: 6848097701211337715}
   - component: {fileID: 1149464631259460473}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6770,6 +7034,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2734908537422283838}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -6777,7 +7042,6 @@ Transform:
   m_Children:
   - {fileID: 1719030473590510370}
   m_Father: {fileID: 8744230911230739147}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1065363775112484774
 MonoBehaviour:
@@ -6909,6 +7173,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6947,7 +7214,7 @@ GameObject:
   - component: {fileID: 8338712928585817390}
   - component: {fileID: 6114169425380270850}
   - component: {fileID: 226143071672614731}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6961,6 +7228,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2767962307395468168}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -6968,7 +7236,6 @@ Transform:
   m_Children:
   - {fileID: 1715556528630274119}
   m_Father: {fileID: 5857554441244206150}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7204626731019249755
 MonoBehaviour:
@@ -7051,6 +7318,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7089,7 +7359,7 @@ GameObject:
   - component: {fileID: 4499779931290824212}
   - component: {fileID: 8668092579587361735}
   - component: {fileID: 2535102662924616143}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7103,13 +7373,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3035591500299831864}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1108588769609000811}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4850933598942656752
 MonoBehaviour:
@@ -7241,6 +7511,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7279,7 +7552,7 @@ GameObject:
   - component: {fileID: 15527152752479887}
   - component: {fileID: 5170033599034580620}
   - component: {fileID: 3029511807767381000}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7293,13 +7566,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3332588798462881395}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 683676323355423051}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8892525655609688336
 MonoBehaviour:
@@ -7385,6 +7658,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7423,7 +7699,7 @@ GameObject:
   - component: {fileID: 8497292364542513956}
   - component: {fileID: 4721068394505802194}
   - component: {fileID: 1170526921525036568}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (40)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7437,13 +7713,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3441965932770118563}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 180, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &840178966645581780
 MonoBehaviour:
@@ -7526,6 +7802,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7564,7 +7843,7 @@ GameObject:
   - component: {fileID: 6304826540423333559}
   - component: {fileID: 2066082515151943149}
   - component: {fileID: 8531494616516613027}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7578,6 +7857,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3612508767264995164}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -7585,7 +7865,6 @@ Transform:
   m_Children:
   - {fileID: 3457604143599420081}
   m_Father: {fileID: 6813689758717159848}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1036768125350488858
 MonoBehaviour:
@@ -7717,6 +7996,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7755,7 +8037,7 @@ GameObject:
   - component: {fileID: 788659277932680755}
   - component: {fileID: 5952927647650202257}
   - component: {fileID: 6212077000325406757}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (46)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7769,13 +8051,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3816389080559881255}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 212, y: 0.0000050185845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2233802477143173879
 MonoBehaviour:
@@ -7858,6 +8140,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -7896,7 +8181,7 @@ GameObject:
   - component: {fileID: 9082910626751896826}
   - component: {fileID: 4221938551521100823}
   - component: {fileID: 8303756030708093324}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7910,6 +8195,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3892188550388074943}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -7917,7 +8203,6 @@ Transform:
   m_Children:
   - {fileID: 3032987058897510422}
   m_Father: {fileID: 6503556876361463644}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3854712365201810392
 MonoBehaviour:
@@ -8049,6 +8334,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8087,7 +8375,7 @@ GameObject:
   - component: {fileID: 7338922364341933382}
   - component: {fileID: 3020868285038909574}
   - component: {fileID: 2283501791480228114}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8101,13 +8389,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3927023095521854084}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 17, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 683676323355423051}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6257171919657978121
 MonoBehaviour:
@@ -8193,6 +8481,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8231,7 +8522,7 @@ GameObject:
   - component: {fileID: 2252871099569104046}
   - component: {fileID: 7098066249672023718}
   - component: {fileID: 1933050159318187776}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8245,6 +8536,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4086420592572605864}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -8252,7 +8544,6 @@ Transform:
   m_Children:
   - {fileID: 2718196724941325837}
   m_Father: {fileID: 4790363478636800171}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6769515094263776495
 MonoBehaviour:
@@ -8335,6 +8626,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8373,7 +8667,7 @@ GameObject:
   - component: {fileID: 3778852461251133777}
   - component: {fileID: 4992864440576542616}
   - component: {fileID: 6701627461677155027}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8387,6 +8681,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4246360539336125622}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -8394,7 +8689,6 @@ Transform:
   m_Children:
   - {fileID: 3809069665532598143}
   m_Father: {fileID: 4020993282469225817}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1009673229580181785
 MonoBehaviour:
@@ -8526,6 +8820,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8564,7 +8861,7 @@ GameObject:
   - component: {fileID: 8505116623047234296}
   - component: {fileID: 4750054477890883919}
   - component: {fileID: 5565134907339835451}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8578,6 +8875,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4438579566587608305}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -8585,7 +8883,6 @@ Transform:
   m_Children:
   - {fileID: 850806564408144514}
   m_Father: {fileID: 7503942182748849548}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7156792997332735167
 MonoBehaviour:
@@ -8717,6 +9014,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8755,7 +9055,7 @@ GameObject:
   - component: {fileID: 7960891196345560765}
   - component: {fileID: 5012840572115304029}
   - component: {fileID: 5258326670376847451}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8769,13 +9069,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4591831933321521847}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 23, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3858292617572712187}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &437350388523891899
 MonoBehaviour:
@@ -8864,6 +9164,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -8902,7 +9205,7 @@ GameObject:
   - component: {fileID: 8202596092437917267}
   - component: {fileID: 3894624075374164447}
   - component: {fileID: 1773969903340665612}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (52)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8916,13 +9219,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4599034025451220477}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1174996096345333960
 MonoBehaviour:
@@ -9007,6 +9310,153 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: e52d76acc88b7f1488d5339895c05236, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &4681753159998887384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3918283454087487927}
+  - component: {fileID: 2683588092227383628}
+  - component: {fileID: 7074171542917674274}
+  - component: {fileID: 8217595737367509204}
+  - component: {fileID: 6317155706540299671}
+  m_Layer: 8
+  m_Name: Meatball (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3918283454087487927
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681753159998887384}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.7071068, y: -0.7071068, z: -0, w: 0}
+  m_LocalPosition: {x: 33.972, y: 153.61, z: 0}
+  m_LocalScale: {x: 0.0261, y: 0.022109998, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 999771150531744742}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: -90}
+--- !u!114 &2683588092227383628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681753159998887384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85fc94dccdd780049b4ac6eb441000b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentSurfaces: 1
+  dragSurfaces: 1
+  colliderArea: 1
+  attachByOverlap: 1
+  physicsCollider: 1
+  clickArea: 1
+  baseDepth: 0.0001
+  composedBaseDepth:
+    variables: {fileID: 0}
+    input: 
+  isComposedDepth: 0
+  polygonVertices:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1347}
+  - {x: 2560, y: 1347}
+  - {x: 2559.9998, y: 0.000008240342}
+  edit: 1
+  view: 1
+  gridSize: 0.1
+--- !u!114 &7074171542917674274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681753159998887384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34e483146094b00478fb1e25d75f7031, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  renderQueueOffset: 0
+  polygonModule: {fileID: 2683588092227383628}
+  UV_Mode: 0
+  grid: 0
+  bounds:
+  - {x: 0, y: 0}
+  - {x: 0, y: 1347}
+  - {x: 2560, y: 1347}
+  - {x: 2560, y: 0}
+  texture: {fileID: 11400000, guid: 03084f9416e90e44db4a1db25138903c, type: 2}
+  type: 1
+  colorBasic: {r: 1, g: 1, b: 1, a: 1}
+  colorModule: {fileID: 0}
+--- !u!33 &8217595737367509204
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681753159998887384}
+  m_Mesh: {fileID: 0}
+--- !u!23 &6317155706540299671
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4681753159998887384}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9045,7 +9495,7 @@ GameObject:
   - component: {fileID: 4488194685039378371}
   - component: {fileID: 658955732801233809}
   - component: {fileID: 2072853056285596643}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9059,6 +9509,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4683758965002325093}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2376649, z: 1}
@@ -9066,7 +9517,6 @@ Transform:
   m_Children:
   - {fileID: 2711095185509796518}
   m_Father: {fileID: 8350293117969839925}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2787299287646235067
 MonoBehaviour:
@@ -9198,6 +9648,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9236,7 +9689,7 @@ GameObject:
   - component: {fileID: 7587837811431987389}
   - component: {fileID: 2461045667427013043}
   - component: {fileID: 5556726399371818902}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9250,6 +9703,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4687830007025496325}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 148, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -9260,7 +9714,6 @@ Transform:
   - {fileID: 3043517686537876500}
   - {fileID: 3858910161452747942}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4067077188244821237
 MonoBehaviour:
@@ -9347,6 +9800,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9385,7 +9841,7 @@ GameObject:
   - component: {fileID: 850465733432885223}
   - component: {fileID: 4601009031618270405}
   - component: {fileID: 3018878741291574116}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9399,6 +9855,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4885331963103390362}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -9406,7 +9863,6 @@ Transform:
   m_Children:
   - {fileID: 1157721747686698542}
   m_Father: {fileID: 6701217470951626682}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3234057678387230254
 MonoBehaviour:
@@ -9538,6 +9994,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9576,7 +10035,7 @@ GameObject:
   - component: {fileID: 1400873233798519791}
   - component: {fileID: 6589400121027727715}
   - component: {fileID: 7824157821236111051}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9590,6 +10049,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4952015321630752113}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -9597,7 +10057,6 @@ Transform:
   m_Children:
   - {fileID: 6615156793898081922}
   m_Father: {fileID: 6935760480056110257}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6325277722079536431
 MonoBehaviour:
@@ -9729,6 +10188,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9767,7 +10229,7 @@ GameObject:
   - component: {fileID: 1731919966214852887}
   - component: {fileID: 3263630463551647989}
   - component: {fileID: 3051983683498005128}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9781,6 +10243,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4957166020712453978}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -9788,7 +10251,6 @@ Transform:
   m_Children:
   - {fileID: 1196677618295724285}
   m_Father: {fileID: 8299298177940242726}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2940602206557406564
 MonoBehaviour:
@@ -9820,7 +10282,7 @@ MonoBehaviour:
     cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 3778512438147541291}
     points:
     - variables: {fileID: 0}
       position:
@@ -9920,6 +10382,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -9958,7 +10423,7 @@ GameObject:
   - component: {fileID: 5605117443208560742}
   - component: {fileID: 5919229498535657701}
   - component: {fileID: 1364625237058069668}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9972,6 +10437,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4970701355184643325}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -9979,7 +10445,6 @@ Transform:
   m_Children:
   - {fileID: 7946897129347109308}
   m_Father: {fileID: 7197330299007304001}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3548169929252774318
 MonoBehaviour:
@@ -10111,6 +10576,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10149,7 +10617,7 @@ GameObject:
   - component: {fileID: 3256267843708094516}
   - component: {fileID: 7902864536502822948}
   - component: {fileID: 1685370911497418522}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10163,6 +10631,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4998902220308071536}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -10170,7 +10639,6 @@ Transform:
   m_Children:
   - {fileID: 273616575938004203}
   m_Father: {fileID: 6148976007994513695}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8920637929836662690
 MonoBehaviour:
@@ -10253,6 +10721,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10291,7 +10762,7 @@ GameObject:
   - component: {fileID: 5830407860456159563}
   - component: {fileID: 6365414732394588237}
   - component: {fileID: 6500264893770647127}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10305,13 +10776,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5009003385219557437}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 204.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3036284502240179603
 MonoBehaviour:
@@ -10394,6 +10865,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10432,7 +10906,7 @@ GameObject:
   - component: {fileID: 7038002217638448829}
   - component: {fileID: 8186534376686965776}
   - component: {fileID: 3914510457531676500}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10446,13 +10920,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5139691757691993820}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 227.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8541972924296978957
 MonoBehaviour:
@@ -10535,6 +11009,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10573,7 +11050,7 @@ GameObject:
   - component: {fileID: 7370124054249349465}
   - component: {fileID: 2546714518566269757}
   - component: {fileID: 6260262817730857649}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10587,13 +11064,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5255231807793001644}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 204.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1611512015763397456
 MonoBehaviour:
@@ -10676,6 +11153,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10714,7 +11194,7 @@ GameObject:
   - component: {fileID: 4247524754020017668}
   - component: {fileID: 8824722078166238826}
   - component: {fileID: 3284922729971829473}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10728,13 +11208,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5273544081357253818}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 180.00002, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &590828959961098767
 MonoBehaviour:
@@ -10817,6 +11297,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10855,7 +11338,7 @@ GameObject:
   - component: {fileID: 7486327079313504031}
   - component: {fileID: 6694194662343784645}
   - component: {fileID: 4270172319653912033}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10869,13 +11352,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5424536802553099932}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 188.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6818186224485964902
 MonoBehaviour:
@@ -10958,6 +11441,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -10996,7 +11482,7 @@ GameObject:
   - component: {fileID: 5149462434953217102}
   - component: {fileID: 4631789807198749676}
   - component: {fileID: 7446782600427166019}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11010,13 +11496,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5447580870666884677}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.8, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5209212189845861009}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2192611418723215297
 MonoBehaviour:
@@ -11099,6 +11585,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11137,7 +11626,7 @@ GameObject:
   - component: {fileID: 6930394224925695503}
   - component: {fileID: 5047412228643368797}
   - component: {fileID: 8558721609587456516}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11151,6 +11640,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5512063911389357558}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -11158,7 +11648,6 @@ Transform:
   m_Children:
   - {fileID: 2985415061171353437}
   m_Father: {fileID: 4543781566241564046}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3754608754760809701
 MonoBehaviour:
@@ -11241,6 +11730,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11279,7 +11771,7 @@ GameObject:
   - component: {fileID: 8511834986752310318}
   - component: {fileID: 7730203333284398172}
   - component: {fileID: 6901022317749150054}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11293,13 +11785,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5580460392185211402}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2985415061171353437}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5755633970581105430
 MonoBehaviour:
@@ -11382,6 +11874,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11420,7 +11915,7 @@ GameObject:
   - component: {fileID: 3423335134056808689}
   - component: {fileID: 807954478222841066}
   - component: {fileID: 800910746797761550}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11434,13 +11929,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5624768723366817337}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4845967614870683446}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3477319124617063174
 MonoBehaviour:
@@ -11572,6 +12067,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11610,7 +12108,7 @@ GameObject:
   - component: {fileID: 8452643724261704466}
   - component: {fileID: 3713889207075249490}
   - component: {fileID: 1235101211720229479}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11624,13 +12122,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5633013151781093375}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 6599444502171739640}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7599794414348861975
 MonoBehaviour:
@@ -11762,6 +12260,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11800,7 +12301,7 @@ GameObject:
   - component: {fileID: 6582924126495483565}
   - component: {fileID: 2150917856368316542}
   - component: {fileID: 8344526937787358739}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11814,6 +12315,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5644646663579237991}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -11821,7 +12323,6 @@ Transform:
   m_Children:
   - {fileID: 5857554441244206150}
   m_Father: {fileID: 6453291223544027231}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8147705229180429887
 MonoBehaviour:
@@ -11904,6 +12405,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -11942,7 +12446,7 @@ GameObject:
   - component: {fileID: 5996277274163189011}
   - component: {fileID: 3557670555866301837}
   - component: {fileID: 389572821175472601}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11956,6 +12460,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5699761396552894305}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -11963,7 +12468,6 @@ Transform:
   m_Children:
   - {fileID: 7894224693975350969}
   m_Father: {fileID: 850806564408144514}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7891206892141612549
 MonoBehaviour:
@@ -12095,6 +12599,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12133,7 +12640,7 @@ GameObject:
   - component: {fileID: 7703436964238306500}
   - component: {fileID: 8077680535029768971}
   - component: {fileID: 1806962334653640385}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12147,13 +12654,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5741900352969872148}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4765141884544416047
 MonoBehaviour:
@@ -12236,6 +12743,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12274,7 +12784,7 @@ GameObject:
   - component: {fileID: 4723034281271002513}
   - component: {fileID: 8518295134104054266}
   - component: {fileID: 8473070756469501403}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12288,13 +12798,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5799567190270078646}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 47, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4494488722280059789
 MonoBehaviour:
@@ -12377,6 +12887,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12415,7 +12928,7 @@ GameObject:
   - component: {fileID: 3947341875148644268}
   - component: {fileID: 1132864999327966647}
   - component: {fileID: 9156282250801654080}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12429,6 +12942,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5830567154319534045}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -12436,7 +12950,6 @@ Transform:
   m_Children:
   - {fileID: 8398993224008295726}
   m_Father: {fileID: 7601117525702802665}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4974559995273937094
 MonoBehaviour:
@@ -12568,6 +13081,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12606,7 +13122,7 @@ GameObject:
   - component: {fileID: 2300078501372630054}
   - component: {fileID: 6009891848825766909}
   - component: {fileID: 3478857665721873815}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (49)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12620,13 +13136,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5866892045439378845}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9081527063334388910
 MonoBehaviour:
@@ -12709,6 +13225,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12747,7 +13266,7 @@ GameObject:
   - component: {fileID: 8095757005449460975}
   - component: {fileID: 62802836722000804}
   - component: {fileID: 6491268369683924761}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12761,6 +13280,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5869834628824688641}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -12768,7 +13288,6 @@ Transform:
   m_Children:
   - {fileID: 5956147514983017560}
   m_Father: {fileID: 2347377768549244238}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8214675614459472979
 MonoBehaviour:
@@ -12900,6 +13419,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -12938,7 +13460,7 @@ GameObject:
   - component: {fileID: 8039208447592613206}
   - component: {fileID: 1917086261718683870}
   - component: {fileID: 2808956966105133958}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (47)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12952,13 +13474,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6017905376846441381}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 219, y: 0.0000050185845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2426663450907111262
 MonoBehaviour:
@@ -13041,6 +13563,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13079,7 +13604,7 @@ GameObject:
   - component: {fileID: 7044736207330417653}
   - component: {fileID: 5886986883968334825}
   - component: {fileID: 2170629759336029377}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13093,13 +13618,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6187085928674427202}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 227.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5616932902156189019
 MonoBehaviour:
@@ -13182,6 +13707,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13220,7 +13748,7 @@ GameObject:
   - component: {fileID: 7650019506374215338}
   - component: {fileID: 2197444311873888749}
   - component: {fileID: 4521973542167551070}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13234,6 +13762,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6211208152984871013}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -13242,7 +13771,6 @@ Transform:
   - {fileID: 2544690051063213597}
   - {fileID: 4314882775559336561}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4454101355467687170
 MonoBehaviour:
@@ -13327,6 +13855,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13365,7 +13896,7 @@ GameObject:
   - component: {fileID: 1496907419171790322}
   - component: {fileID: 7494930811039993602}
   - component: {fileID: 4927996440544041428}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13379,6 +13910,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6242761767881786231}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -13386,7 +13918,6 @@ Transform:
   m_Children:
   - {fileID: 4543781566241564046}
   m_Father: {fileID: 8063809264112858247}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4496388186017103355
 MonoBehaviour:
@@ -13469,6 +14000,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13507,7 +14041,7 @@ GameObject:
   - component: {fileID: 758192333507850951}
   - component: {fileID: 8319159145724992420}
   - component: {fileID: 3016351247350581836}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13521,6 +14055,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6263858165829417257}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.1803, y: -14.0012, z: 0}
   m_LocalScale: {x: 0.9914, y: 1.5185422, z: 1}
@@ -13528,7 +14063,6 @@ Transform:
   m_Children:
   - {fileID: 8063809264112858247}
   m_Father: {fileID: 664118463415673402}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8877109314368689629
 MonoBehaviour:
@@ -13611,6 +14145,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13649,7 +14186,7 @@ GameObject:
   - component: {fileID: 2676199634343257828}
   - component: {fileID: 6683334590460441112}
   - component: {fileID: 5245121031707823730}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13663,6 +14200,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6265116526367738154}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -13670,7 +14208,6 @@ Transform:
   m_Children:
   - {fileID: 6701217470951626682}
   m_Father: {fileID: 3073641834753644871}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6105815893745842640
 MonoBehaviour:
@@ -13802,6 +14339,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13840,7 +14380,7 @@ GameObject:
   - component: {fileID: 8815107027436556232}
   - component: {fileID: 5623307770390373862}
   - component: {fileID: 8261106715543589082}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13854,13 +14394,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6311829390683109470}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 17, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3858292617572712187}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3125161442986433403
 MonoBehaviour:
@@ -13946,6 +14486,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -13984,7 +14527,7 @@ GameObject:
   - component: {fileID: 7402359711301226027}
   - component: {fileID: 6557430246869065588}
   - component: {fileID: 3292315442655891576}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13998,6 +14541,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6370268175562629697}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -14005,7 +14549,6 @@ Transform:
   m_Children:
   - {fileID: 8299298177940242726}
   m_Father: {fileID: 160008518526529247}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6099443007324558118
 MonoBehaviour:
@@ -14137,6 +14680,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14175,7 +14721,7 @@ GameObject:
   - component: {fileID: 9041492627722617662}
   - component: {fileID: 8644028807559757106}
   - component: {fileID: 3832735605256194194}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14189,13 +14735,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6386512390265064392}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1715556528630274119}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7471826017456454169
 MonoBehaviour:
@@ -14278,6 +14824,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14316,7 +14865,7 @@ GameObject:
   - component: {fileID: 1905568073862821396}
   - component: {fileID: 6963000599526951158}
   - component: {fileID: 5532191293740785329}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14330,13 +14879,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6388982404295978966}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 173.00002, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8675670876390148791
 MonoBehaviour:
@@ -14419,6 +14968,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14457,7 +15009,7 @@ GameObject:
   - component: {fileID: 5157337442631212132}
   - component: {fileID: 3830413365196942873}
   - component: {fileID: 1504492312741331149}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14471,6 +15023,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6456374310869241667}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -14478,7 +15031,6 @@ Transform:
   m_Children:
   - {fileID: 6698348343221315668}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1336778086918823443
 MonoBehaviour:
@@ -14561,6 +15113,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14599,7 +15154,7 @@ GameObject:
   - component: {fileID: 8557686864627463013}
   - component: {fileID: 6213591211339912101}
   - component: {fileID: 5574507421615283298}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (44)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14613,13 +15168,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6473379987673983259}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 212, y: 0.000005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5620293126213964935
 MonoBehaviour:
@@ -14702,6 +15257,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14740,7 +15298,7 @@ GameObject:
   - component: {fileID: 7402703362448070923}
   - component: {fileID: 6725470048315933989}
   - component: {fileID: 152292506741463731}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14754,13 +15312,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6506925145163730941}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5613474340554639885
 MonoBehaviour:
@@ -14843,6 +15401,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14881,7 +15442,7 @@ GameObject:
   - component: {fileID: 3479811399761451127}
   - component: {fileID: 514400480016953498}
   - component: {fileID: 4408909008117174736}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14895,13 +15456,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6509899598594790318}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 188.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4294043891059558612
 MonoBehaviour:
@@ -14984,6 +15545,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15022,7 +15586,7 @@ GameObject:
   - component: {fileID: 2594190550257173171}
   - component: {fileID: 3568872366076338474}
   - component: {fileID: 4270366965111733600}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15036,13 +15600,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6538814210333054082}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2373470203276577675
 MonoBehaviour:
@@ -15125,6 +15689,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15163,7 +15730,7 @@ GameObject:
   - component: {fileID: 281576895232687575}
   - component: {fileID: 926917844348479599}
   - component: {fileID: 1229617945602908017}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15177,6 +15744,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6539915500919632461}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -16.9996, y: 0, z: 0}
   m_LocalScale: {x: 1.0908803, y: 4.5009, z: 1}
@@ -15184,7 +15752,6 @@ Transform:
   m_Children:
   - {fileID: 583597731661856564}
   m_Father: {fileID: 4568194752214129481}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3787309901763511884
 MonoBehaviour:
@@ -15316,6 +15883,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15354,7 +15924,7 @@ GameObject:
   - component: {fileID: 4341403068676206715}
   - component: {fileID: 8479901934744856587}
   - component: {fileID: 6122695086459528177}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15368,13 +15938,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6550226195106764796}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 181, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5056561130544701248
 MonoBehaviour:
@@ -15457,6 +16027,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15495,7 +16068,7 @@ GameObject:
   - component: {fileID: 2178111319376494471}
   - component: {fileID: 5927369136840580917}
   - component: {fileID: 193405927013549887}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15509,6 +16082,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6578340415920782148}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -15516,7 +16090,6 @@ Transform:
   m_Children:
   - {fileID: 8495392787333931974}
   m_Father: {fileID: 7894224693975350969}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1812556859507978535
 MonoBehaviour:
@@ -15648,6 +16221,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15686,7 +16262,7 @@ GameObject:
   - component: {fileID: 4941605736281188698}
   - component: {fileID: 8119494881543987586}
   - component: {fileID: 1016024626886051299}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15700,13 +16276,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6659878853612831266}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5076051000007170829}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2671430317642481322
 MonoBehaviour:
@@ -15838,6 +16414,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -15876,7 +16455,7 @@ GameObject:
   - component: {fileID: 7146996030597829193}
   - component: {fileID: 6748139040355180202}
   - component: {fileID: 2395138566564874466}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15890,13 +16469,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6721156800007040411}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2055890434740894027
 MonoBehaviour:
@@ -15979,6 +16558,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16013,7 +16595,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 757872244809784621}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16027,6 +16609,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6761567809936902567}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 68, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -16034,7 +16617,6 @@ Transform:
   m_Children:
   - {fileID: 752114767153323497}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6769197258863470737
 GameObject:
@@ -16049,7 +16631,7 @@ GameObject:
   - component: {fileID: 688538499225615601}
   - component: {fileID: 4063169434933189532}
   - component: {fileID: 4029871376458709714}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16063,6 +16645,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6769197258863470737}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -16070,7 +16653,6 @@ Transform:
   m_Children:
   - {fileID: 570398181631369050}
   m_Father: {fileID: 4312923492698889499}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7445980689147715047
 MonoBehaviour:
@@ -16202,6 +16784,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16240,7 +16825,7 @@ GameObject:
   - component: {fileID: 550344280561969761}
   - component: {fileID: 5006838111041779604}
   - component: {fileID: 1048476900581691645}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16254,13 +16839,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6797629196068691700}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 91, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6012509696643958034
 MonoBehaviour:
@@ -16343,6 +16928,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16381,7 +16969,7 @@ GameObject:
   - component: {fileID: 1016000288573833307}
   - component: {fileID: 6573390717032665648}
   - component: {fileID: 6969863607310240721}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16395,6 +16983,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6841263595312259232}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -16402,7 +16991,6 @@ Transform:
   m_Children:
   - {fileID: 7775369625410445076}
   m_Father: {fileID: 7967735027198805151}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3686629061531454588
 MonoBehaviour:
@@ -16534,6 +17122,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16572,7 +17163,7 @@ GameObject:
   - component: {fileID: 4969443535738752728}
   - component: {fileID: 1626100968680905394}
   - component: {fileID: 6033616571284706796}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16586,6 +17177,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6860725932863173031}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -16593,7 +17185,6 @@ Transform:
   m_Children:
   - {fileID: 4878534671769165376}
   m_Father: {fileID: 6615156793898081922}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5475054713030102545
 MonoBehaviour:
@@ -16725,6 +17316,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16763,7 +17357,7 @@ GameObject:
   - component: {fileID: 837893815571884179}
   - component: {fileID: 8986008052905964292}
   - component: {fileID: 6570959782058748638}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (42)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16777,6 +17371,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6866676749705560491}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -16784,7 +17379,6 @@ Transform:
   m_Children:
   - {fileID: 8670063063331277890}
   m_Father: {fileID: 273616575938004203}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3870182138048222754
 MonoBehaviour:
@@ -16867,6 +17461,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -16905,7 +17502,7 @@ GameObject:
   - component: {fileID: 7256242685392221974}
   - component: {fileID: 4327254921074475495}
   - component: {fileID: 8767270618351943369}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16919,6 +17516,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6881392956286085227}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -16926,7 +17524,6 @@ Transform:
   m_Children:
   - {fileID: 8750736290133689819}
   m_Father: {fileID: 6680737643492489766}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4494039517448762225
 MonoBehaviour:
@@ -17058,6 +17655,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17096,7 +17696,7 @@ GameObject:
   - component: {fileID: 8019543098071770551}
   - component: {fileID: 5506648177274858433}
   - component: {fileID: 5469616314728841881}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17110,6 +17710,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6884319411765080713}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 57, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -17118,7 +17719,6 @@ Transform:
   - {fileID: 8350293117969839925}
   - {fileID: 5241349568280235177}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1747438741555252989
 MonoBehaviour:
@@ -17201,6 +17801,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17239,7 +17842,7 @@ GameObject:
   - component: {fileID: 1424366835829155346}
   - component: {fileID: 6911335912432745848}
   - component: {fileID: 5652563405187485341}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17253,6 +17856,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6894636180293924671}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -17260,7 +17864,6 @@ Transform:
   m_Children:
   - {fileID: 7197330299007304001}
   m_Father: {fileID: 8750736290133689819}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4488351790946442389
 MonoBehaviour:
@@ -17392,6 +17995,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17430,7 +18036,7 @@ GameObject:
   - component: {fileID: 2553301434691077996}
   - component: {fileID: 7036206724745260253}
   - component: {fileID: 4621686691754431040}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17444,6 +18050,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6998607723827112473}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -17451,7 +18058,6 @@ Transform:
   m_Children:
   - {fileID: 29138279375726850}
   m_Father: {fileID: 5916383554240847241}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4704967137208486268
 MonoBehaviour:
@@ -17583,6 +18189,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17621,7 +18230,7 @@ GameObject:
   - component: {fileID: 7452944371127742208}
   - component: {fileID: 1359290784884839462}
   - component: {fileID: 5554819915274449157}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17635,13 +18244,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7033348397395047067}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 165.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4673375146733950149
 MonoBehaviour:
@@ -17724,6 +18333,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17762,7 +18374,7 @@ GameObject:
   - component: {fileID: 2150330060008060754}
   - component: {fileID: 3252012307859976074}
   - component: {fileID: 7982971733074471314}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17776,13 +18388,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7075478457109291630}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 8014327378508137937}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3786733207467919335
 MonoBehaviour:
@@ -17914,6 +18526,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -17952,7 +18567,7 @@ GameObject:
   - component: {fileID: 2624244971486878920}
   - component: {fileID: 3154774387286616361}
   - component: {fileID: 5848443374007155826}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17966,6 +18581,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7080742889932178890}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -17973,7 +18589,6 @@ Transform:
   m_Children:
   - {fileID: 4463410978145373698}
   m_Father: {fileID: 1512754949517889222}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8714565196447459742
 MonoBehaviour:
@@ -18105,6 +18720,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18143,7 +18761,7 @@ GameObject:
   - component: {fileID: 5230101950996354445}
   - component: {fileID: 3094221924072273519}
   - component: {fileID: 5766933450905595802}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18157,6 +18775,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7081748956063842652}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
   m_LocalPosition: {x: 4.999844, y: 38, z: 0}
   m_LocalScale: {x: 0.33334368, y: 5.2755046, z: 1}
@@ -18164,7 +18783,6 @@ Transform:
   m_Children:
   - {fileID: 3073641834753644871}
   m_Father: {fileID: 568808928875507212}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &8286366405500378741
 MonoBehaviour:
@@ -18296,6 +18914,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18334,7 +18955,7 @@ GameObject:
   - component: {fileID: 6884377170035385760}
   - component: {fileID: 6581698343774590928}
   - component: {fileID: 4122500037661775058}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (51)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18348,13 +18969,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7102936901552446913}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 51
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &94492175291794396
 MonoBehaviour:
@@ -18437,6 +19058,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18475,7 +19099,7 @@ GameObject:
   - component: {fileID: 3373336832838581028}
   - component: {fileID: 4141194533857314813}
   - component: {fileID: 9068100808091108775}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18489,13 +19113,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7125568247495290392}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 165.5, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2329066222819576287
 MonoBehaviour:
@@ -18578,6 +19202,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18616,7 +19243,7 @@ GameObject:
   - component: {fileID: 5565924153924370304}
   - component: {fileID: 2425493229871289497}
   - component: {fileID: 6846026096345144745}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18630,6 +19257,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7178123851969141953}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -18637,7 +19265,6 @@ Transform:
   m_Children:
   - {fileID: 2243215968327519953}
   m_Father: {fileID: 6458820867568983925}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8003168801337211304
 MonoBehaviour:
@@ -18769,6 +19396,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18807,7 +19437,7 @@ GameObject:
   - component: {fileID: 7570705794229497802}
   - component: {fileID: 993397764122246994}
   - component: {fileID: 4519343558283272998}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18821,6 +19451,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7333328641480645522}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2376649, z: 1}
@@ -18828,7 +19459,6 @@ Transform:
   m_Children:
   - {fileID: 7483308273913558900}
   m_Father: {fileID: 6698348343221315668}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8354274392162985964
 MonoBehaviour:
@@ -18960,6 +19590,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -18998,7 +19631,7 @@ GameObject:
   - component: {fileID: 1680243532126790615}
   - component: {fileID: 7614683767315173682}
   - component: {fileID: 6911028754877212216}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19012,6 +19645,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7340406198243241756}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 18.49942, y: 0, z: 0}
   m_LocalScale: {x: 1.2333432, y: 5.2863, z: 1}
@@ -19019,7 +19653,6 @@ Transform:
   m_Children:
   - {fileID: 1347655583389497172}
   m_Father: {fileID: 5209212189845861009}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5572644775603728796
 MonoBehaviour:
@@ -19151,6 +19784,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19185,10 +19821,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 999771150531744742}
-  - component: {fileID: 2569301230871945899}
-  - component: {fileID: 6028818978462089636}
-  - component: {fileID: 882414381117504126}
-  m_Layer: 10
+  - component: {fileID: 4429868988544938055}
+  - component: {fileID: 5459245893400935886}
+  - component: {fileID: 3778512438147541291}
+  m_Layer: 8
   m_Name: VAB
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19202,11 +19838,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7377927972644554798}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 780120488032145659}
+  - {fileID: 3918283454087487927}
   - {fileID: 2884386271824822711}
   - {fileID: 5221872153963258990}
   - {fileID: 5743052147640938254}
@@ -19261,9 +19900,8 @@ Transform:
   - {fileID: 618468162961264894}
   - {fileID: 324906198037069034}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2569301230871945899
+--- !u!114 &4429868988544938055
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19272,11 +19910,41 @@ MonoBehaviour:
   m_GameObject: {fileID: 7377927972644554798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3955351e8b83adc5ab9eabb637fe8e74, type: 3}
+  m_Script: {fileID: 11500000, guid: a01d8382f787b844d84fe3e7463aba27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 882414381117504126}
---- !u!114 &6028818978462089636
+  displayName:
+    TranslatableName: VAB (Modern Era)
+    plainText: 1
+  description:
+    TranslatableName: None
+    plainText: 0
+  mass:
+    variables: {fileID: 3778512438147541291}
+    input: 90000
+  centerOfMass:
+    variables: {fileID: 3778512438147541291}
+    x:
+      variables: {fileID: 3778512438147541291}
+      input: 100
+    y:
+      variables: {fileID: 3778512438147541291}
+      input: 60
+  orientation: {fileID: 5459245893400935886}
+  variablesModule: {fileID: 3778512438147541291}
+  variants:
+  - variants:
+    - changes: []
+      tags:
+      - tag: {fileID: 11400000, guid: 40d646e743e2cc4479a8300136f79f06, type: 2}
+        priority: 0
+      cost: 0
+    tags: []
+  onPartUsed:
+    m_PersistentCalls:
+      m_Calls: []
+  temperature: -Infinity
+--- !u!114 &5459245893400935886
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -19285,34 +19953,32 @@ MonoBehaviour:
   m_GameObject: {fileID: 7377927972644554798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 793986be8ed5c18d49f00d43ae05d574, type: 3}
+  m_Script: {fileID: 11500000, guid: d96e122f666f27140a430b6f43b5ac6a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: {fileID: 882414381117504126}
-  holder: {fileID: 7377927972644554798}
-  loadDistance: 10000
---- !u!114 &882414381117504126
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7377927972644554798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d5dc6c3d153ef1b1afe7bd035a042d0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  planet:
-    value: {fileID: 0}
-  position:
+  orientation:
     value:
-      x: 0
-      y: 0
-  velocity:
-    value:
-      x: 0
-      y: 0
+      x: 1
+      y: 1
+      z: 0
+--- !u!114 &3778512438147541291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7377927972644554798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c86f5a5df11278449447b85a93fd5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleVariables:
+    saves: []
+  boolVariables:
+    saves: []
+  stringVariables:
+    saves: []
 --- !u!1 &7632269063218971226
 GameObject:
   m_ObjectHideFlags: 0
@@ -19326,7 +19992,7 @@ GameObject:
   - component: {fileID: 3096781659521976429}
   - component: {fileID: 5543961625123084254}
   - component: {fileID: 8400069296224368539}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19340,13 +20006,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7632269063218971226}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 23, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 683676323355423051}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5751418779035530074
 MonoBehaviour:
@@ -19435,6 +20101,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19473,7 +20142,7 @@ GameObject:
   - component: {fileID: 5467283596094177564}
   - component: {fileID: 7669125332857606797}
   - component: {fileID: 3787271818200476491}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19487,6 +20156,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7654020276235978071}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -19494,7 +20164,6 @@ Transform:
   m_Children:
   - {fileID: 2347377768549244238}
   m_Father: {fileID: 8251293604316455764}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1452748584896153739
 MonoBehaviour:
@@ -19626,6 +20295,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19664,7 +20336,7 @@ GameObject:
   - component: {fileID: 5968451674349667242}
   - component: {fileID: 1322052090468539153}
   - component: {fileID: 6435221864318101344}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19678,6 +20350,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7664351268820993966}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -19685,7 +20358,6 @@ Transform:
   m_Children:
   - {fileID: 7967735027198805151}
   m_Father: {fileID: 1347655583389497172}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1098075859046518483
 MonoBehaviour:
@@ -19817,6 +20489,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -19855,7 +20530,7 @@ GameObject:
   - component: {fileID: 849992142780433835}
   - component: {fileID: 5885313927153761141}
   - component: {fileID: 1588747393756590689}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19869,6 +20544,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7699203219384718163}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 16.500088, y: 0, z: 0}
   m_LocalScale: {x: 1.2333193, y: 4.5009, z: 1}
@@ -19876,7 +20552,6 @@ Transform:
   m_Children:
   - {fileID: 1108588769609000811}
   m_Father: {fileID: 4568194752214129481}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5644534487011674727
 MonoBehaviour:
@@ -20008,6 +20683,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20047,7 +20725,7 @@ GameObject:
   - component: {fileID: 3762451100133019630}
   - component: {fileID: 4494270314520456914}
   - component: {fileID: 8511897836178980752}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20061,6 +20739,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7763138261461474587}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -20068,7 +20747,6 @@ Transform:
   m_Children:
   - {fileID: 5824171031820699214}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1743029947480630744
 MonoBehaviour:
@@ -20126,6 +20804,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20269,7 +20950,7 @@ GameObject:
   - component: {fileID: 6467618085147499483}
   - component: {fileID: 8631384417102135518}
   - component: {fileID: 2369065519750270541}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20283,6 +20964,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7818793715969507929}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -20290,7 +20972,6 @@ Transform:
   m_Children:
   - {fileID: 775139550158445411}
   m_Father: {fileID: 3809069665532598143}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3768941885395176951
 MonoBehaviour:
@@ -20422,6 +21103,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20460,7 +21144,7 @@ GameObject:
   - component: {fileID: 7818442722416744044}
   - component: {fileID: 1146407071282177897}
   - component: {fileID: 2498731718497379661}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (48)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20474,13 +21158,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7831600082044566223}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 48
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3366997497981224120
 MonoBehaviour:
@@ -20563,6 +21247,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20601,7 +21288,7 @@ GameObject:
   - component: {fileID: 4432560535747743998}
   - component: {fileID: 2423703893876819446}
   - component: {fileID: 149233149873303902}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20615,6 +21302,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7862338024330686451}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2786111, z: 1}
@@ -20622,7 +21310,6 @@ Transform:
   m_Children:
   - {fileID: 4655300274760865891}
   m_Father: {fileID: 4061838452119149845}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8442211015452688913
 MonoBehaviour:
@@ -20754,6 +21441,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20792,7 +21482,7 @@ GameObject:
   - component: {fileID: 5521197446078683472}
   - component: {fileID: 369659742558867866}
   - component: {fileID: 9155583528120575709}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20806,13 +21496,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7874876091856454866}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 47, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3613428073055686578
 MonoBehaviour:
@@ -20895,6 +21585,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -20933,7 +21626,7 @@ GameObject:
   - component: {fileID: 3598589736415515473}
   - component: {fileID: 2624980734504188707}
   - component: {fileID: 5298735676368770365}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -20947,6 +21640,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7923930887319798676}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -20954,7 +21648,6 @@ Transform:
   m_Children:
   - {fileID: 4845967614870683446}
   m_Father: {fileID: 2711095185509796518}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1015338039564811044
 MonoBehaviour:
@@ -21086,6 +21779,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21124,7 +21820,7 @@ GameObject:
   - component: {fileID: 2957725228026159838}
   - component: {fileID: 5656668372836779399}
   - component: {fileID: 6483357841953536360}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21138,13 +21834,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7976799321238384155}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 15, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7774973666953307978
 MonoBehaviour:
@@ -21227,6 +21923,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21265,7 +21964,7 @@ GameObject:
   - component: {fileID: 8631050292582900865}
   - component: {fileID: 2843706996321827529}
   - component: {fileID: 1997203315271719246}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21279,13 +21978,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8045730382242516755}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &77728546479335445
 MonoBehaviour:
@@ -21368,6 +22067,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21406,7 +22108,7 @@ GameObject:
   - component: {fileID: 2436220371606138268}
   - component: {fileID: 5454707088732850997}
   - component: {fileID: 3540212618958834859}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21420,6 +22122,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8053529102247097295}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15.99999, y: 0, z: 0}
   m_LocalScale: {x: 0.9333316, y: 4.5009, z: 1}
@@ -21427,7 +22130,6 @@ Transform:
   m_Children:
   - {fileID: 8014327378508137937}
   m_Father: {fileID: 6234327219408108773}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5311656741228376667
 MonoBehaviour:
@@ -21559,6 +22261,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21597,7 +22302,7 @@ GameObject:
   - component: {fileID: 4053781714258262831}
   - component: {fileID: 8545355864387651898}
   - component: {fileID: 2247769860632092941}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21611,13 +22316,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8136362741748924735}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 23, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3858292617572712187}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1158757728999962055
 MonoBehaviour:
@@ -21700,6 +22405,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21738,7 +22446,7 @@ GameObject:
   - component: {fileID: 9096588496253781412}
   - component: {fileID: 5228114097035468835}
   - component: {fileID: 6716431694993490093}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21752,6 +22460,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8185562646559931768}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -21759,7 +22468,6 @@ Transform:
   m_Children:
   - {fileID: 1512754949517889222}
   m_Father: {fileID: 6556094273751727931}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8021075038670255919
 MonoBehaviour:
@@ -21891,6 +22599,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -21929,7 +22640,7 @@ GameObject:
   - component: {fileID: 3643340418077925244}
   - component: {fileID: 8464784090467270546}
   - component: {fileID: 7141386329420500583}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21943,6 +22654,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8201104187306887809}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -21950,7 +22662,6 @@ Transform:
   m_Children:
   - {fileID: 6935760480056110257}
   m_Father: {fileID: 6268152382238593397}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5928426955422005612
 MonoBehaviour:
@@ -22082,6 +22793,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22120,7 +22834,7 @@ GameObject:
   - component: {fileID: 5101577762110421227}
   - component: {fileID: 4344334541308496172}
   - component: {fileID: 2684632716458334104}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22134,13 +22848,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8335151608230980361}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 19, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3858292617572712187}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &9027505289041453816
 MonoBehaviour:
@@ -22226,6 +22940,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22264,7 +22981,7 @@ GameObject:
   - component: {fileID: 849148675325110054}
   - component: {fileID: 2999045564244024542}
   - component: {fileID: 6682602775620113783}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (41)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22278,6 +22995,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8399682124611487616}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 1, y: 10, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -22285,7 +23003,6 @@ Transform:
   m_Children:
   - {fileID: 3536679353215254426}
   m_Father: {fileID: 2718196724941325837}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3505895858944767654
 MonoBehaviour:
@@ -22368,6 +23085,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22406,7 +23126,7 @@ GameObject:
   - component: {fileID: 7166425515167576364}
   - component: {fileID: 3733101132652386269}
   - component: {fileID: 5476351402581566039}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22420,6 +23140,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8430747568464592394}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -22427,7 +23148,6 @@ Transform:
   m_Children:
   - {fileID: 6680737643492489766}
   m_Father: {fileID: 664663472145620557}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7288614857867349912
 MonoBehaviour:
@@ -22559,6 +23279,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22594,7 +23317,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2884386271824822711}
   - component: {fileID: 1587548341264106179}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: HITBOX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22608,13 +23331,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8430977642484265419}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1587548341264106179
 MonoBehaviour:
@@ -22669,7 +23392,7 @@ GameObject:
   - component: {fileID: 8270128524406095738}
   - component: {fileID: 8492777621983730295}
   - component: {fileID: 8869300488193360634}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (50)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22683,13 +23406,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8499426578252405161}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -2, y: 29, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 50
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1653512617624032593
 MonoBehaviour:
@@ -22772,6 +23495,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -22810,7 +23536,7 @@ GameObject:
   - component: {fileID: 407605708891132265}
   - component: {fileID: 1979081955285218264}
   - component: {fileID: 4259717939747109686}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22824,6 +23550,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8651928678186676083}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -22831,7 +23558,6 @@ Transform:
   m_Children:
   - {fileID: 8246447606730122395}
   m_Father: {fileID: 29138279375726850}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &933140292138592188
 MonoBehaviour:
@@ -22963,6 +23689,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23001,7 +23730,7 @@ GameObject:
   - component: {fileID: 4484334307230528441}
   - component: {fileID: 5706708220613815064}
   - component: {fileID: 4924528184135846914}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23015,6 +23744,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8655815706014944535}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -23022,7 +23752,6 @@ Transform:
   m_Children:
   - {fileID: 3357097438520436377}
   m_Father: {fileID: 8398993224008295726}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4291103338095382931
 MonoBehaviour:
@@ -23154,6 +23883,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23192,7 +23924,7 @@ GameObject:
   - component: {fileID: 7551876648210990510}
   - component: {fileID: 8105703017423741784}
   - component: {fileID: 6137435805080809510}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23206,6 +23938,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8737181298111835880}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -23213,7 +23946,6 @@ Transform:
   m_Children:
   - {fileID: 5486505628854532526}
   m_Father: {fileID: 1719030473590510370}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3139852913510094626
 MonoBehaviour:
@@ -23345,6 +24077,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23383,7 +24118,7 @@ GameObject:
   - component: {fileID: 6758283594623150091}
   - component: {fileID: 96862455574559718}
   - component: {fileID: 7829809408950805250}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23397,6 +24132,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8748043211285405853}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 206, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -23404,7 +24140,6 @@ Transform:
   m_Children:
   - {fileID: 683676323355423051}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8068010576602593908
 MonoBehaviour:
@@ -23490,6 +24225,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23528,7 +24266,7 @@ GameObject:
   - component: {fileID: 5710169594542997474}
   - component: {fileID: 8645143699897027985}
   - component: {fileID: 2004972738908824354}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23542,6 +24280,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8752690790833681049}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 177.00049, y: 0, z: 0}
   m_LocalScale: {x: 0.6029339, y: 6.36, z: 1}
@@ -23549,7 +24288,6 @@ Transform:
   m_Children:
   - {fileID: 6503556876361463644}
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5707532265489917086
 MonoBehaviour:
@@ -23681,6 +24419,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23719,7 +24460,7 @@ GameObject:
   - component: {fileID: 2598777699932176115}
   - component: {fileID: 6541025218683463589}
   - component: {fileID: 8321121250466183498}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23733,6 +24474,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8770664072537451741}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -23740,7 +24482,6 @@ Transform:
   m_Children:
   - {fileID: 5261242241710778482}
   m_Father: {fileID: 7483308273913558900}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4756298516551274004
 MonoBehaviour:
@@ -23872,6 +24613,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -23910,7 +24654,7 @@ GameObject:
   - component: {fileID: 6306973120997646200}
   - component: {fileID: 4610527682972866226}
   - component: {fileID: 7179128687313095442}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -23924,6 +24668,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8780141487803623898}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2786111, z: 1}
@@ -23931,7 +24676,6 @@ Transform:
   m_Children:
   - {fileID: 3624722593161552185}
   m_Father: {fileID: 2544690051063213597}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5523336105602387483
 MonoBehaviour:
@@ -24063,6 +24807,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24101,7 +24848,7 @@ GameObject:
   - component: {fileID: 352669128712922104}
   - component: {fileID: 7158292446829967990}
   - component: {fileID: 8690749883501994993}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24115,6 +24862,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8837686335607377518}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -24122,7 +24870,6 @@ Transform:
   m_Children:
   - {fileID: 6458820867568983925}
   m_Father: {fileID: 8495392787333931974}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2746957384095993212
 MonoBehaviour:
@@ -24254,6 +25001,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24292,7 +25042,7 @@ GameObject:
   - component: {fileID: 4142144507450892956}
   - component: {fileID: 1946592015709424717}
   - component: {fileID: 1564851797599084163}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24306,6 +25056,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8975778187268170659}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -24313,7 +25064,6 @@ Transform:
   m_Children:
   - {fileID: 6813689758717159848}
   m_Father: {fileID: 1413531762467083166}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7306836838969533136
 MonoBehaviour:
@@ -24445,6 +25195,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24483,7 +25236,7 @@ GameObject:
   - component: {fileID: 5652569770990151219}
   - component: {fileID: 8964433518473612313}
   - component: {fileID: 6393891677046985856}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24497,6 +25250,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8989727256367788104}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 4.999844, y: 0, z: 0}
   m_LocalScale: {x: 0.33334368, y: 5.2755046, z: 1}
@@ -24504,7 +25258,6 @@ Transform:
   m_Children:
   - {fileID: 8251293604316455764}
   m_Father: {fileID: 6475659333070132083}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8535220484970344441
 MonoBehaviour:
@@ -24636,6 +25389,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24674,7 +25430,7 @@ GameObject:
   - component: {fileID: 8623379237935036251}
   - component: {fileID: 36725043848937582}
   - component: {fileID: 932007073120021463}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24688,6 +25444,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9044640511808269129}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1.2786111, z: 1}
@@ -24695,7 +25452,6 @@ Transform:
   m_Children:
   - {fileID: 1670859393000600097}
   m_Father: {fileID: 4314882775559336561}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1404105871925869020
 MonoBehaviour:
@@ -24827,6 +25583,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -24865,7 +25624,7 @@ GameObject:
   - component: {fileID: 9193703860622850141}
   - component: {fileID: 5384834719530454268}
   - component: {fileID: 8959854242928761137}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24879,6 +25638,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9137009641228922378}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -24886,7 +25646,6 @@ Transform:
   m_Children:
   - {fileID: 7503942182748849548}
   m_Father: {fileID: 3457604143599420081}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &812330784764518743
 MonoBehaviour:
@@ -25018,6 +25777,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -25056,7 +25818,7 @@ GameObject:
   - component: {fileID: 1845828602619918185}
   - component: {fileID: 1684849574869661443}
   - component: {fileID: 1072406534823877509}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25070,6 +25832,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9137388712126287782}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -25077,7 +25840,6 @@ Transform:
   m_Children:
   - {fileID: 4020993282469225817}
   m_Father: {fileID: 4463410978145373698}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &3419620697739020831
 MonoBehaviour:
@@ -25209,6 +25971,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -25247,7 +26012,7 @@ GameObject:
   - component: {fileID: 6944876099424191654}
   - component: {fileID: 3247651806589761162}
   - component: {fileID: 1492961111253042365}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: Wall (43)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25261,13 +26026,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9157819387348484084}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 220, y: 0.0000050185845, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 999771150531744742}
-  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2255226505165740108
 MonoBehaviour:
@@ -25350,6 +26115,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -25388,7 +26156,7 @@ GameObject:
   - component: {fileID: 8680401478176693999}
   - component: {fileID: 2354424629709724251}
   - component: {fileID: 4010219859614077322}
-  m_Layer: 10
+  m_Layer: 8
   m_Name: walltex
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -25402,6 +26170,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9167027187078881040}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -25409,7 +26178,6 @@ Transform:
   m_Children:
   - {fileID: 1413531762467083166}
   m_Father: {fileID: 3032987058897510422}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2444022964922606850
 MonoBehaviour:
@@ -25541,6 +26309,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:

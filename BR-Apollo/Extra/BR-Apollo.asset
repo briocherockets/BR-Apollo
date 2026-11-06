@@ -12,11 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5499134bc9bf4342a3880329018c3a62, type: 3}
   m_Name: BR-Apollo
   m_EditorClassIdentifier: 
-  DisplayName: BR-Apollo
-  Version: 1.3.2
-  Description: Recreate the glory days of Apollo with countless extensive, researched,
-    and accurate parts representing the beginning of Saturn to the final flights
-    of Skylab. SFS's most popular part pack!
+  DisplayName: Space Center Add-on for BR-Apollo
+  Version: 1.0
+  Description: Adds part props for the legendary Kennedy Space Center. BR-Apollo
+    installation required
   Author: Brioche
   ShowIcon: 1
   Icon: {fileID: 2800000, guid: 18dce7df98cf90c4586e782d08a15263, type: 3}

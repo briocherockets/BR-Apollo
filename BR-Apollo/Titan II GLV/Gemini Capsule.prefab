@@ -13,8 +13,12 @@ GameObject:
   - component: {fileID: 8314841310568263683}
   - component: {fileID: 4452442284457351568}
   - component: {fileID: 1309234348083500849}
-  m_Layer: 0
-  m_Name: Mercury Capsule
+  - component: {fileID: 3474770820304232237}
+  - component: {fileID: 959051761123201773}
+  - component: {fileID: 8650385109463678044}
+  - component: {fileID: 6791675630531615616}
+  m_Layer: 8
+  m_Name: Gemini Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,6 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 920910042211453646}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -50,7 +55,6 @@ Transform:
   - {fileID: 7537555756130718519}
   - {fileID: 655395446055575345}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &190404343180223549
 MonoBehaviour:
@@ -82,58 +86,58 @@ MonoBehaviour:
     cuts: []
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 959051761123201773}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 959051761123201773}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 2.25
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 959051761123201773}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 1.8
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 959051761123201773}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 1.8+0.45
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0.8
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
   edit: 1
   view: 1
@@ -155,8 +159,8 @@ MonoBehaviour:
   textures:
     textureMode: 0
     texture:
-      colorTexture: {fileID: 11400000, guid: 643c72ef34b742741a40668d3a54c0ec, type: 2}
-      shapeTexture: {fileID: 11400000, guid: e874f96fb1a615442b363cf900ce3d71, type: 2}
+      colorTexture: {fileID: 11400000, guid: 41d4b66cd999bbc46919472e83b5b171, type: 2}
+      shapeTexture: {fileID: 11400000, guid: e8dd0949a418ca34596efc64dcedfebb, type: 2}
     textures: []
     widthMode: 0
     width:
@@ -171,14 +175,14 @@ MonoBehaviour:
     colors:
     - color:
         type: 0
-        colorBasic: {r: 0.39607844, g: 0.1931718, b: 0.17254902, a: 1}
+        colorBasic: {r: 1, g: 0.8469602, b: 0.6556604, a: 1}
         colorModule: {fileID: 0}
-      height: 0.05
+      height: 0.04
     - color:
         type: 0
-        colorBasic: {r: 0.26415092, g: 0.24836832, b: 0.24047701, a: 1}
+        colorBasic: {r: 1, g: 1, b: 1, a: 1}
         colorModule: {fileID: 0}
-      height: 2
+      height: 4
   leftCover: 0
   centerCover: 0
   rightCover: 0
@@ -209,6 +213,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -234,6 +241,100 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3474770820304232237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920910042211453646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a01d8382f787b844d84fe3e7463aba27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayName:
+    TranslatableName: Gemini Capsule
+    plainText: 1
+  description:
+    TranslatableName: None
+    plainText: 0
+  mass:
+    variables: {fileID: 959051761123201773}
+    input: 1.4
+  centerOfMass:
+    variables: {fileID: 959051761123201773}
+    x:
+      variables: {fileID: 959051761123201773}
+      input: 
+    y:
+      variables: {fileID: 959051761123201773}
+      input: 
+  orientation: {fileID: 8650385109463678044}
+  variablesModule: {fileID: 959051761123201773}
+  variants:
+  - variants:
+    - changes: []
+      tags:
+      - tag: {fileID: 11400000, guid: 4f06c082749720f4aac819173918ef1a, type: 2}
+        priority: 0
+      cost: 0
+    tags: []
+  onPartUsed:
+    m_PersistentCalls:
+      m_Calls: []
+  temperature: -Infinity
+--- !u!114 &959051761123201773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920910042211453646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c86f5a5df11278449447b85a93fd5f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doubleVariables:
+    saves: []
+  boolVariables:
+    saves: []
+  stringVariables:
+    saves: []
+--- !u!114 &8650385109463678044
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920910042211453646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96e122f666f27140a430b6f43b5ac6a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  orientation:
+    value:
+      x: 1
+      y: 1
+      z: 0
+--- !u!114 &6791675630531615616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 920910042211453646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1da3dc30ac33c3747af6b11851b21c7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasControl:
+    variableName: 
+    referenceToVariables: {fileID: 959051761123201773}
+    localValue: 1
 --- !u!1 &1143770006776484980
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +348,7 @@ GameObject:
   - component: {fileID: 5688018765313853982}
   - component: {fileID: 5774128907946385332}
   - component: {fileID: 2061545142396204245}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -261,13 +362,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1143770006776484980}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4937440982109284281
 MonoBehaviour:
@@ -525,6 +626,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -563,13 +667,13 @@ GameObject:
   - component: {fileID: 8158487796059452581}
   - component: {fileID: 3639373901086490820}
   - component: {fileID: 6066958307572937424}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4083875055165106687
 Transform:
   m_ObjectHideFlags: 0
@@ -577,13 +681,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858072814861923549}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &7076165344175314724
 MonoBehaviour:
@@ -722,6 +826,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -760,7 +867,7 @@ GameObject:
   - component: {fileID: 1018524369975921644}
   - component: {fileID: 3169285295074340664}
   - component: {fileID: 3948208276964562588}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -774,13 +881,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2456565322140115695}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6420500218084298808
 MonoBehaviour:
@@ -919,6 +1026,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -957,13 +1067,13 @@ GameObject:
   - component: {fileID: 4965727960140602833}
   - component: {fileID: 2448239577597625378}
   - component: {fileID: 2439585371110505799}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2694073414879705954
 Transform:
   m_ObjectHideFlags: 0
@@ -971,13 +1081,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3188610747985254415}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1266462544849941988
 MonoBehaviour:
@@ -1116,6 +1226,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1154,13 +1267,13 @@ GameObject:
   - component: {fileID: 730319842177641749}
   - component: {fileID: 3218194312050960223}
   - component: {fileID: 988145978572722030}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6342390259221241114
 Transform:
   m_ObjectHideFlags: 0
@@ -1168,13 +1281,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3243124356630264757}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8738963177419113659
 MonoBehaviour:
@@ -1313,6 +1426,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1351,7 +1467,7 @@ GameObject:
   - component: {fileID: 4601794195261395233}
   - component: {fileID: 3483757633697279605}
   - component: {fileID: 7623103628909722589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: window (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1365,13 +1481,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3719446221941240584}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0268, y: 0.16162, z: 0}
   m_LocalScale: {x: 0.929635, y: 0.8419273, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &880950919552042765
 MonoBehaviour:
@@ -1466,6 +1582,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1504,13 +1623,13 @@ GameObject:
   - component: {fileID: 1064701573435627536}
   - component: {fileID: 1412879420627451018}
   - component: {fileID: 6093199887386936120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: window
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2517662417518249855
 Transform:
   m_ObjectHideFlags: 0
@@ -1518,13 +1637,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3936527294572911506}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7782197749642258710
 MonoBehaviour:
@@ -1623,6 +1742,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1661,13 +1783,13 @@ GameObject:
   - component: {fileID: 5116415929764850349}
   - component: {fileID: 2509071471882922395}
   - component: {fileID: 802731829023718995}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5114087532534957526
 Transform:
   m_ObjectHideFlags: 0
@@ -1675,13 +1797,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4601061241933786075}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &770420327676391050
 MonoBehaviour:
@@ -1715,41 +1837,41 @@ MonoBehaviour:
       right: 0.449
   reduceResolution: 1
   composedShape:
-    variables: {fileID: 0}
+    variables: {fileID: 959051761123201773}
     points:
-    - variables: {fileID: 0}
+    - variables: {fileID: 959051761123201773}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 2.25
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
-    - variables: {fileID: 0}
+    - variables: {fileID: 959051761123201773}
       position:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 1.15
       width:
-        variables: {fileID: 0}
+        variables: {fileID: 959051761123201773}
         x:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 1.325
         y:
-          variables: {fileID: 0}
+          variables: {fileID: 959051761123201773}
           input: 0
   edit: 1
   view: 1
@@ -1820,6 +1942,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -1858,13 +1983,13 @@ GameObject:
   - component: {fileID: 3500794798917983336}
   - component: {fileID: 4165411209248736095}
   - component: {fileID: 8371728922236575784}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6914295596726280730
 Transform:
   m_ObjectHideFlags: 0
@@ -1872,13 +1997,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4892956559076798193}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5459767478815262007
 MonoBehaviour:
@@ -2017,6 +2142,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2055,13 +2183,13 @@ GameObject:
   - component: {fileID: 3416682458589104846}
   - component: {fileID: 589093717132895617}
   - component: {fileID: 3025494757721710072}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &623643078694511101
 Transform:
   m_ObjectHideFlags: 0
@@ -2069,13 +2197,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4985399708495759212}
+  serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6067577600333112035
 MonoBehaviour:
@@ -2217,6 +2345,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2255,13 +2386,13 @@ GameObject:
   - component: {fileID: 4921170183017458275}
   - component: {fileID: 6055933017545159484}
   - component: {fileID: 9085114951109615290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1146811657140714866
 Transform:
   m_ObjectHideFlags: 0
@@ -2269,13 +2400,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5565449279074744826}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7395446793764698474
 MonoBehaviour:
@@ -2431,6 +2562,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2469,13 +2603,13 @@ GameObject:
   - component: {fileID: 3399673040010613769}
   - component: {fileID: 7781362376191618058}
   - component: {fileID: 5911247031909240783}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7807924041038450866
 Transform:
   m_ObjectHideFlags: 0
@@ -2483,13 +2617,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7469882039541362816}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2745625365573530890
 MonoBehaviour:
@@ -2628,6 +2762,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2666,13 +2803,13 @@ GameObject:
   - component: {fileID: 6786207802867550545}
   - component: {fileID: 817187156125566622}
   - component: {fileID: 4492620781359744343}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8204504545621679945
 Transform:
   m_ObjectHideFlags: 0
@@ -2680,13 +2817,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7485618597901404195}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &4782693219960466396
 MonoBehaviour:
@@ -2825,6 +2962,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -2863,13 +3003,13 @@ GameObject:
   - component: {fileID: 8346425288351087162}
   - component: {fileID: 8821243775563394087}
   - component: {fileID: 5169080776740974707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2326177655026155258
 Transform:
   m_ObjectHideFlags: 0
@@ -2877,13 +3017,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7798583309295931811}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1287601760085468075
 MonoBehaviour:
@@ -3022,6 +3162,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3060,13 +3203,13 @@ GameObject:
   - component: {fileID: 2578738455855353619}
   - component: {fileID: 8808832054799932860}
   - component: {fileID: 5182871808199852234}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mercury Capsule (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1712756260935251361
 Transform:
   m_ObjectHideFlags: 0
@@ -3074,13 +3217,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8649551105222789415}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1468868254230915391
 MonoBehaviour:
@@ -3219,6 +3362,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3257,13 +3403,13 @@ GameObject:
   - component: {fileID: 1303735038565512066}
   - component: {fileID: 4750402311035346198}
   - component: {fileID: 2103057918665134412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: window (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7537555756130718519
 Transform:
   m_ObjectHideFlags: 0
@@ -3271,13 +3417,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8861200290481631628}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &8566727943840832620
 MonoBehaviour:
@@ -3372,6 +3518,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -3410,7 +3559,7 @@ GameObject:
   - component: {fileID: 1125318584798289183}
   - component: {fileID: 5263514306426875798}
   - component: {fileID: 4054907055539747465}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: window (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3424,13 +3573,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9213769990674979965}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 0.0268, y: 0.16162, z: 0}
   m_LocalScale: {x: 0.929635, y: 0.8419273, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2234587840387416019}
-  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &2150414360906468420
 MonoBehaviour:
@@ -3525,6 +3674,9 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 2
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
