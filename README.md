@@ -2,25 +2,24 @@
    __ )    _ \             \                   |  |        
    __ \   |   |           _ \    __ \    _ \   |  |   _ \  
    |   |  __ <   ____|   ___ \   |   |  (   |  |  |  (   | 
-  ____/  _| \_\        _/    _\   __/  \___/  _| _| \___/  v1.2
+  ____/  _| \_\        _/    _\   __/  \___/  _| _| \___/  v1.3.2
                                 _|                         
 Made on Earth, by Brioche
-If ASCII art is broken, download file & open in notepad x
 --------------------------------------------------------------------
 ██████████████████████████████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 █████████████████░░░░░░░░░░░░░░░░░█████████████████░░░░░░░░░░░░░░░░░
 
-▛▚ Thanks for downloading! ▛▚
+▛▚ Thanks for downloading! 
 
 If you're reading this, you're one out of a rough personal estimate of 3 and a half people that will open this file.
-This is BR-Apollo, my passion project for over two years now. This started as a (very) short-lived custom texture pack attempt, but has grown into something bigger than I could ever have imagined.
+This is BR-Apollo, my passion project for over four years now. This started as a (very) short-lived custom texture pack attempt, but has grown into something bigger than I could ever have imagined.
 
-▛▚ Installation instructions ▛▚
+▛▚ Installation instructions 
 
 Download the file with the .pack extension from the BR-Apollo Github releases tab. Open your SFS game, navigate to the Modloader menu, click "Open Mods Folder." Once your file explorer opens, go through Custom Assets -> Parts, and drag in the .pack file. Relaunch the game, and BR-Apollo will be installed.
 
 
-▛▚ USAGE GUIDELINES ▛▚
+▛▚ USAGE GUIDELINES 
 
 	Posting BR-Apollo online:
 
@@ -54,10 +53,10 @@ Download the file with the .pack extension from the BR-Apollo Github releases ta
 
 	Do not use the source code whenever I push backups to download unreleased parts and release them. Not cool.
 
-▛▚ Dorg ▛▚
+▛▚ Dorg 
 	dorg.png is a picture of my dog that takes up exactly 32 kilobytes, the exact amount of data it would take to max out Saturn V instrument unit. Do with that what you will.
 
-▛▚ Credits ▛▚
+▛▚ Credits 
 	Raw LM mylar texture courtesy of unnamed_shadow1
 	LES custom behavior courtesy of dani0105 https://github.com/105-Code/basp-modules
 
